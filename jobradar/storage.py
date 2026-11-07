@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS source_runs (
     status TEXT,              -- ok | warn | error
     n_found INTEGER, n_valid INTEGER, n_invalid INTEGER, n_new INTEGER,
     duration_s REAL, error TEXT, anomaly TEXT,
+    config_hash TEXT,         -- fingerprint of the source's settings for this run
     PRIMARY KEY (run_id, company_id)
 );
 """
@@ -51,6 +52,10 @@ class Store:
         self.db = sqlite3.connect(str(path))
         self.db.row_factory = sqlite3.Row
         self.db.executescript(SCHEMA)
+        # Databases created by older versions lack the config_hash column: add it.
+        cols = {r["name"] for r in self.db.execute("PRAGMA table_info(source_runs)")}
+        if "config_hash" not in cols:
+            self.db.execute("ALTER TABLE source_runs ADD COLUMN config_hash TEXT")
 
     def close(self) -> None:
         self.db.commit()
@@ -101,18 +106,25 @@ class Store:
         return [dict(r) for r in rows]
 
     # --- runs -------------------------------------------------------------
-    def previous_valid_count(self, company_id: str) -> int | None:
+    def previous_valid_count(self, company_id: str, config_hash: str | None = None) -> int | None:
+        """Job count from the last successful run of this source with the same settings."""
         row = self.db.execute(
             "SELECT n_valid FROM source_runs WHERE company_id = ? AND status != 'error'"
-            " ORDER BY run_id DESC LIMIT 1", (company_id,)).fetchone()
+            " AND config_hash IS ? ORDER BY run_id DESC LIMIT 1",
+            (company_id, config_hash)).fetchone()
         return None if row is None else row["n_valid"]
+
+    def has_history(self, company_id: str) -> bool:
+        return self.db.execute("SELECT 1 FROM source_runs WHERE company_id = ? LIMIT 1",
+                               (company_id,)).fetchone() is not None
 
     def record_source_run(self, run_id: str, rec: dict) -> None:
         self.db.execute(
             "INSERT OR REPLACE INTO source_runs (run_id, company_id, company, status, n_found,"
-            " n_valid, n_invalid, n_new, duration_s, error, anomaly)"
+            " n_valid, n_invalid, n_new, duration_s, error, anomaly, config_hash)"
             " VALUES (:run_id,:company_id,:company,:status,:n_found,:n_valid,:n_invalid,:n_new,"
-            " :duration_s,:error,:anomaly)", {"run_id": run_id, **rec})
+            " :duration_s,:error,:anomaly,:config_hash)",
+            {"run_id": run_id, "config_hash": None, **rec})
 
     def record_run(self, rec: dict) -> None:
         self.db.execute(

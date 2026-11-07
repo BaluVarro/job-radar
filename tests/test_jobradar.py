@@ -206,3 +206,36 @@ def test_reset_source_wipes_postings_and_history(project):
     health = json.loads((project / "docs" / "health.json").read_text())
     alpha = next(s for s in health["sources"] if s["company_id"] == "a")
     assert alpha["anomaly"] is None and alpha["status"] == "ok"
+
+
+def test_changing_a_sources_settings_clears_its_old_junk(project):
+    """Re-tuning a source (e.g. Political Capital) must close the junk it stored before,
+    without a manual reset, instead of being flagged as a 'sharp_drop'."""
+    junk = [(f"Political Capital news {i}", f"https://a.test/news/{i}", "Budapest") for i in range(30)]
+    FakeAdapter.responses = {"a": junk, "b": []}
+    runner.run(root=project, use_browser=False)
+
+    cfg_path = project / "config" / "companies.yaml"
+    cfg = yaml.safe_load(cfg_path.read_text())
+    cfg["companies"][0]["options"] = {"title_pattern": "Álláshirdetés"}   # the re-tune
+    cfg_path.write_text(yaml.safe_dump(cfg, allow_unicode=True))
+    FakeAdapter.responses = {"a": [("Elemző Álláshirdetés", "https://a.test/news/99", "Budapest")],
+                             "b": []}
+    summary = runner.run(root=project, use_browser=False)
+
+    assert summary["n_closed"] == 30
+    data = json.loads((project / "docs" / "jobs.json").read_text())
+    assert [j["title"] for j in data["jobs"] if j["company_id"] == "a"] == ["Elemző Álláshirdetés"]
+    health = json.loads((project / "docs" / "health.json").read_text())
+    assert next(s for s in health["sources"] if s["company_id"] == "a")["anomaly"] is None
+
+
+def test_unchanged_settings_still_protect_against_broken_scrapes(project):
+    many = [(f"Policy Analyst {i}", f"https://a.test/job/{i}", "Budapest") for i in range(30)]
+    FakeAdapter.responses = {"a": many, "b": []}
+    runner.run(root=project, use_browser=False)
+    FakeAdapter.responses = {"a": many[:2], "b": []}          # same settings, count collapses
+    summary = runner.run(root=project, use_browser=False)
+    assert summary["n_closed"] == 0                         # nothing closed: likely a broken scrape
+    health = json.loads((project / "docs" / "health.json").read_text())
+    assert next(s for s in health["sources"] if s["company_id"] == "a")["anomaly"] == "sharp_drop"

@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import json
 import logging
 import sys
 import time
@@ -29,12 +31,19 @@ def load_config(root: Path) -> tuple[list[dict], Filters]:
     return companies["companies"], Filters.from_config(filters)
 
 
+def config_hash(company: dict) -> str:
+    """Fingerprint of the settings that decide what a source returns."""
+    relevant = {k: company.get(k) for k in ("url", "adapter", "options", "default_location")}
+    return hashlib.sha1(json.dumps(relevant, sort_keys=True).encode()).hexdigest()[:12]
+
+
 def scrape_source(company, session, browser, filters, store, run_id, today):
     """Fetch one company, validate, store. Returns (source record, new uids, closed count)."""
     started = time.monotonic()
     rec = {"company_id": company["id"], "company": company["name"], "status": "ok",
            "n_found": 0, "n_valid": 0, "n_invalid": 0, "n_new": 0,
-           "duration_s": 0.0, "error": None, "anomaly": None}
+           "duration_s": 0.0, "error": None, "anomaly": None,
+           "config_hash": config_hash(company)}
     adapter_cls = ADAPTERS[company["adapter"]]
     try:
         jobs = adapter_cls(company, session, browser=browser).fetch()
@@ -56,8 +65,14 @@ def scrape_source(company, session, browser, filters, store, run_id, today):
     valid = list(unique.values())
     rec["n_valid"] = len(valid)
 
+    # Compare only with earlier runs that used the same settings: after you re-tune a source,
+    # a big change in its count is expected, not a sign that the scraper broke.
+    previous = store.previous_valid_count(company["id"], rec["config_hash"])
+    if previous is None and store.has_history(company["id"]):
+        log.info("%-28s settings changed since last run - starting a fresh baseline",
+                 company["id"])
     # Any anomaly (incl. 0 jobs on the first run) usually means the scraper needs tuning.
-    rec["anomaly"] = quality.anomaly(store.previous_valid_count(company["id"]), len(valid))
+    rec["anomaly"] = quality.anomaly(previous, len(valid))
     if rec["anomaly"]:
         rec["status"] = "warn"
 
