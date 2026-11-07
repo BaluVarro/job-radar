@@ -18,8 +18,9 @@ companies:
     category: Consulting
     adapter: browser
     url: https://www.mckinsey.com/careers/search-jobs
+    enabled: false
     options: {link_pattern: "/careers/search-jobs/jobs/"}
-    notes: Global list; titles without location are kept but only match if the URL/title mentions Budapest. Replace url with a Budapest-filtered search URL from your browser.
+    notes: Disabled - the site refuses automated browsers (HTTP2 protocol error on first run). Use McKinsey's own job alerts instead.
 
   - id: bcg
     name: BCG
@@ -89,8 +90,9 @@ companies:
     category: Finance
     adapter: browser
     url: https://www.morganstanley.com/careers/career-opportunities-search
+    enabled: false
     options: {link_pattern: "job"}
-    notes: Replace url with a Budapest-filtered search URL from your browser. Campus programmes are on morganstanley.tal.net
+    notes: Disabled - the site refuses automated browsers (HTTP2 protocol error on first run). Use Morgan Stanley's own job alerts instead. Campus programmes are on morganstanley.tal.net
 
   - id: blackrock
     name: BlackRock
@@ -98,7 +100,7 @@ companies:
     adapter: html
     url: https://careers.blackrock.com/location/budapest-jobs/45831/719819-3054638/3
     default_location: Budapest
-    options: {link_pattern: "/job/"}
+    options: {link_pattern: "/job/", title_cut: " Location:"}
 
   - id: citi
     name: Citi
@@ -113,6 +115,8 @@ companies:
     category: Finance
     adapter: html
     url: https://jobs.citi.com/BudapestEarlyCareer
+    enabled: false
+    notes: Disabled - page returned 404 on first run. Early-careers roles also appear on the main Citi Budapest page.
     default_location: Budapest
     options: {link_pattern: "/job/"}
 
@@ -400,8 +404,13 @@ companies:
     adapter: html
     url: https://politicalcapital.hu/hireink.php
     default_location: Budapest
-    options: {link_pattern: "article_read"}
-    notes: Jobs are posted as news items; the role filter separates them.
+    options:
+      link_pattern: "article_read"
+      # The page lists every news article ever published. Keep only job ads and internship calls...
+      title_pattern: "Álláshirdetés|munkatársat keres|elemzőt keres|Gyakornoki program|internship|vacancy"
+      # ...and only recent ones (article ids grow over time; 3600 = early 2026).
+      min_url_number: 3600
+    notes: Jobs are posted as news items. Raise min_url_number now and then so old ads drop out.
 
   - id: nato
     name: NATO

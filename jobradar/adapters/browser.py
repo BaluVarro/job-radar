@@ -12,6 +12,12 @@ from __future__ import annotations
 from ..models import Job
 from .html import HtmlAdapter
 
+try:
+    from playwright.sync_api import TimeoutError as PlaywrightTimeout
+except ImportError:  # Playwright not installed (e.g. --no-browser runs)
+    class PlaywrightTimeout(Exception):
+        pass
+
 
 class BrowserManager:
     """One shared Chromium instance for the whole run (started only if needed)."""
@@ -48,7 +54,12 @@ class BrowserAdapter(HtmlAdapter):
             if self.options.get("wait_for"):
                 page.wait_for_selector(self.options["wait_for"], timeout=20_000)
             else:
-                page.wait_for_load_state("networkidle", timeout=20_000)
+                # Many sites keep loading trackers forever, so "network idle" never comes.
+                # Wait up to 15 s for it, then read whatever has loaded.
+                try:
+                    page.wait_for_load_state("networkidle", timeout=15_000)
+                except PlaywrightTimeout:
+                    pass
             for _ in range(int(self.options.get("scrolls", 2))):
                 page.mouse.wheel(0, 4000)
                 page.wait_for_timeout(1000)

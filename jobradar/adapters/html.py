@@ -5,6 +5,9 @@ Per-company options (all optional) let you tune it in config/companies.yaml:
 
   link_pattern:    regex the link URL must match (e.g. "/job/")
   exclude_pattern: regex for links to drop (e.g. "login|search")
+  title_pattern:   regex the link text must match (for news pages that mix job ads with articles)
+  title_cut:       regex; drop everything from the first match on (e.g. " Location:")
+  min_url_number:  skip links whose last number is lower (e.g. old article ids)
   same_domain:     only keep links on the same site (default false)
 """
 
@@ -36,6 +39,15 @@ NAV_TEXT = re.compile(
 
 TITLE_MIN, TITLE_MAX = 4, 200
 
+# "Read more: <title>" style link texts.
+READ_MORE_PREFIX = re.compile(r"^(olvass tovább|tovább|read more|more)\s*[:»›-]\s*", re.IGNORECASE)
+
+
+def _last_number(url: str) -> int:
+    """Last number in a URL, e.g. article_id=3620 -> 3620 (0 if none)."""
+    numbers = re.findall(r"\d+", url)
+    return int(numbers[-1]) if numbers else 0
+
 
 class HtmlAdapter(Adapter):
     name = "html"
@@ -51,6 +63,11 @@ class HtmlAdapter(Adapter):
                    if self.options.get("link_pattern") else DEFAULT_LINK_PATTERN)
         exclude_re = (re.compile(self.options["exclude_pattern"], re.IGNORECASE)
                       if self.options.get("exclude_pattern") else None)
+        title_re = (re.compile(self.options["title_pattern"], re.IGNORECASE)
+                    if self.options.get("title_pattern") else None)
+        title_cut = (re.compile(self.options["title_cut"], re.IGNORECASE)
+                     if self.options.get("title_cut") else None)
+        min_number = self.options.get("min_url_number")
         base_host = urlsplit(base_url).netloc
 
         jobs: list[Job] = []
@@ -66,9 +83,15 @@ class HtmlAdapter(Adapter):
                 continue
             if self.options.get("same_domain") and urlsplit(url).netloc != base_host:
                 continue
-            title = self._title_for(a)
+            if min_number is not None and _last_number(url) < int(min_number):
+                continue          # older posting (e.g. archived news article)
+            title = READ_MORE_PREFIX.sub("", self._title_for(a))
+            if title_cut:
+                title = title_cut.split(title, maxsplit=1)[0].strip()
             if not (TITLE_MIN <= len(title) <= TITLE_MAX) or NAV_TEXT.match(title):
                 continue
+            if title_re and not title_re.search(title):
+                continue          # e.g. a news page where only some posts are job ads
             seen.add(url)
             jobs.append(self.make_job(title=title, url=url, location=self._location_for(a)))
         return jobs

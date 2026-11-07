@@ -46,6 +46,12 @@ include_roles:
   - szakpolitik
 
 exclude_roles:
+  # pages that aren't jobs (privacy notices etc.)
+  - adatkezelési tájékoztató
+  - adatvédelmi szabályzat
+  - privacy
+  - cookie
+  # too senior / not relevant
   - senior
   - "\\bsr\\.?\\b"
   - "\\blead\\b"

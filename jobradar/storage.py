@@ -86,6 +86,15 @@ class Store:
         self.db.executemany("UPDATE jobs SET active = 0 WHERE uid = ?", [(u,) for u in gone])
         return len(gone)
 
+    def reset_source(self, company_id: str) -> int:
+        """Forget everything stored for one source (after re-tuning its scraper).
+        Deletes its postings and its run history, so the next run starts fresh and the
+        anomaly checks don't compare against the old, wrong counts. Returns rows deleted."""
+        deleted = self.db.execute("DELETE FROM jobs WHERE company_id = ?", (company_id,)).rowcount
+        self.db.execute("DELETE FROM source_runs WHERE company_id = ?", (company_id,))
+        self.db.commit()
+        return deleted
+
     def active_jobs(self) -> list[dict]:
         rows = self.db.execute(
             "SELECT * FROM jobs WHERE active = 1 ORDER BY first_seen DESC, company, title")

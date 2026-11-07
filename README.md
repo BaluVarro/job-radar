@@ -84,6 +84,12 @@ After the first run, open `RUN_REPORT.md` (or *Source health* on the viewer page
   site, copy the resulting URL into `url`.
 - **Add a company** → add an entry to `config/companies.yaml`; disabled entries list pages
   that still need a URL.
+- **News pages that mix job ads with articles** (e.g. Political Capital) → `title_pattern`
+  keeps only titles like "Álláshirdetés", and `min_url_number` skips old article ids.
+- **Titles with extra text** ("Payroll Associate Location: Budapest…") → `title_cut: " Location:"`.
+- **After re-tuning a source**, wipe what it stored before so old junk and old counts don't
+  linger: *Actions → Run workflow →* type the company id(s) in **reset**
+  (locally: `python -m jobradar --reset political-capital`).
 
 ## Responsible scraping
 

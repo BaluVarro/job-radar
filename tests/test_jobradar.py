@@ -156,3 +156,53 @@ def test_real_config_is_valid():
         assert c["adapter"] in runner.ADAPTERS
         if c.get("enabled", True):
             assert c["url"].startswith("https://"), c["id"]
+
+
+# --- options added after the first live run -------------------------------------------
+
+NEWS_PAGE = """
+<a href="hireink.php?article_read=1&article_id=3695">A Political Capital projektkoordinátor munkatársat keres Álláshirdetés</a>
+<a href="hireink.php?article_read=1&article_id=3692">AI-alapú manipuláció Elemzés</a>
+<a href="hireink.php?article_read=1&article_id=3620">Gyakornoki program 2026 Gyakornoki program</a>
+<a href="hireink.php?article_read=1&article_id=2340">Gyakornoki program 2019. tavasz - nyár</a>
+<a href="/en/call/">Olvass tovább: Call for Applications: Future Leaders Program</a>
+"""
+
+
+def test_news_page_keeps_only_recent_job_ads():
+    opts = {"link_pattern": "article_read",
+            "title_pattern": "Álláshirdetés|munkatársat keres|Gyakornoki program",
+            "min_url_number": 3600}
+    jobs = HtmlAdapter(company(url="https://pc.test/hireink.php", options=opts), None).parse(NEWS_PAGE)
+    assert [j.title for j in jobs] == [
+        "A Political Capital projektkoordinátor munkatársat keres Álláshirdetés",
+        "Gyakornoki program 2026 Gyakornoki program"]
+
+
+def test_title_cut_and_read_more_prefix():
+    html = ('<a href="/job/1">Payroll Associate Location: Budapest Team: HR</a>'
+            '<a href="/call/2">Olvass tovább: Call for Applications</a>')
+    jobs = HtmlAdapter(company(options={"link_pattern": "/job/|/call/", "title_cut": " Location:"}),
+                       None).parse(html)
+    assert [j.title for j in jobs] == ["Payroll Associate", "Call for Applications"]
+
+
+def test_privacy_notices_are_not_matched():
+    job = Job("a", "A", "T", "Adatkezelési tájékoztató", "https://a.test/job/1", "Budapest")
+    assert filters().matches(job) is False
+
+
+def test_reset_source_wipes_postings_and_history(project):
+    FakeAdapter.responses = {"a": [("Data Analyst", "https://a.test/job/1", "Budapest")] * 1
+                             + [(f"Policy Analyst {i}", f"https://a.test/job/{i+10}", "Budapest")
+                                for i in range(20)],
+                             "b": []}
+    runner.run(root=project, use_browser=False)
+    # Re-tuned scraper now returns only 1 job: without a reset this is a "sharp_drop".
+    FakeAdapter.responses = {"a": [("Data Analyst", "https://a.test/job/1", "Budapest")], "b": []}
+    runner.run(root=project, use_browser=False, reset={"a"})
+    data = json.loads((project / "docs" / "jobs.json").read_text())
+    assert [j["title"] for j in data["jobs"] if j["company_id"] == "a"] == ["Data Analyst"]
+    health = json.loads((project / "docs" / "health.json").read_text())
+    alpha = next(s for s in health["sources"] if s["company_id"] == "a")
+    assert alpha["anomaly"] is None and alpha["status"] == "ok"

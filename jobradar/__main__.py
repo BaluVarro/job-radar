@@ -73,7 +73,8 @@ def scrape_source(company, session, browser, filters, store, run_id, today):
     return rec, [(u, matches[u]) for u in new_uids], closed
 
 
-def run(root: Path = ROOT, only: set[str] | None = None, use_browser: bool = True) -> dict:
+def run(root: Path = ROOT, only: set[str] | None = None, use_browser: bool = True,
+        reset: set[str] | None = None) -> dict:
     companies, filters = load_config(root)
     selected = [c for c in companies if c.get("enabled", True)
                 and (not only or c["id"] in only)]
@@ -82,6 +83,8 @@ def run(root: Path = ROOT, only: set[str] | None = None, use_browser: bool = Tru
     today = started.date().isoformat()
 
     store = Store(root / "data" / "jobs.db")
+    for company_id in reset or ():
+        log.info("Reset %s: deleted %d stored postings", company_id, store.reset_source(company_id))
     session = make_session()
     needs_browser = use_browser and any(c["adapter"] == "browser" for c in selected)
     browser = BrowserManager() if needs_browser else None
@@ -124,12 +127,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--only", help="comma-separated company ids to run (for testing)")
     parser.add_argument("--no-browser", action="store_true",
                         help="skip JavaScript-heavy sites (no Playwright needed)")
+    parser.add_argument("--reset", help="comma-separated company ids whose stored postings and "
+                        "history are deleted before the run (use after re-tuning a source)")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
     only = set(args.only.split(",")) if args.only else None
-    summary = run(only=only, use_browser=not args.no_browser)
+    reset = {r.strip() for r in args.reset.split(",") if r.strip()} if args.reset else None
+    summary = run(only=only, use_browser=not args.no_browser, reset=reset)
     # Fail the GitHub Action (so you get an email) only if every source failed.
     return 1 if summary["n_sources"] and summary["n_failed"] == summary["n_sources"] else 0
 
