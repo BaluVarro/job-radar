@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-07T22:21:41+00:00",
- "run_id": "2026-11-07T221846Z",
+ "generated": "2026-11-07T23:00:54+00:00",
+ "run_id": "2026-11-07T225806Z",
  "jobs": [
   {
    "uid": "3ad5d7a6e95e5d2a",
@@ -211,6 +211,29 @@
    "is_new": false
   },
   {
+   "uid": "88250a6f6f1ab992",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00368454_en&title=Geospatial+Data+Engineer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 47,
+   "score_reasons": [
+    "+ skills: Python, data governance, data quality, automation +4",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "0d888cc46b7e30e7",
    "company_id": "kpmg-gs",
    "company": "KPMG Global Services Hungary",
@@ -328,6 +351,28 @@
    "is_new": false
   },
   {
+   "uid": "650c7d7a529ca716",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00358499_en&title=AI+Solution+Architect",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 42,
+   "score_reasons": [
+    "+ skills: Python, machine learning, LLMs / GenAI, automation +5",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "1d4a4ee6edd32770",
    "company_id": "kpmg-gs",
    "company": "KPMG Global Services Hungary",
@@ -347,29 +392,6 @@
     "+ skills: automation, migration, digital transformation",
     "+ entry-level (in description)",
     "+ Budapest / Hungary"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "7d3bd05bb5095fd2",
-   "company_id": "pwc-cee",
-   "company": "PwC",
-   "category": "Consulting",
-   "title": "Medior Databricks AI/ML Specialista",
-   "url": "https://jobs-cee.pwc.com/hu/hu/job/766687WD/Medior-Databricks-AI-ML-Specialista",
-   "location": "Location Budapest, Magyarország",
-   "posted": "",
-   "source": "browser",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 42,
-   "score_reasons": [
-    "+ title: AI / ML",
-    "+ skills: machine learning",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
    ],
    "is_new": false
   },
@@ -553,6 +575,50 @@
     "+ entry-level",
     "+ Budapest / Hungary",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ce19f2aaccf33a59",
+   "company_id": "pwc-cee",
+   "company": "PwC",
+   "category": "Consulting",
+   "title": "Medior AI Engineer",
+   "url": "https://jobs-cee.pwc.com/hu/hu/job/682581WD/Medior-AI-Engineer",
+   "location": "Location Budapest, Magyarország",
+   "posted": "",
+   "source": "browser",
+   "match": 1,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 38,
+   "score_reasons": [
+    "+ title: AI / ML",
+    "+ Budapest / Hungary",
+    "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "44e46d46918eef9f",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "FP&A Analyst",
+   "url": "https://careers.formlabs.com/job/8074475/apply/?gh_jid=8074475",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 37,
+   "score_reasons": [
+    "+ title: analyst",
+    "+ skills: automation, economics, data visualisation, banking / financial services +2",
+    "+ entry-level (in description)"
    ],
    "is_new": false
   },
@@ -741,6 +807,121 @@
    "is_new": false
   },
   {
+   "uid": "d5fdd3d7ef65a7e6",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00364910_en&title=Industrial+Automation+Engineer+Intern",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 32,
+   "score_reasons": [
+    "+ skills: Python, automation, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e824cb0ac5924797",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Keszthely (határozott időre)",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-keszthely-hatarozott-idore-9020/44",
+   "location": "Keszthely",
+   "posted": "2026-10-02",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 32,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "40f2feceacf6e570",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Zalaegerszeg",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-zalaegerszeg-9061/44",
+   "location": "Zalaegerszeg",
+   "posted": "2026-10-29",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 32,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "98ebd72e9112b50a",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Sales Consultant - French Speaking",
+   "url": "https://careers.formlabs.com/job/8336917/apply/?gh_jid=8336917",
+   "location": "Berlin, Germany",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 32,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: digital transformation",
+    "+ entry-level (in description)",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "a9c66b4c71d96843",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Sales Consultant - German Speaking",
+   "url": "https://careers.formlabs.com/job/8129972/apply/?gh_jid=8129972",
+   "location": "Berlin, Germany",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 32,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: digital transformation",
+    "+ entry-level (in description)",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "0b1511ae32e94415",
    "company_id": "deloitte",
    "company": "Deloitte",
@@ -827,6 +1008,29 @@
     "+ skills: policy analysis, international relations, research",
     "+ entry-level",
     "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "0ca7a162a8a6cbbe",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00295728_en&title=Senior+Full-Stack+Engineer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 28,
+   "score_reasons": [
+    "+ skills: Git, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
    ],
    "is_new": false
   },
@@ -919,6 +1123,29 @@
    "is_new": false
   },
   {
+   "uid": "23eed97a2bc173ba",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Data Engineer",
+   "url": "https://careers.formlabs.com/job/8262437/apply/?gh_jid=8262437",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 27,
+   "score_reasons": [
+    "+ title: data (other)",
+    "+ skills: Python, data quality, automation, data visualisation +4",
+    "+ entry-level (in description)",
+    "− 3 years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "34a025def28c905d",
    "company_id": "formlabs",
    "company": "Formlabs",
@@ -937,6 +1164,52 @@
     "+ skills: Python, digital transformation",
     "+ entry-level",
     "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e7e7c45d8b2eb0af",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00301008_en&title=Senior+ServiceNow+Developer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b7f46caf31de9876",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00350481_en&title=IT+Business+Analyst",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
    ],
    "is_new": false
   },
@@ -1029,6 +1302,116 @@
    "is_new": false
   },
   {
+   "uid": "bdcfb5e1f508ee5c",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Orosháza",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-oroshaza-8966/44",
+   "location": "Orosháza",
+   "posted": "2026-08-27",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ab4f4a43f8b02a97",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Paks",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-paks-9019/44",
+   "location": "Paks",
+   "posted": "2026-09-30",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e59646bcd9f4de92",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Székesfehérvár",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-szekesfehervar-9062/44",
+   "location": "Székesfehérvár",
+   "posted": "2026-10-29",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b7f5286740e5ec38",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Mikrovállalati tanácsadó - Budaörs",
+   "url": "https://karrier.erstebank.hu/allas/mikrovallalati-tanacsado-budaors-8975/44",
+   "location": "Budaörs",
+   "posted": "2026-09-02",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "a1894509f9356338",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Mikrovállalati tanácsadó - Debrecen",
+   "url": "https://karrier.erstebank.hu/allas/mikrovallalati-tanacsado-debrecen-9025/44",
+   "location": "Debrecen",
+   "posted": "2026-10-05",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 26,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "e8f0a40ba582dfe9",
    "company_id": "gvh",
    "company": "GVH (competition authority)",
@@ -1068,6 +1451,72 @@
    "score_reasons": [
     "+ skills: Excel, research",
     "+ entry-level",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "bbd6c599979c0bd6",
+   "company_id": "eit",
+   "company": "EIT (Budapest)",
+   "category": "EU & international",
+   "title": "Closed",
+   "url": "https://www.eit.europa.eu/work-with-us/careers/vacancies/closed",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 23,
+   "score_reasons": [
+    "+ skills: international relations, research, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8300b463e817c8e1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00268676_en&title=MS+Dynamics+365+Developer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 22,
+   "score_reasons": [
+    "+ skills: migration, digital transformation, SQL (learning)",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "cb16879e19719878",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Product Owner - Fiókhálózati Digitalizáció Squad",
+   "url": "https://karrier.erstebank.hu/allas/product-owner-fiokhalozati-digitalizacio-squad-9018/44",
+   "location": "Hungary",
+   "posted": "2026-09-29",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 22,
+   "score_reasons": [
+    "+ skills: APIs / web data, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
     "+ Budapest / Hungary"
    ],
    "is_new": false
@@ -1139,6 +1588,50 @@
    "is_new": false
   },
   {
+   "uid": "ad63deed81f4c5c1",
+   "company_id": "eit",
+   "company": "EIT (Budapest)",
+   "category": "EU & international",
+   "title": "Ongoing",
+   "url": "https://www.eit.europa.eu/work-with-us/careers/vacancies/ongoing",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 21,
+   "score_reasons": [
+    "+ skills: international relations, research",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "edfaf5c6d8cda3aa",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Agilis Coach",
+   "url": "https://karrier.erstebank.hu/allas/agilis-coach-9056/44",
+   "location": "Budapest",
+   "posted": "2026-10-21",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 21,
+   "score_reasons": [
+    "+ skills: automation, banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "66994cce2f4360ad",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
@@ -1163,285 +1656,6 @@
    "is_new": false
   },
   {
-   "uid": "e824cb0ac5924797",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Keszthely (határozott időre)",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-keszthely-hatarozott-idore-9020/44",
-   "location": "Keszthely",
-   "posted": "2026-10-02",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 20,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "bdcfb5e1f508ee5c",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Orosháza",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-oroshaza-8966/44",
-   "location": "Orosháza",
-   "posted": "2026-08-27",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 20,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ab4f4a43f8b02a97",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Paks",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-paks-9019/44",
-   "location": "Paks",
-   "posted": "2026-09-30",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 20,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "e59646bcd9f4de92",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Székesfehérvár",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-szekesfehervar-9062/44",
-   "location": "Székesfehérvár",
-   "posted": "2026-10-29",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 20,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "40f2feceacf6e570",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Zalaegerszeg",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-zalaegerszeg-9061/44",
-   "location": "Zalaegerszeg",
-   "posted": "2026-10-29",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 20,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b7f5286740e5ec38",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Mikrovállalati tanácsadó - Budaörs",
-   "url": "https://karrier.erstebank.hu/allas/mikrovallalati-tanacsado-budaors-8975/44",
-   "location": "Budaörs",
-   "posted": "2026-09-02",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 18,
-   "score_reasons": [
-    "+ title: consultant",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "a1894509f9356338",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Mikrovállalati tanácsadó - Debrecen",
-   "url": "https://karrier.erstebank.hu/allas/mikrovallalati-tanacsado-debrecen-9025/44",
-   "location": "Debrecen",
-   "posted": "2026-10-05",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 18,
-   "score_reasons": [
-    "+ title: consultant",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "44e46d46918eef9f",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "FP&A Analyst",
-   "url": "https://careers.formlabs.com/job/8074475/apply/?gh_jid=8074475",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 18,
-   "score_reasons": [
-    "+ title: analyst",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "98ebd72e9112b50a",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Sales Consultant - French Speaking",
-   "url": "https://careers.formlabs.com/job/8336917/apply/?gh_jid=8336917",
-   "location": "Berlin, Germany",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 18,
-   "score_reasons": [
-    "+ title: consultant",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "a9c66b4c71d96843",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Sales Consultant - German Speaking",
-   "url": "https://careers.formlabs.com/job/8129972/apply/?gh_jid=8129972",
-   "location": "Berlin, Germany",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 18,
-   "score_reasons": [
-    "+ title: consultant",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "1492ebf8fce33862",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Sales Consultant - Italian Speaking",
-   "url": "https://careers.formlabs.com/job/8244217/apply/?gh_jid=8244217",
-   "location": "Berlin, Germany",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 18,
-   "score_reasons": [
-    "+ title: consultant",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "23eed97a2bc173ba",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Data Engineer",
-   "url": "https://careers.formlabs.com/job/8262437/apply/?gh_jid=8262437",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 15,
-   "score_reasons": [
-    "+ title: data (other)",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "f1006674e9002e9b",
-   "company_id": "citi",
-   "company": "Citi",
-   "category": "Finance",
-   "title": "Bank Account Completeness Oversight Officer",
-   "url": "https://jobs.citi.com/job/budapest/bank-account-completeness-oversight-officer/287/102566865744",
-   "location": "Budapest, Budapest, Hungary",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 12,
-   "score_reasons": [
-    "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "fc943626d0617fc2",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
@@ -1455,11 +1669,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1477,11 +1691,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1499,11 +1713,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1521,11 +1735,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1543,11 +1757,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1565,11 +1779,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1587,11 +1801,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1609,11 +1823,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1631,11 +1845,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1653,11 +1867,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1675,11 +1889,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1697,11 +1911,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1719,11 +1933,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1741,11 +1955,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1763,11 +1977,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1785,11 +1999,11 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1807,55 +2021,32 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
   {
-   "uid": "cb16879e19719878",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Product Owner - Fiókhálózati Digitalizáció Squad",
-   "url": "https://karrier.erstebank.hu/allas/product-owner-fiokhalozati-digitalizacio-squad-9018/44",
-   "location": "Hungary",
-   "posted": "2026-09-29",
-   "source": "hrxml",
+   "uid": "005ed528ea5a0f39",
+   "company_id": "deloitte",
+   "company": "Deloitte",
+   "category": "Consulting",
+   "title": "Junior Finance Specialist - CFO Services",
+   "url": "https://apply.deloittece.com/en_US/careers/JobDetail/Junior-Finance-Specialist-CFO-Services/21023",
+   "location": "",
+   "posted": "",
+   "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 12,
+   "score": 17,
    "score_reasons": [
-    "+ skills: digital transformation",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "84489e2f6a29c623",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Rendszerszervező - Bankbiztosítási terület",
-   "url": "https://karrier.erstebank.hu/allas/rendszerszervezo-bankbiztositasi-terulet-9060/44",
-   "location": "Hungary",
-   "posted": "2026-10-29",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 12,
-   "score_reasons": [
-    "+ skills: banking / financial services",
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ skills: economics, data visualisation, banking / financial services",
+    "+ entry-level"
    ],
    "is_new": false
   },
@@ -1873,262 +2064,55 @@
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 10,
+   "score": 15,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ skills: statistics, digital transformation",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
   {
-   "uid": "675569f6eb26f908",
-   "company_id": "alteo",
-   "company": "ALTEO",
-   "category": "Energy",
-   "title": "Szenior projektfejlesztési menedzser",
-   "url": "https://karrier.alteo.hu/job/Budapest-Szenior-projektfejleszt%C3%A9si-menedzser-1117/1372933155/",
-   "location": "Város Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "be41ca8330409bcf",
-   "company_id": "accenture",
-   "company": "Accenture",
+   "uid": "14f900e288720ff6",
+   "company_id": "bcg",
+   "company": "BCG",
    "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00319877_en&title=Senior+SAP+Consultant",
-   "location": "Hungary",
+   "title": "Management Assistant (all genders, fixed-term, 2 years)",
+   "url": "https://careers.bcg.com/global/en/job/59697/Management-Assistant-all-genders-fixed-term-2-years",
+   "location": "Budapest / Bucharest",
    "posted": "",
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 10,
+   "score": 14,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ skills: research, digital transformation",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
   {
-   "uid": "0ca7a162a8a6cbbe",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00295728_en&title=Senior+Full-Stack+Engineer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
+   "uid": "1492ebf8fce33862",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Sales Consultant - Italian Speaking",
+   "url": "https://careers.formlabs.com/job/8244217/apply/?gh_jid=8244217",
+   "location": "Berlin, Germany",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-07",
    "active": 1,
-   "score": 10,
+   "score": 12,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8e8c641983afce57",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00369761_en&title=Microsoft+365+%26+Hybrid+Infrastructure+Consultant+%28Exchange+%2F+Active+Directory%29",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "534a687057e46fe1",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354145_en&title=Senior+Identity+%26+Access+Consultant+%E2%80%93+Microsoft+Entra+ID+%26+M365+Security",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "d5fdd3d7ef65a7e6",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00364910_en&title=Industrial+Automation+Engineer+Intern",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "e7e7c45d8b2eb0af",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00301008_en&title=Senior+ServiceNow+Developer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "88250a6f6f1ab992",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00368454_en&title=Geospatial+Data+Engineer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b7f46caf31de9876",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00350481_en&title=IT+Business+Analyst",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "650c7d7a529ca716",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00358499_en&title=AI+Solution+Architect",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8300b463e817c8e1",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00268676_en&title=MS+Dynamics+365+Developer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "0b1d8680cab089d1",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00351121_en&title=Microsoft+Fabric+Data+Engineer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ title: consultant",
+    "+ skills: digital transformation",
+    "+ entry-level (in description)",
+    "+ German valued",
+    "− requires Italian"
    ],
    "is_new": false
   },
@@ -2148,39 +2132,20 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
+    "+ skills: Python, data governance, data quality, migration +4",
+    "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "− 5+ years experience"
    ],
    "is_new": false
   },
   {
-   "uid": "14f900e288720ff6",
-   "company_id": "bcg",
-   "company": "BCG",
-   "category": "Consulting",
-   "title": "Management Assistant (all genders, fixed-term, 2 years)",
-   "url": "https://careers.bcg.com/global/en/job/59697/Management-Assistant-all-genders-fixed-term-2-years",
-   "location": "Budapest / Bucharest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "80888a42891622db",
+   "uid": "f1006674e9002e9b",
    "company_id": "citi",
    "company": "Citi",
    "category": "Finance",
-   "title": "Credit Review Officer",
-   "url": "https://jobs.citi.com/job/budapest/credit-review-officer/287/102161076784",
+   "title": "Bank Account Completeness Oversight Officer",
+   "url": "https://jobs.citi.com/job/budapest/bank-account-completeness-oversight-officer/287/102566865744",
    "location": "Budapest, Budapest, Hungary",
    "posted": "",
    "source": "html",
@@ -2190,71 +2155,10 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
+    "+ skills: automation, data visualisation, Excel, banking / financial services",
+    "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "38ad83916160d1fc",
-   "company_id": "citi",
-   "company": "Citi",
-   "category": "Finance",
-   "title": "Underwriter",
-   "url": "https://jobs.citi.com/job/budapest/underwriter/287/102639541680",
-   "location": "Budapest, Budapest, Hungary",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "005ed528ea5a0f39",
-   "company_id": "deloitte",
-   "company": "Deloitte",
-   "category": "Consulting",
-   "title": "Junior Finance Specialist - CFO Services",
-   "url": "https://apply.deloittece.com/en_US/careers/JobDetail/Junior-Finance-Specialist-CFO-Services/21023",
-   "location": "",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "bbd6c599979c0bd6",
-   "company_id": "eit",
-   "company": "EIT (Budapest)",
-   "category": "EU & international",
-   "title": "Closed",
-   "url": "https://www.eit.europa.eu/work-with-us/careers/vacancies/closed",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "− 3 years experience"
    ],
    "is_new": false
   },
@@ -2265,27 +2169,6 @@
    "category": "EU & international",
    "title": "Facebook",
    "url": "http://www.facebook.com/sharer/sharer.php?u=https://www.eit.europa.eu/work-with-us/careers/vacancies/open",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ad63deed81f4c5c1",
-   "company_id": "eit",
-   "company": "EIT (Budapest)",
-   "category": "EU & international",
-   "title": "Ongoing",
-   "url": "https://www.eit.europa.eu/work-with-us/careers/vacancies/ongoing",
    "location": "Budapest",
    "posted": "",
    "source": "html",
@@ -2337,92 +2220,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "edfaf5c6d8cda3aa",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Agilis Coach",
-   "url": "https://karrier.erstebank.hu/allas/agilis-coach-9056/44",
-   "location": "Budapest",
-   "posted": "2026-10-21",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2fccaba263949d81",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "DevOps mérnök - Befektetési Zrt.",
-   "url": "https://karrier.erstebank.hu/allas/devops-mernok-befektetesi-zrt-8967/44",
-   "location": "Budapest",
-   "posted": "2026-08-27",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "db6ce1323bc724f5",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Hálózatbiztonsági üzemeltető rendszermérnök (Tűzfal szakértő)",
-   "url": "https://karrier.erstebank.hu/allas/halozatbiztonsagi-uzemelteto-rendszermernok-tuzfal-szakerto-8984/44",
-   "location": "Hungary",
-   "posted": "2026-09-09",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "17e8cb053d9ffbab",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Hálózatüzemeltető rendszermérnök (Cisco)",
-   "url": "https://karrier.erstebank.hu/allas/halozatuzemelteto-rendszermernok-cisco-8985/44",
-   "location": "Hungary",
-   "posted": "2026-09-09",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -4590,6 +4388,29 @@
    "is_new": false
   },
   {
+   "uid": "84489e2f6a29c623",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Rendszerszervező - Bankbiztosítási terület",
+   "url": "https://karrier.erstebank.hu/allas/rendszerszervezo-bankbiztositasi-terulet-9060/44",
+   "location": "Hungary",
+   "posted": "2026-10-29",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 8,
+   "score_reasons": [
+    "+ skills: APIs / web data, banking / financial services, digital transformation, SQL (learning)",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 3 years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "e056a7ad58e3289f",
    "company_id": "pwc-cee",
    "company": "PwC",
@@ -4613,6 +4434,29 @@
    "is_new": false
   },
   {
+   "uid": "0b1d8680cab089d1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00351121_en&title=Microsoft+Fabric+Data+Engineer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 7,
+   "score_reasons": [
+    "+ skills: Python, data governance, data quality, APIs / web data +3",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "55cd7ca1d534adf0",
    "company_id": "alteo",
    "company": "ALTEO",
@@ -4632,6 +4476,29 @@
     "+ skills: statistics, economics, Excel",
     "+ Budapest / Hungary",
     "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "d4b1bcc8c5862b72",
+   "company_id": "ecb",
+   "company": "ECB",
+   "category": "EU & international",
+   "title": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy",
+   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Monetary-Analysis-Division-in-the-Directorate-General-Monetary-Policy/15446",
+   "location": "EU",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 6,
+   "score_reasons": [
+    "+ title: policy",
+    "+ remote / EU-wide",
+    "− senior title",
+    "− title only (page not read)"
    ],
    "is_new": false
   },
@@ -4825,6 +4692,30 @@
    "is_new": false
   },
   {
+   "uid": "534a687057e46fe1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354145_en&title=Senior+Identity+%26+Access+Consultant+%E2%80%93+Microsoft+Entra+ID+%26+M365+Security",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 4,
+   "score_reasons": [
+    "+ skills: automation, migration, APIs / web data, Excel +1",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− 10+ years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "44ce52519cfac056",
    "company_id": "blackrock",
    "company": "BlackRock",
@@ -4843,6 +4734,30 @@
     "+ skills: data quality, automation, data visualisation, research +1",
     "+ entry-level",
     "+ Budapest / Hungary",
+    "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8e8c641983afce57",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00369761_en&title=Microsoft+365+%26+Hybrid+Infrastructure+Consultant+%28Exchange+%2F+Active+Directory%29",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 2,
+   "score_reasons": [
+    "+ skills: automation, migration, Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
     "− 5+ years experience"
    ],
    "is_new": false
@@ -4955,6 +4870,27 @@
    "is_new": false
   },
   {
+   "uid": "675569f6eb26f908",
+   "company_id": "alteo",
+   "company": "ALTEO",
+   "category": "Energy",
+   "title": "Szenior projektfejlesztési menedzser",
+   "url": "https://karrier.alteo.hu/job/Budapest-Szenior-projektfejleszt%C3%A9si-menedzser-1117/1372933155/",
+   "location": "Város Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− 7+ years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "8a8614c969c77858",
    "company_id": "alteo",
    "company": "ALTEO",
@@ -4971,6 +4907,30 @@
    "score": 0,
    "score_reasons": [
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "be41ca8330409bcf",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00319877_en&title=Senior+SAP+Consultant",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− 5+ years experience"
    ],
    "is_new": false
   },
@@ -5043,6 +5003,29 @@
    "is_new": false
   },
   {
+   "uid": "80888a42891622db",
+   "company_id": "citi",
+   "company": "Citi",
+   "category": "Finance",
+   "title": "Credit Review Officer",
+   "url": "https://jobs.citi.com/job/budapest/credit-review-officer/287/102161076784",
+   "location": "Budapest, Budapest, Hungary",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: economics, derivatives / ISDA, Excel, banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 6+ years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "f183e9cb34bc0215",
    "company_id": "citi",
    "company": "Citi",
@@ -5106,6 +5089,33 @@
     "+ Budapest / Hungary",
     "− senior title",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "38ad83916160d1fc",
+   "company_id": "citi",
+   "company": "Citi",
+   "category": "Finance",
+   "title": "Underwriter",
+   "url": "https://jobs.citi.com/job/budapest/underwriter/287/102639541680",
+   "location": "Budapest, Budapest, Hungary",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: derivatives / ISDA, Excel, banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− 7+ years experience",
+    "− requires French",
+    "− requires Italian",
+    "− requires Spanish"
    ],
    "is_new": false
   },
@@ -5236,29 +5246,6 @@
    "score_reasons": [
     "+ title: consultant",
     "+ Budapest / Hungary",
-    "− senior title",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "d4b1bcc8c5862b72",
-   "company_id": "ecb",
-   "company": "ECB",
-   "category": "EU & international",
-   "title": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy",
-   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Monetary-Analysis-Division-in-the-Directorate-General-Monetary-Policy/15446",
-   "location": "EU",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ title: analyst",
-    "+ remote / EU-wide",
     "− senior title",
     "− title only (page not read)"
    ],
@@ -5792,6 +5779,29 @@
    "is_new": false
   },
   {
+   "uid": "2fccaba263949d81",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "DevOps mérnök - Befektetési Zrt.",
+   "url": "https://karrier.erstebank.hu/allas/devops-mernok-befektetesi-zrt-8967/44",
+   "location": "Budapest",
+   "posted": "2026-08-27",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: automation, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 20+ years experience"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "1075600652216ff4",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
@@ -5894,6 +5904,52 @@
     "+ Budapest / Hungary",
     "− senior title",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "db6ce1323bc724f5",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Hálózatbiztonsági üzemeltető rendszermérnök (Tűzfal szakértő)",
+   "url": "https://karrier.erstebank.hu/allas/halozatbiztonsagi-uzemelteto-rendszermernok-tuzfal-szakerto-8984/44",
+   "location": "Hungary",
+   "posted": "2026-09-09",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "17e8cb053d9ffbab",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Hálózatüzemeltető rendszermérnök (Cisco)",
+   "url": "https://karrier.erstebank.hu/allas/halozatuzemelteto-rendszermernok-cisco-8985/44",
+   "location": "Hungary",
+   "posted": "2026-09-09",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: data governance, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 5+ years experience"
    ],
    "is_new": false
   },
@@ -9849,29 +9905,6 @@
    "is_new": false
   },
   {
-   "uid": "6186330a69d62a6d",
-   "company_id": "pwc-cee",
-   "company": "PwC",
-   "category": "Consulting",
-   "title": "Adótanácsadó - Vám és Zöldadók",
-   "url": "https://jobs-cee.pwc.com/hu/hu/job/753528WD/Adótanácsadó-Vám-és-Zöldadók",
-   "location": "Location Budapest, Magyarország",
-   "posted": "",
-   "source": "browser",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ Budapest / Hungary",
-    "− field you excluded",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "72085ba3ef7e0adc",
    "company_id": "pwc-cee",
    "company": "PwC",
@@ -9902,6 +9935,28 @@
    "category": "Consulting",
    "title": "Cybersecurity Manager",
    "url": "https://jobs-cee.pwc.com/hu/hu/job/764948WD/Cybersecurity-Manager",
+   "location": "Location Budapest, Magyarország",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "cf63d4eedd2e58b2",
+   "company_id": "pwc-cee",
+   "company": "PwC",
+   "category": "Consulting",
+   "title": "Folytasd nálunk a karriered! (Senior Future Potentials)",
+   "url": "https://jobs-cee.pwc.com/hu/hu/job/381437WD/Folytasd-nálunk-a-karriered!-Senior-Future-Potentials",
    "location": "Location Budapest, Magyarország",
    "posted": "",
    "source": "browser",

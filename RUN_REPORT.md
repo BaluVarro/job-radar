@@ -1,9 +1,9 @@
-# Job radar – run 2026-11-07T221846Z
+# Job radar – run 2026-11-07T225806Z
 
 - Sources checked: **43** (ok 40, warnings 0, failed 3)
 - New postings: **0** (matching your filters: **0**)
-- Postings closed since last run: 1
-- Job pages read for scoring: 53
+- Postings closed since last run: 2
+- Job pages read for scoring: 57
 
 ## Top 15 open postings by score
 
@@ -20,10 +20,10 @@
 | 45 | Citi | [Technology - Infrastructure, Full-Time Analyst, Hungary - Budapest, 2027](https://jobs.citi.com/job/budapest/technology-infrastructure-full-time-analyst-hungary-budapest-2027/287/102810642704) | + title: analyst · + skills: automation, APIs / web data, Excel, banking / financial services +1 · + entry-level (in description) · + Budapest / Hungary |
 | 44 | Citi | [Information Security & Identity Access Management Analyst](https://jobs.citi.com/job/budapest/information-security-and-identity-access-management-analyst/287/102933731872) | + title: analyst · + skills: data governance, Excel, banking / financial services, SQL (learning) · + entry-level (in description) · + Budapest / Hungary |
 | 42 | KPMG Global Services Hungary | [Global Immigration Consultant Global Mobility Services · Budapest · Hybrid](https://kpmgglobalservices.teamtailor.com/jobs/8539619-global-immigration-consultant) | + title: consultant · + skills: automation, migration, digital transformation · + entry-level (in description) · + Budapest / Hungary |
-| 42 | PwC | [Medior Databricks AI/ML Specialista](https://jobs-cee.pwc.com/hu/hu/job/766687WD/Medior-Databricks-AI-ML-Specialista) | + title: AI / ML · + skills: machine learning · + Budapest / Hungary · − title only (page not read) |
 | 41 | Citi | [Cash and Collateral Management Intermediate Analyst](https://jobs.citi.com/job/budapest/cash-and-collateral-management-intermediate-analyst/287/99450976096) | + title: analyst · + skills: derivatives / ISDA, Excel, research · + entry-level (in description) · + Budapest / Hungary |
 | 41 | Citi | [Stakeholder Support Bank Signatory Management Analyst](https://jobs.citi.com/job/budapest/stakeholder-support-bank-signatory-management-analyst/287/102810644512) | + title: analyst · + skills: automation, Excel, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
 | 39 | EY | [Global Immigration Consultant](https://careers.ey.com/ey/job/Budapest-Global-Immigration-Consultant-1132/1086956301/) | + title: consultant · + skills: migration, APIs / web data, Excel, research +1 · + Budapest / Hungary |
+| 38 | BlackRock | [Sales / Business Development (German speaking), Associate](https://careers.blackrock.com/job/budapest/sales-business-development-german-speaking-associate/45831/100992111040) | + title: associate · + skills: Excel, banking / financial services, digital transformation · + entry-level (in description) · + Budapest / Hungary · + German valued |
 
 ## New matching postings
 
