@@ -61,7 +61,7 @@
   <div class="controls">
     <input type="search" id="q" placeholder="Search title or company" aria-label="Search">
     <select id="cat" aria-label="Category"><option value="">All categories</option></select>
-    <label class="toggle"><input type="checkbox" id="onlyNew"> New today</label>
+    <label class="toggle"><input type="checkbox" id="onlyNew"> New since last run</label>
     <label class="toggle"><input type="checkbox" id="showAll"> Show non-matching</label>
   </div>
   <p class="count" id="count"></p>
@@ -131,7 +131,7 @@ async function load() {
       });
     }
   } catch (e) {
-    $("sub").textContent = "No data yet – run the scraper once (Actions tab → Daily job scrape → Run workflow).";
+    $("sub").textContent = "No data yet – run the scraper once (Actions tab → Job scrape (Mon, Wed, Fri) → Run workflow).";
   }
   for (const id of ["onlyNew", "showAll"]) $(id).checked = store("jr_" + id) === "1";
   render();

@@ -3,7 +3,7 @@
 A daily job tracker that reads postings straight from company career pages (no LinkedIn),
 stores them in a database with a full audit trail, and publishes a searchable page.
 
-It runs on GitHub Actions every morning, covers ~45 employers in consulting, finance,
+It runs on GitHub Actions every Monday, Wednesday and Friday, covers ~45 employers in consulting, finance,
 tech, energy, government, policy research and international organisations, and filters
 for entry-level analyst, data/AI, policy and data-governance roles in Budapest or remote/EU.
 
@@ -55,7 +55,7 @@ Scrapers break silently when a site changes. Job Radar checks for that on every 
    Workflow permissions → Read and write permissions*.
 3. **Publish the viewer:** *Settings → Pages → Build and deployment → Deploy from a branch →
    `main` / `/docs`*. The page appears at `https://<your-username>.github.io/job-radar/`.
-4. **First run:** *Actions → Daily job scrape → Run workflow*. After that it runs every morning.
+4. **First run:** *Actions → Job scrape (Mon, Wed, Fri) → Run workflow*. After that it runs automatically every Monday, Wednesday and Friday morning (change the schedule in `.github/workflows/daily.yml`).
 
 ## Running locally
 
@@ -102,5 +102,5 @@ jobradar/          the scraper package (python -m jobradar)
   report.py        JSON / CSV / Markdown outputs
 docs/index.html    viewer page (GitHub Pages)
 tests/             pytest suite with fixture pages
-.github/workflows/ daily schedule
+.github/workflows/ schedule (Mon, Wed, Fri)
 ```
