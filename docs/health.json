@@ -1,40 +1,29 @@
 {
  "run": {
-  "run_id": "2026-11-07T151440Z",
-  "started": "2026-11-07T15:14:40+00:00",
-  "finished": "2026-11-07T15:17:47+00:00",
-  "n_sources": 46,
-  "n_ok": 24,
-  "n_warn": 12,
-  "n_failed": 10,
-  "n_new": 1367,
-  "n_new_matching": 338,
-  "n_closed": 0
+  "run_id": "2026-11-07T193056Z",
+  "started": "2026-11-07T19:30:56+00:00",
+  "finished": "2026-11-07T19:33:45+00:00",
+  "n_sources": 43,
+  "n_ok": 25,
+  "n_warn": 15,
+  "n_failed": 3,
+  "n_new": 6,
+  "n_new_matching": 3,
+  "n_closed": 907
  },
  "sources": [
   {
-   "company_id": "mckinsey",
-   "company": "McKinsey & Company",
-   "status": "error",
-   "n_found": 0,
-   "n_valid": 0,
-   "n_invalid": 0,
-   "n_new": 0,
-   "duration_s": 0.8,
-   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.mckinsey.com/careers/search-jobs\nCall log:\n  - navigating to \"https://www.mckinsey.com/careers/search-jobs\", waiting until \"domcontentloaded\"\n",
-   "anomaly": null
-  },
-  {
    "company_id": "bcg",
    "company": "BCG",
-   "status": "error",
-   "n_found": 0,
-   "n_valid": 0,
+   "status": "ok",
+   "n_found": 3,
+   "n_valid": 3,
    "n_invalid": 0,
-   "n_new": 0,
-   "duration_s": 21.3,
-   "error": "TimeoutError: Timeout 20000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-   "anomaly": null
+   "n_new": 3,
+   "duration_s": 20.8,
+   "error": null,
+   "anomaly": null,
+   "config_hash": "0f6906d94c18"
   },
   {
    "company_id": "roland-berger",
@@ -46,7 +35,8 @@
    "n_new": 0,
    "duration_s": 3.1,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "be6d492392d4"
   },
   {
    "company_id": "deloitte",
@@ -55,10 +45,11 @@
    "n_found": 10,
    "n_valid": 10,
    "n_invalid": 0,
-   "n_new": 10,
-   "duration_s": 2.2,
+   "n_new": 0,
+   "duration_s": 2.3,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "1e0545149e08"
   },
   {
    "company_id": "ey",
@@ -67,10 +58,11 @@
    "n_found": 25,
    "n_valid": 25,
    "n_invalid": 0,
-   "n_new": 25,
-   "duration_s": 1.7,
+   "n_new": 0,
+   "duration_s": 1.8,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "75cbd942b106"
   },
   {
    "company_id": "pwc-cee",
@@ -79,10 +71,11 @@
    "n_found": 10,
    "n_valid": 10,
    "n_invalid": 0,
-   "n_new": 10,
-   "duration_s": 6.8,
+   "n_new": 2,
+   "duration_s": 6.7,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "ed87ed5ff0f7"
   },
   {
    "company_id": "pwc-campus",
@@ -94,7 +87,8 @@
    "n_new": 0,
    "duration_s": 1.0,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "731d37f850f9"
   },
   {
    "company_id": "kpmg-gs",
@@ -103,10 +97,11 @@
    "n_found": 8,
    "n_valid": 8,
    "n_invalid": 0,
-   "n_new": 8,
-   "duration_s": 1.5,
+   "n_new": 0,
+   "duration_s": 2.0,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "29d16365236e"
   },
   {
    "company_id": "accenture",
@@ -115,22 +110,11 @@
    "n_found": 12,
    "n_valid": 12,
    "n_invalid": 0,
-   "n_new": 12,
-   "duration_s": 6.3,
-   "error": null,
-   "anomaly": null
-  },
-  {
-   "company_id": "morgan-stanley",
-   "company": "Morgan Stanley",
-   "status": "error",
-   "n_found": 0,
-   "n_valid": 0,
-   "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 0.3,
-   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/careers/career-opportunities-search\nCall log:\n  - navigating to \"https://www.morganstanley.com/careers/career-opportunities-search\", waiting until \"domcontentloaded\"\n",
-   "anomaly": null
+   "duration_s": 5.4,
+   "error": null,
+   "anomaly": null,
+   "config_hash": "cb0e778ed951"
   },
   {
    "company_id": "blackrock",
@@ -139,10 +123,11 @@
    "n_found": 5,
    "n_valid": 5,
    "n_invalid": 0,
-   "n_new": 5,
-   "duration_s": 0.7,
+   "n_new": 0,
+   "duration_s": 0.2,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "affae9b871c1"
   },
   {
    "company_id": "citi",
@@ -151,22 +136,11 @@
    "n_found": 15,
    "n_valid": 15,
    "n_invalid": 0,
-   "n_new": 15,
-   "duration_s": 2.1,
-   "error": null,
-   "anomaly": null
-  },
-  {
-   "company_id": "citi-early",
-   "company": "Citi (early careers)",
-   "status": "error",
-   "n_found": 0,
-   "n_valid": 0,
-   "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.4,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.citi.com/BudapestEarlyCareer",
-   "anomaly": null
+   "duration_s": 1.9,
+   "error": null,
+   "anomaly": null,
+   "config_hash": "f108f2d38e1f"
   },
   {
    "company_id": "otp",
@@ -176,9 +150,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.4,
+   "duration_s": 3.6,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "0467917d325a"
   },
   {
    "company_id": "mbh",
@@ -188,9 +163,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.3,
+   "duration_s": 1.6,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "4ed48c46f66a"
   },
   {
    "company_id": "raiffeisen",
@@ -199,10 +175,11 @@
    "n_found": 1,
    "n_valid": 1,
    "n_invalid": 0,
-   "n_new": 1,
-   "duration_s": 2.6,
+   "n_new": 0,
+   "duration_s": 2.5,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "1e0140c666eb"
   },
   {
    "company_id": "erste",
@@ -211,22 +188,24 @@
    "n_found": 66,
    "n_valid": 66,
    "n_invalid": 0,
-   "n_new": 66,
-   "duration_s": 3.0,
+   "n_new": 0,
+   "duration_s": 2.8,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "3a73d61daa2e"
   },
   {
    "company_id": "epam",
    "company": "EPAM",
-   "status": "error",
+   "status": "warn",
    "n_found": 0,
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 20.3,
-   "error": "TimeoutError: Timeout 20000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-   "anomaly": null
+   "duration_s": 17.2,
+   "error": null,
+   "anomaly": "first_run",
+   "config_hash": "1174bf7385f2"
   },
   {
    "company_id": "prezi",
@@ -235,22 +214,24 @@
    "n_found": 7,
    "n_valid": 7,
    "n_invalid": 0,
-   "n_new": 7,
-   "duration_s": 5.5,
+   "n_new": 0,
+   "duration_s": 4.2,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "884cd5337b1d"
   },
   {
    "company_id": "ericsson",
    "company": "Ericsson",
-   "status": "error",
+   "status": "warn",
    "n_found": 0,
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 20.2,
-   "error": "TimeoutError: Timeout 20000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-   "anomaly": null
+   "duration_s": 17.2,
+   "error": null,
+   "anomaly": "first_run",
+   "config_hash": "5fa749cd1f56"
   },
   {
    "company_id": "nokia",
@@ -260,9 +241,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 8.4,
+   "duration_s": 7.9,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "e99528d79f33"
   },
   {
    "company_id": "formlabs",
@@ -271,10 +253,11 @@
    "n_found": 237,
    "n_valid": 237,
    "n_invalid": 0,
-   "n_new": 237,
-   "duration_s": 0.2,
+   "n_new": 0,
+   "duration_s": 0.1,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "77690e5b2661"
   },
   {
    "company_id": "mvm",
@@ -283,10 +266,11 @@
    "n_found": 1,
    "n_valid": 1,
    "n_invalid": 0,
-   "n_new": 1,
-   "duration_s": 3.3,
+   "n_new": 0,
+   "duration_s": 3.7,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "e1e5c4aad7f6"
   },
   {
    "company_id": "alteo",
@@ -295,22 +279,24 @@
    "n_found": 6,
    "n_valid": 6,
    "n_invalid": 0,
-   "n_new": 6,
-   "duration_s": 2.5,
+   "n_new": 0,
+   "duration_s": 2.3,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "9d2d96fdd7ae"
   },
   {
    "company_id": "mol",
    "company": "MOL Group",
-   "status": "error",
+   "status": "warn",
    "n_found": 0,
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 21.7,
-   "error": "TimeoutError: Timeout 20000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-   "anomaly": null
+   "duration_s": 20.4,
+   "error": null,
+   "anomaly": "first_run",
+   "config_hash": "7fb20ced8d45"
   },
   {
    "company_id": "eon",
@@ -322,7 +308,8 @@
    "n_new": 0,
    "duration_s": 0.1,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://careers.eon.com/magyarorszag/go/Hungary-Careers/3728101/",
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "8f7b5e84f98d"
   },
   {
    "company_id": "mavir",
@@ -331,10 +318,11 @@
    "n_found": 2,
    "n_valid": 2,
    "n_invalid": 0,
-   "n_new": 2,
-   "duration_s": 3.2,
+   "n_new": 0,
+   "duration_s": 3.8,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "c762006307aa"
   },
   {
    "company_id": "ksh",
@@ -344,9 +332,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 4.8,
+   "duration_s": 2.1,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.ksh.hu/docs/hun/allas/",
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "3bff65712a4c"
   },
   {
    "company_id": "gvh",
@@ -355,10 +344,11 @@
    "n_found": 24,
    "n_valid": 24,
    "n_invalid": 0,
-   "n_new": 24,
-   "duration_s": 3.6,
+   "n_new": 0,
+   "duration_s": 2.1,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "5406697d32fb"
   },
   {
    "company_id": "budapest-institute",
@@ -368,9 +358,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.6,
+   "duration_s": 1.1,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "1d0d4ccb064a"
   },
   {
    "company_id": "hetfa",
@@ -379,10 +370,11 @@
    "n_found": 15,
    "n_valid": 15,
    "n_invalid": 0,
-   "n_new": 15,
-   "duration_s": 2.6,
+   "n_new": 0,
+   "duration_s": 2.8,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "7fd2ca84134f"
   },
   {
    "company_id": "epso",
@@ -392,9 +384,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.0,
+   "duration_s": 0.7,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "1b72d0196863"
   },
   {
    "company_id": "jrc",
@@ -404,9 +397,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.5,
+   "duration_s": 1.5,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "5074a7b8430b"
   },
   {
    "company_id": "ecb",
@@ -415,10 +409,11 @@
    "n_found": 4,
    "n_valid": 4,
    "n_invalid": 0,
-   "n_new": 4,
-   "duration_s": 1.9,
+   "n_new": 0,
+   "duration_s": 3.4,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "1b837d5017b2"
   },
   {
    "company_id": "eib",
@@ -427,10 +422,11 @@
    "n_found": 1,
    "n_valid": 1,
    "n_invalid": 0,
-   "n_new": 1,
+   "n_new": 0,
    "duration_s": 1.5,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "5ceeab6ab2a8"
   },
   {
    "company_id": "eurostat",
@@ -439,10 +435,11 @@
    "n_found": 3,
    "n_valid": 3,
    "n_invalid": 0,
-   "n_new": 3,
-   "duration_s": 1.8,
+   "n_new": 1,
+   "duration_s": 1.7,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "9253c5db1f79"
   },
   {
    "company_id": "oecd",
@@ -452,9 +449,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.4,
+   "duration_s": 1.3,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oecd.org/careers/",
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "160fb15952bf"
   },
   {
    "company_id": "worldbank",
@@ -464,9 +462,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.1,
+   "duration_s": 2.2,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "732eed19047c"
   },
   {
    "company_id": "eit",
@@ -475,10 +474,11 @@
    "n_found": 5,
    "n_valid": 4,
    "n_invalid": 1,
-   "n_new": 4,
-   "duration_s": 3.0,
+   "n_new": 0,
+   "duration_s": 3.2,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "356ea4ea0385"
   },
   {
    "company_id": "hiia",
@@ -487,22 +487,24 @@
    "n_found": 1,
    "n_valid": 1,
    "n_invalid": 0,
-   "n_new": 1,
-   "duration_s": 2.5,
+   "n_new": 0,
+   "duration_s": 2.0,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "f0f5ccd5c2e6"
   },
   {
    "company_id": "political-capital",
    "company": "Political Capital",
    "status": "ok",
-   "n_found": 906,
-   "n_valid": 906,
+   "n_found": 2,
+   "n_valid": 2,
    "n_invalid": 0,
-   "n_new": 906,
-   "duration_s": 1.7,
+   "n_new": 0,
+   "duration_s": 2.0,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "ac7a2c5c654c"
   },
   {
    "company_id": "nato",
@@ -512,9 +514,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.1,
+   "duration_s": 3.2,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "c850974209c3"
   },
   {
    "company_id": "osce",
@@ -523,10 +526,11 @@
    "n_found": 2,
    "n_valid": 2,
    "n_invalid": 0,
-   "n_new": 2,
-   "duration_s": 1.4,
+   "n_new": 0,
+   "duration_s": 1.1,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "95780936c46c"
   },
   {
    "company_id": "fao",
@@ -536,9 +540,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.2,
+   "duration_s": 1.5,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "dd46722e0b5d"
   },
   {
    "company_id": "uk-embassy",
@@ -548,9 +553,10 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.3,
+   "duration_s": 3.0,
    "error": null,
-   "anomaly": "first_run"
+   "anomaly": "first_run",
+   "config_hash": "70d0ffa4bc18"
   },
   {
    "company_id": "eurasia-group",
@@ -559,10 +565,11 @@
    "n_found": 2,
    "n_valid": 2,
    "n_invalid": 0,
-   "n_new": 2,
-   "duration_s": 1.4,
+   "n_new": 0,
+   "duration_s": 0.7,
    "error": null,
-   "anomaly": null
+   "anomaly": null,
+   "config_hash": "5ea109b37fb9"
   }
  ]
 }
