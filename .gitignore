@@ -5,3 +5,7 @@ venv/
 .pytest_cache/
 .DS_Store
 .vscode/
+
+# LinkedIn search results stay on your computer
+data/linkedin.db
+linkedin_results.html

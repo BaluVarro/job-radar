@@ -124,7 +124,9 @@ function render() {
     if (j.is_new) { const b = document.createElement("span"); b.className = "badge new"; b.textContent = "NEW"; body.appendChild(b); }
     const m = document.createElement("div");
     m.className = "meta";
-    m.textContent = [j.company, j.location, "first seen " + j.first_seen].filter(Boolean).join(" · ");
+    m.textContent = [j.company, j.location, "first seen " + j.first_seen,
+      (j.queries || []).length ? "found by: " + j.queries.slice(0, 2).join(", ") +
+        (j.queries.length > 2 ? ` +${j.queries.length - 2} more` : "") : ""].filter(Boolean).join(" · ");
     body.appendChild(m);
     if ((j.score_reasons || []).length) {
       const w = document.createElement("div");
@@ -144,8 +146,11 @@ function render() {
 
 async function load() {
   try {
-    const [jr, hr] = await Promise.all([fetch("jobs.json", {cache: "no-store"}), fetch("health.json", {cache: "no-store"})]);
-    const data = await jr.json();
+    // The LinkedIn results page has its data built in (window.JOBS_DATA); the site fetches it.
+    const embedded = window.JOBS_DATA;
+    const [jr, hr] = embedded ? [null, {ok: false}] : await Promise.all([
+      fetch("jobs.json", {cache: "no-store"}), fetch("health.json", {cache: "no-store"})]);
+    const data = embedded || await jr.json();
     jobs = data.jobs || [];
     const generated = new Date(data.generated);
     $("sub").textContent = `${jobs.filter(j => j.match).length} matching of ${jobs.length} open postings · updated ${generated.toLocaleString()}`;
@@ -166,6 +171,7 @@ async function load() {
   } catch (e) {
     $("sub").textContent = "No data yet – run the scraper once (Actions tab → Job scrape (Mon, Wed, Fri) → Run workflow).";
   }
+  if (window.JOBS_DATA) $("health").hidden = true;
   for (const id of ["onlyNew", "showAll"]) $(id).checked = store("jr_" + id) === "1";
   $("minScore").value = store("jr_minScore") || "0";
   render();

@@ -50,6 +50,24 @@ everything. To try profile changes before pushing them:
 python -m jobradar --preview-scores     # prints the top 25 with reasons; saves nothing
 ```
 
+## LinkedIn search (local only)
+
+```bash
+python -m jobradar.linkedin --dry-run   # show the searches it would make
+python -m jobradar.linkedin             # search, score, open linkedin_results.html
+```
+
+Builds searches from the `linkedin:` section of `config/profile.yaml` (keywords from your CV ×
+Budapest / remote EU, internship + entry level, last 7 days), queries LinkedIn's **public,
+logged-out** job search, reads the most promising postings and scores them with the same
+scorer. Postings that also appear on a company's own careers page are flagged.
+
+Automated access is against LinkedIn's terms even when logged out, so this is built for
+occasional personal use: it runs only on your own computer (it refuses to run in GitHub
+Actions), makes at most 40 requests per run with at least 3 seconds between them, and stops
+immediately if LinkedIn refuses or rate-limits a request. Results stay local
+(`data/linkedin.db`, `linkedin_results.html`, both git-ignored) and never reach GitHub.
+
 ## Data quality
 
 Scrapers break silently when a site changes. Job Radar checks for that on every run:
@@ -129,6 +147,7 @@ jobradar/          the scraper package (python -m jobradar)
   adapters/        one module per kind of careers site
   quality.py       validation and anomaly checks
   scorer.py        fit score 0-100 with reasons
+  linkedin.py      local LinkedIn search (python -m jobradar.linkedin)
   storage.py       SQLite schema, lifecycle tracking, audit log
   report.py        JSON / CSV / Markdown outputs
 docs/index.html    viewer page (GitHub Pages)

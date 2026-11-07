@@ -9,7 +9,7 @@
 target_titles:
   - {name: data governance, weight: 30, pattern: "governance|adatvagyon|adatkormányz"}
   - {name: data analyst, weight: 30, pattern: "data analy|adatelemz"}
-  - {name: policy analyst, weight: 30, pattern: "policy analy|szakpolitikai elemz|gazdaságpolitikai elemz"}
+  - {name: policy, weight: 30, pattern: "\\bpolic(y|ies)\\b|szakpolitik|gazdaságpolitik|közpolitik"}
   - {name: AI / ML, weight: 28, pattern: "\\bai\\b|artificial intelligence|machine learning|\\bml\\b|\\bnlp\\b|mesterséges intelligencia"}
   - {name: data scientist, weight: 26, pattern: "data scien"}
   - {name: economist, weight: 25, pattern: "economist|közgazdász"}
@@ -74,3 +74,23 @@ avoid_titles: "\\btax|\\badó|audit|accounting|könyvel|payroll|bérszámfejt|sa
 locations:
   - {name: Budapest / Hungary, weight: 10, pattern: "budapest|hungary|magyarország"}
   - {name: remote / EU-wide, weight: 6, pattern: "remote|\\beu\\b|europe|emea|international"}
+
+# --- LinkedIn search (python -m jobradar.linkedin, on your own computer only) ---
+# Each keyword is searched in each location: 6 keywords x 2 locations = 12 searches,
+# plus up to `describe_top` job pages. Hard limit: 40 requests per run.
+linkedin:
+  keywords:
+    - data analyst
+    - data governance
+    - policy analyst
+    - machine learning
+    - research analyst
+    - economist
+  locations:
+    - {name: Budapest, location: "Budapest, Hungary"}
+    - {name: Remote (EU), location: "European Union", remote: true}
+  experience: [internship, entry]   # internship | entry | associate
+  posted_within_days: 7
+  pages_per_query: 1                # 25 results per page
+  describe_top: 20                  # job pages read per run, most promising first
+  delay_seconds: 5                  # wait between requests (minimum 3)
