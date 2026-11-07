@@ -33,7 +33,16 @@
   .count { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
   ul.jobs { list-style: none; margin: 0; padding: 0; border: 1px solid var(--border);
          border-radius: 10px; background: var(--surface); overflow: hidden; }
-  ul.jobs li { padding: 12px 14px; border-top: 1px solid var(--border); }
+  ul.jobs li { padding: 12px 14px; border-top: 1px solid var(--border);
+         display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; }
+  .score { font-weight: 700; font-size: 15px; text-align: center; border-radius: 8px;
+         padding: 6px 0; background: var(--bg); color: var(--muted); border: 1px solid var(--border);
+         font-variant-numeric: tabular-nums; }
+  .score.high { color: var(--new); background: var(--new-bg); border-color: transparent; }
+  .score.mid { color: var(--warn); background: var(--warn-bg); border-color: transparent; }
+  .why { font-size: 12.5px; margin-top: 4px; color: var(--muted); overflow-wrap: anywhere; }
+  .why .p { color: var(--new); } .why .m { color: var(--err); }
+  ul.jobs li.empty { display: block; }
   ul.jobs li:first-child { border-top: 0; }
   .title { font-weight: 600; color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
   .title:hover { text-decoration: underline; }
@@ -61,6 +70,10 @@
   <div class="controls">
     <input type="search" id="q" placeholder="Search title or company" aria-label="Search">
     <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+    <select id="minScore" aria-label="Minimum score">
+      <option value="0">Any score</option><option value="30">Score 30+</option>
+      <option value="50">Score 50+</option><option value="70">Score 70+</option>
+    </select>
     <label class="toggle"><input type="checkbox" id="onlyNew"> New since last run</label>
     <label class="toggle"><input type="checkbox" id="showAll"> Show non-matching</label>
   </div>
@@ -87,24 +100,44 @@ function store(key, val) {
 function render() {
   const q = $("q").value.trim().toLowerCase();
   const cat = $("cat").value, onlyNew = $("onlyNew").checked, showAll = $("showAll").checked;
+  const minScore = Number($("minScore").value);
   const rows = jobs.filter(j =>
     (showAll || j.match) && (!onlyNew || j.is_new) && (!cat || j.category === cat) &&
-    (!q || (j.title + " " + j.company).toLowerCase().includes(q)));
+    (j.score ?? 0) >= minScore &&
+    (!q || (j.title + " " + j.company).toLowerCase().includes(q)))
+    .sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
   $("count").textContent = `${rows.length} posting${rows.length === 1 ? "" : "s"}`;
   const list = $("jobs");
   list.innerHTML = "";
   if (!rows.length) { list.innerHTML = '<li class="empty">No postings match these filters.</li>'; return; }
   for (const j of rows) {
     const li = document.createElement("li");
+    const sc = document.createElement("div");
+    sc.className = "score" + (j.score >= 70 ? " high" : j.score >= 50 ? " mid" : "");
+    sc.textContent = j.score ?? "–";
+    sc.title = "Fit score (0–100) from your profile";
+    const body = document.createElement("div");
     const a = document.createElement("a");
     a.className = "title"; a.href = j.url; a.target = "_blank"; a.rel = "noopener";
     a.textContent = j.title;
-    li.appendChild(a);
-    if (j.is_new) { const b = document.createElement("span"); b.className = "badge new"; b.textContent = "NEW"; li.appendChild(b); }
+    body.appendChild(a);
+    if (j.is_new) { const b = document.createElement("span"); b.className = "badge new"; b.textContent = "NEW"; body.appendChild(b); }
     const m = document.createElement("div");
     m.className = "meta";
     m.textContent = [j.company, j.location, "first seen " + j.first_seen].filter(Boolean).join(" · ");
-    li.appendChild(m);
+    body.appendChild(m);
+    if ((j.score_reasons || []).length) {
+      const w = document.createElement("div");
+      w.className = "why";
+      j.score_reasons.forEach((r, i) => {
+        const span = document.createElement("span");
+        span.className = r.startsWith("+") ? "p" : "m";
+        span.textContent = (i ? " · " : "") + r;
+        w.appendChild(span);
+      });
+      body.appendChild(w);
+    }
+    li.append(sc, body);
     list.appendChild(li);
   }
 }
@@ -134,10 +167,12 @@ async function load() {
     $("sub").textContent = "No data yet – run the scraper once (Actions tab → Job scrape (Mon, Wed, Fri) → Run workflow).";
   }
   for (const id of ["onlyNew", "showAll"]) $(id).checked = store("jr_" + id) === "1";
+  $("minScore").value = store("jr_minScore") || "0";
   render();
 }
 
 ["q", "cat"].forEach(id => $(id).addEventListener("input", render));
+$("minScore").addEventListener("change", () => { store("jr_minScore", $("minScore").value); render(); });
 ["onlyNew", "showAll"].forEach(id => $(id).addEventListener("change", () => { store("jr_" + id, $(id).checked ? "1" : "0"); render(); }));
 load();
 </script>

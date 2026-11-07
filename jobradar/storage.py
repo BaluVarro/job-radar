@@ -4,6 +4,7 @@ Tables:
   jobs         one row per posting; first_seen / last_seen / active track its life
   runs         one row per daily run
   source_runs  one row per company per run: status, counts, errors, anomaly flags
+  descriptions the text of each posting's page, fetched once, used for scoring
 """
 
 from __future__ import annotations
@@ -27,7 +28,16 @@ CREATE TABLE IF NOT EXISTS jobs (
     match INTEGER NOT NULL DEFAULT 0,
     first_seen TEXT NOT NULL,
     last_seen TEXT NOT NULL,
-    active INTEGER NOT NULL DEFAULT 1
+    active INTEGER NOT NULL DEFAULT 1,
+    score INTEGER,            -- 0-100 fit with config/profile.yaml
+    score_reasons TEXT        -- JSON list of "+ ..." / "- ..." explanations
+);
+CREATE TABLE IF NOT EXISTS descriptions (
+    uid TEXT PRIMARY KEY,
+    text TEXT,
+    status TEXT,              -- ok | empty | error
+    attempts INTEGER NOT NULL DEFAULT 0,
+    fetched TEXT
 );
 CREATE TABLE IF NOT EXISTS runs (
     run_id TEXT PRIMARY KEY,
@@ -52,10 +62,15 @@ class Store:
         self.db = sqlite3.connect(str(path))
         self.db.row_factory = sqlite3.Row
         self.db.executescript(SCHEMA)
-        # Databases created by older versions lack the config_hash column: add it.
-        cols = {r["name"] for r in self.db.execute("PRAGMA table_info(source_runs)")}
-        if "config_hash" not in cols:
-            self.db.execute("ALTER TABLE source_runs ADD COLUMN config_hash TEXT")
+        # Databases created by older versions lack some columns: add them.
+        self._add_missing_columns("source_runs", {"config_hash": "TEXT"})
+        self._add_missing_columns("jobs", {"score": "INTEGER", "score_reasons": "TEXT"})
+
+    def _add_missing_columns(self, table: str, columns: dict[str, str]) -> None:
+        existing = {r["name"] for r in self.db.execute(f"PRAGMA table_info({table})")}
+        for name, sql_type in columns.items():
+            if name not in existing:
+                self.db.execute(f"ALTER TABLE {table} ADD COLUMN {name} {sql_type}")
 
     def close(self) -> None:
         self.db.commit()
@@ -102,8 +117,36 @@ class Store:
 
     def active_jobs(self) -> list[dict]:
         rows = self.db.execute(
-            "SELECT * FROM jobs WHERE active = 1 ORDER BY first_seen DESC, company, title")
+            "SELECT * FROM jobs WHERE active = 1"
+            " ORDER BY COALESCE(score, -1) DESC, first_seen DESC, company, title")
         return [dict(r) for r in rows]
+
+    # --- descriptions & scores ------------------------------------------------
+    def descriptions(self, uids: list[str]) -> dict[str, str]:
+        """Cached page text for these postings (only successfully read ones)."""
+        out = {}
+        for uid in uids:
+            row = self.db.execute("SELECT text FROM descriptions WHERE uid = ? AND status = 'ok'",
+                                  (uid,)).fetchone()
+            if row:
+                out[uid] = row["text"]
+        return out
+
+    def needs_description(self, uid: str, max_attempts: int = 2) -> bool:
+        row = self.db.execute("SELECT status, attempts FROM descriptions WHERE uid = ?",
+                              (uid,)).fetchone()
+        return row is None or (row["status"] == "error" and row["attempts"] < max_attempts)
+
+    def save_description(self, uid: str, text: str, status: str, today: str) -> None:
+        self.db.execute(
+            "INSERT INTO descriptions (uid, text, status, attempts, fetched) VALUES (?,?,?,1,?)"
+            " ON CONFLICT(uid) DO UPDATE SET text=excluded.text, status=excluded.status,"
+            " attempts=descriptions.attempts+1, fetched=excluded.fetched",
+            (uid, text, status, today))
+
+    def set_score(self, uid: str, score: int, reasons_json: str) -> None:
+        self.db.execute("UPDATE jobs SET score = ?, score_reasons = ? WHERE uid = ?",
+                        (score, reasons_json, uid))
 
     # --- runs -------------------------------------------------------------
     def previous_valid_count(self, company_id: str, config_hash: str | None = None) -> int | None:
@@ -128,6 +171,8 @@ class Store:
 
     def record_run(self, rec: dict) -> None:
         self.db.execute(
-            "INSERT OR REPLACE INTO runs VALUES (:run_id,:started,:finished,:n_sources,:n_ok,"
+            "INSERT OR REPLACE INTO runs (run_id, started, finished, n_sources, n_ok, n_warn,"
+            " n_failed, n_new, n_new_matching, n_closed)"
+            " VALUES (:run_id,:started,:finished,:n_sources,:n_ok,"
             ":n_warn,:n_failed,:n_new,:n_new_matching,:n_closed)", rec)
         self.db.commit()

@@ -27,6 +27,29 @@ config/companies.yaml ──► adapters ──► validation ──► SQLite (
   its source it is marked closed — but only after a *successful* fetch, so a site outage
   never wipes jobs.
 
+## Scoring
+
+Every open posting gets a **fit score from 0 to 100** against `config/profile.yaml`
+(your target titles, skills, languages and dealbreakers, drafted from your CV). The score
+is a sum of transparent parts, and the viewer shows the reasons next to each job:
+
+| Part | Points | Example reason |
+|---|---|---|
+| Target title | 0 to 30 | `+ title: data governance` |
+| Your skills in the description | 0 to 35 | `+ skills: Python, NLP, data quality` |
+| Level | −60 to +10 | `+ entry-level`, `− senior title`, `− 5+ years experience` |
+| Location | 0 to 10 | `+ Budapest / Hungary` |
+| Languages | −30 to +6 | `− requires French`, `+ German valued` |
+| Excluded field | −40 | `− field you excluded` (tax, audit…) |
+
+Each new posting's page is read once (up to 60 per run, most promising first) and cached
+in the database. Scores are recomputed every run, so editing `profile.yaml` re-ranks
+everything. To try profile changes before pushing them:
+
+```bash
+python -m jobradar --preview-scores     # prints the top 25 with reasons; saves nothing
+```
+
 ## Data quality
 
 Scrapers break silently when a site changes. Job Radar checks for that on every run:
@@ -100,10 +123,12 @@ Check a site's terms before adding it.
 ## Project structure
 
 ```
-config/            companies.yaml (sources), filters.yaml (roles & locations)
+config/            companies.yaml (sources), filters.yaml (roles & locations),
+                   profile.yaml (scoring)
 jobradar/          the scraper package (python -m jobradar)
   adapters/        one module per kind of careers site
   quality.py       validation and anomaly checks
+  scorer.py        fit score 0-100 with reasons
   storage.py       SQLite schema, lifecycle tracking, audit log
   report.py        JSON / CSV / Markdown outputs
 docs/index.html    viewer page (GitHub Pages)

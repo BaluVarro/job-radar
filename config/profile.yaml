@@ -1,0 +1,76 @@
+# Your profile, used to score every posting from 0 to 100.
+# Drafted from your CV – adjust the weights to taste. Higher weight = matters more.
+#
+# Patterns are case-insensitive regular expressions searched in the job title and
+# description. "\\b" means "a word starts here" (so "\\bai\\b" doesn't match "maintain").
+# English and Hungarian wording can share one entry: "policy|szakpolitik".
+
+# --- Job titles you're aiming for (only the best-matching one counts, max 30 points) ---
+target_titles:
+  - {name: data governance, weight: 30, pattern: "governance|adatvagyon|adatkormányz"}
+  - {name: data analyst, weight: 30, pattern: "data analy|adatelemz"}
+  - {name: policy analyst, weight: 30, pattern: "policy analy|szakpolitikai elemz|gazdaságpolitikai elemz"}
+  - {name: AI / ML, weight: 28, pattern: "\\bai\\b|artificial intelligence|machine learning|\\bml\\b|\\bnlp\\b|mesterséges intelligencia"}
+  - {name: data scientist, weight: 26, pattern: "data scien"}
+  - {name: economist, weight: 25, pattern: "economist|közgazdász"}
+  - {name: research analyst, weight: 25, pattern: "research (analyst|assistant|associate|fellow)|kutató"}
+  - {name: business / strategy analyst, weight: 22, pattern: "business analy|strategy|stratégi"}
+  - {name: international affairs, weight: 22, pattern: "international (relations|affairs)|diplomat|foreign affairs|külügy|nemzetközi"}
+  - {name: analyst, weight: 18, pattern: "analy|elemző"}
+  - {name: consultant, weight: 18, pattern: "consult|tanácsadó"}
+  - {name: data (other), weight: 15, pattern: "\\bdata\\b|\\badat"}
+  - {name: associate, weight: 10, pattern: "associate"}
+
+# --- Skills and knowledge from your CV (points add up, max 35) ---
+skills:
+  # data / AI
+  - {name: Python, weight: 5, pattern: "\\bpython"}
+  - {name: NLP, weight: 4, pattern: "\\bnlp\\b|natural language|text analy|text mining"}
+  - {name: machine learning, weight: 4, pattern: "machine learning|\\bml\\b|scikit|predictive model"}
+  - {name: LLMs / GenAI, weight: 4, pattern: "\\bllms?\\b|large language|generative ai|genai|\\bgpt|prompt"}
+  - {name: data quality, weight: 4, pattern: "data quality|data validation|adatminőség"}
+  - {name: data governance, weight: 5, pattern: "data governance|data management|metadata|data stewardship|adatkezel"}
+  - {name: automation, weight: 3, pattern: "automat"}
+  - {name: PyTorch / Hugging Face, weight: 3, pattern: "pytorch|hugging ?face|transformers?\\b"}
+  - {name: pandas / NumPy, weight: 3, pattern: "pandas|numpy"}
+  - {name: statistics, weight: 3, pattern: "statistic|statisztik"}
+  - {name: econometrics / causal inference, weight: 3, pattern: "econometric|ökonometri|causal|regression|regresszió"}
+  - {name: data visualisation, weight: 2, pattern: "visuali[sz]|dashboard|power ?bi|tableau"}
+  - {name: APIs / web data, weight: 2, pattern: "\\bapis?\\b|web scraping|data collection"}
+  - {name: Git, weight: 2, pattern: "\\bgit\\b|github"}
+  - {name: Excel, weight: 2, pattern: "excel"}
+  - {name: SQL (learning), weight: 1, pattern: "\\bsql\\b"}
+  # policy / economics / international
+  - {name: policy analysis, weight: 4, pattern: "policy analy|public policy|policy evaluation|szakpolitik|közpolitik"}
+  - {name: economics, weight: 3, pattern: "economics|economic analysis|közgazdaság|gazdaságpolitik"}
+  - {name: migration, weight: 3, pattern: "migration|migráció"}
+  - {name: EU affairs, weight: 3, pattern: "european union|\\beu affairs|european commission|brussels|uniós"}
+  - {name: international relations, weight: 3, pattern: "international relations|geopolit|foreign policy|nemzetközi kapcsolat"}
+  - {name: research, weight: 2, pattern: "\\bresearch|kutatás"}
+  # finance / business
+  - {name: banking / financial services, weight: 2, pattern: "banking|financial services|financial institution|bank"}
+  - {name: derivatives / ISDA, weight: 3, pattern: "isda|derivative|collateral|\\botc\\b"}
+  - {name: digital transformation, weight: 2, pattern: "digital transformation|innovation|digitalizáció"}
+  - {name: neuromarketing / consumer behaviour, weight: 1, pattern: "consumer behavio|neuromarketing|eye.tracking"}
+
+# --- Entry-level signals (+10 if in the title, +6 if only in the description) ---
+entry_signals: "graduate|junior|\\bprogram(me)?\\b|intern(ship)?\\b|trainee|entry.level|early career|working student|0-2 years|pályakezdő|gyakornok|friss diplomás|fresh graduate|young professional|traineeship|future leaders"
+
+# --- Senior job titles (-30 points) ---
+senior_titles: "senior|\\bsr\\.?\\b|\\blead\\b|principal|head of|director|manager|vezető|igazgató"
+
+# --- Experience requirement: postings asking for more years than this lose points ---
+max_years_experience: 2
+
+# --- Languages you can work in (other languages marked as required lose points) ---
+languages_spoken: [hungarian, english, german]   # Spanish (A2) isn't working level yet
+bonus_languages:              # postings that ask for these get a bonus – they're your edge
+  - {name: German, weight: 6, pattern: "german|deutsch|német"}
+
+# --- Fields you don't want (title only: -40 points) ---
+avoid_titles: "\\btax|\\badó|audit|accounting|könyvel|payroll|bérszámfejt|sales (representative|executive)|call center|customer service|ügyfélszolgálat|mechanical|electrical|villamos|driver|sofőr|warehouse|raktár|nurse|ápoló"
+
+# --- Locations (best match counts) ---
+locations:
+  - {name: Budapest / Hungary, weight: 10, pattern: "budapest|hungary|magyarország"}
+  - {name: remote / EU-wide, weight: 6, pattern: "remote|\\beu\\b|europe|emea|international"}

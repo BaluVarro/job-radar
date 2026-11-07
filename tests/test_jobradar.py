@@ -117,12 +117,18 @@ class FakeAdapter:
 def project(tmp_path, monkeypatch):
     (tmp_path / "config").mkdir()
     shutil.copy(ROOT / "config" / "filters.yaml", tmp_path / "config" / "filters.yaml")
+    shutil.copy(ROOT / "config" / "profile.yaml", tmp_path / "config" / "profile.yaml")
     (tmp_path / "config" / "companies.yaml").write_text(yaml.safe_dump({"companies": [
         {"id": "a", "name": "Alpha", "category": "Test", "adapter": "fake", "url": "https://a.test"},
         {"id": "b", "name": "Beta", "category": "Test", "adapter": "fake", "url": "https://b.test"},
     ]}))
     monkeypatch.setitem(runner.ADAPTERS, "fake", FakeAdapter)
+    # Job pages are "read" from this dict instead of the internet.
+    monkeypatch.setattr(runner, "fetch_description", lambda session, url: FAKE_PAGES.get(url, ""))
     return tmp_path
+
+
+FAKE_PAGES: dict = {}
 
 
 def test_full_run_tracks_new_closed_and_failures(project):
@@ -239,3 +245,79 @@ def test_unchanged_settings_still_protect_against_broken_scrapes(project):
     assert summary["n_closed"] == 0                         # nothing closed: likely a broken scrape
     health = json.loads((project / "docs" / "health.json").read_text())
     assert next(s for s in health["sources"] if s["company_id"] == "a")["anomaly"] == "sharp_drop"
+
+
+# --- scoring --------------------------------------------------------------------------
+
+from jobradar.scorer import Scorer, extract_text  # noqa: E402
+
+
+def scorer():
+    return Scorer(yaml.safe_load((ROOT / "config" / "profile.yaml").read_text()))
+
+
+GOOD = """We are looking for a Junior Data Governance Analyst to join our Budapest team.
+You will work with Python and pandas to build data quality checks, automate reporting and
+support our data management framework. Knowledge of machine learning or NLP is an advantage.
+German language skills are a plus. Fresh graduates welcome."""
+
+BAD = """Senior Tax Manager. Minimum 7 years of experience in corporate tax advisory.
+Fluent French is required. Location: Paris."""
+
+
+def test_good_fit_scores_high_and_explains_why():
+    s = scorer().score("Junior Data Governance Analyst", GOOD, "Budapest", "https://x.test/job/1")
+    assert s.total >= 75
+    text = " ".join(s.reasons)
+    assert "data governance" in text and "Python" in text and "entry-level" in text
+    assert "Budapest" in text and "German valued" in text
+
+
+def test_bad_fit_scores_low_with_reasons():
+    s = scorer().score("Senior Tax Manager", BAD, "Paris", "https://x.test/job/2")
+    assert s.total <= 10
+    text = " ".join(s.reasons)
+    assert "7+ years experience" in text and "requires French" in text and "field you excluded" in text
+
+
+def test_optional_language_is_not_penalised():
+    s = scorer().score("Data Analyst", "Python and SQL. French is an advantage.", "Budapest")
+    assert not any("French" in r for r in s.reasons)
+
+
+def test_title_only_when_page_not_read():
+    s = scorer().score("Policy Analyst", "", "Budapest")
+    assert s.total > 0 and any("title only" in r for r in s.reasons)
+
+
+def test_hungarian_posting():
+    desc = "Pályakezdő adatelemző munkatársat keresünk. Elvárás: Python, statisztikai ismeretek."
+    s = scorer().score("Gyakornok – adatelemző", desc, "Budapest")
+    assert s.total >= 50 and any("entry-level" in r for r in s.reasons)
+
+
+def test_extract_text_drops_menus_and_scripts():
+    html = ("<html><body><nav>Home Jobs Login</nav><main><h1>Data Analyst</h1>"
+            "<p>Work with Python.</p><script>var x=1</script></main><footer>© Acme</footer></body></html>")
+    text = extract_text(html)
+    assert "Data Analyst" in text and "Python" in text
+    assert "Login" not in text and "var x" not in text and "Acme" not in text
+
+
+def test_run_scores_postings_and_sorts_by_score(project):
+    FAKE_PAGES.clear()
+    FAKE_PAGES["https://a.test/job/1"] = GOOD
+    FakeAdapter.responses = {
+        "a": [("Junior Data Governance Analyst", "https://a.test/job/1", "Budapest"),
+              ("Policy Intern", "https://a.test/job/2", "Budapest")],
+        "b": [("Research Assistant", "https://b.test/job/3", "Remote")]}
+    summary = runner.run(root=project, use_browser=False)
+    assert summary["n_scored"] == 3 and summary["n_described"] == 1
+    data = json.loads((project / "docs" / "jobs.json").read_text())
+    scores = [j["score"] for j in data["jobs"]]
+    assert scores == sorted(scores, reverse=True)
+    top = data["jobs"][0]
+    assert top["title"] == "Junior Data Governance Analyst" and top["score"] >= 75
+    assert isinstance(top["score_reasons"], list) and top["score_reasons"]
+    assert "Top 15 open postings by score" in (project / "RUN_REPORT.md").read_text()
+    assert "score" in (project / "data" / "jobs.csv").read_text().splitlines()[0]

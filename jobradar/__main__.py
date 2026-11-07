@@ -1,4 +1,4 @@
-"""Run the daily scrape:  python -m jobradar  [--only id1,id2] [--no-browser]"""
+"""Run the scrape:  python -m jobradar  [--only id1,id2] [--no-browser] [--preview-scores]"""
 
 from __future__ import annotations
 
@@ -19,16 +19,70 @@ from .adapters.browser import BrowserManager
 from .filters import Filters
 from .http import make_session
 from .report import write_outputs
+from .scorer import Scorer, fetch_description
 from .storage import Store
 
 ROOT = Path(__file__).resolve().parent.parent
 log = logging.getLogger("jobradar")
+
+MAX_DESCRIPTIONS_PER_RUN = 60   # job pages read per run for scoring (2 s apart)
+MIN_DESCRIPTION_CHARS = 200     # shorter = the page probably needs JavaScript; score from title
 
 
 def load_config(root: Path) -> tuple[list[dict], Filters]:
     companies = yaml.safe_load((root / "config" / "companies.yaml").read_text(encoding="utf-8"))
     filters = yaml.safe_load((root / "config" / "filters.yaml").read_text(encoding="utf-8"))
     return companies["companies"], Filters.from_config(filters)
+
+
+def load_scorer(root: Path) -> Scorer:
+    profile = yaml.safe_load((root / "config" / "profile.yaml").read_text(encoding="utf-8"))
+    return Scorer(profile)
+
+
+def score_jobs(store: Store, scorer: Scorer, session, today: str,
+               max_fetch: int = MAX_DESCRIPTIONS_PER_RUN) -> dict:
+    """Read job pages that haven't been read yet (most promising first), then score
+    every open posting. Scores are recomputed each run, so editing profile.yaml
+    re-ranks everything without fetching pages again."""
+    active = store.active_jobs()
+    todo = [j for j in active if store.needs_description(j["uid"])]
+    # Most promising first: matching postings, then by title-only score.
+    todo.sort(key=lambda j: (-j["match"], -scorer.score(j["title"], location=j["location"] or "",
+                                                         url=j["url"]).total))
+    fetched = 0
+    for job in todo[:max_fetch]:
+        try:
+            text = fetch_description(session, job["url"])
+            status = "ok" if len(text) >= MIN_DESCRIPTION_CHARS else "empty"
+        except Exception as exc:
+            text, status = "", "error"
+            log.debug("description %s: %s", job["url"], exc)
+        store.save_description(job["uid"], text if status == "ok" else "", status, today)
+        fetched += status == "ok"
+
+    texts = store.descriptions([j["uid"] for j in active])
+    for job in active:
+        result = scorer.score(job["title"], texts.get(job["uid"], ""),
+                              job["location"] or "", job["url"])
+        store.set_score(job["uid"], result.total, json.dumps(result.reasons, ensure_ascii=False))
+    log.info("Scoring: read %d new job pages (%d still waiting), scored %d open postings",
+             fetched, max(0, len(todo) - max_fetch), len(active))
+    return {"n_described": fetched, "n_scored": len(active)}
+
+
+def preview_scores(root: Path = ROOT, top: int = 25) -> None:
+    """Print the ranking with the current profile.yaml, without scraping or saving anything."""
+    store = Store(root / "data" / "jobs.db")
+    scorer = load_scorer(root)
+    active = store.active_jobs()
+    texts = store.descriptions([j["uid"] for j in active])
+    ranked = sorted(((scorer.score(j["title"], texts.get(j["uid"], ""), j["location"] or "",
+                                   j["url"]), j) for j in active), key=lambda x: -x[0].total)
+    for result, job in ranked[:top]:
+        print(f"{result.total:3d}  {job['company'][:22]:22}  {job['title'][:70]}")
+        print(f"     {' · '.join(result.reasons)}")
+    store.db.close()
 
 
 def config_hash(company: dict) -> str:
@@ -129,6 +183,7 @@ def run(root: Path = ROOT, only: set[str] | None = None, use_browser: bool = Tru
         "n_new_matching": sum(m for _, m in all_new),
         "n_closed": n_closed,
     }
+    summary.update(score_jobs(store, load_scorer(root), session, today))
     store.record_run(summary)
     write_outputs(root, summary, sources, store.active_jobs(), {u for u, _ in all_new})
     store.close()
@@ -144,10 +199,16 @@ def main(argv: list[str] | None = None) -> int:
                         help="skip JavaScript-heavy sites (no Playwright needed)")
     parser.add_argument("--reset", help="comma-separated company ids whose stored postings and "
                         "history are deleted before the run (use after re-tuning a source)")
+    parser.add_argument("--preview-scores", action="store_true",
+                        help="print the top postings ranked with the current profile.yaml; "
+                             "scrapes and saves nothing (for tuning your profile)")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
+    if args.preview_scores:
+        preview_scores()
+        return 0
     only = set(args.only.split(",")) if args.only else None
     reset = {r.strip() for r in args.reset.split(",") if r.strip()} if args.reset else None
     summary = run(only=only, use_browser=not args.no_browser, reset=reset)
