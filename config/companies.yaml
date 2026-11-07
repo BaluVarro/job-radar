@@ -1,0 +1,458 @@
+# Companies to track. One entry per careers page.
+#
+#   id               short unique name (used in the database)
+#   adapter          greenhouse | workday | hrxml | html | browser   (see jobradar/adapters/)
+#   url              the careers / job-list page
+#   default_location used when a posting has no location text (e.g. a Budapest-only page)
+#   enabled          false = skip (page not found yet, or covered by another source)
+#   options          adapter settings, e.g. link_pattern (regex a job link must match)
+#
+# After the first run, open RUN_REPORT.md: sources with 0 jobs or a "spike" usually need
+# a better link_pattern, or switching from html to browser.
+
+companies:
+
+  # ---------------- Consulting ----------------
+  - id: mckinsey
+    name: McKinsey & Company
+    category: Consulting
+    adapter: browser
+    url: https://www.mckinsey.com/careers/search-jobs
+    options: {link_pattern: "/careers/search-jobs/jobs/"}
+    notes: Global list; titles without location are kept but only match if the URL/title mentions Budapest. Replace url with a Budapest-filtered search URL from your browser.
+
+  - id: bcg
+    name: BCG
+    category: Consulting
+    adapter: browser
+    url: https://careers.bcg.com/global/en/locations/hungary-romania
+    default_location: Budapest / Bucharest
+    options: {link_pattern: "/job/"}
+
+  - id: roland-berger
+    name: Roland Berger
+    category: Consulting
+    adapter: browser
+    url: https://www.rolandberger.com/en/Join/All-Jobs.html
+    options: {link_pattern: "/Join/.+/"}
+
+  - id: deloitte
+    name: Deloitte
+    category: Consulting
+    adapter: html
+    url: https://apply.deloittece.com/en_US/careers/SearchJobs/?523=%5B5514%5D&523_format=1482&listFilterMode=1&jobRecordsPerPage=50
+    options: {link_pattern: "/JobDetail/"}
+    notes: Deloitte Central Europe portal (Avature); location filter in the URL.
+
+  - id: ey
+    name: EY
+    category: Consulting
+    adapter: html
+    url: https://careers.ey.com/ey/search/?locationsearch=Budapest
+    default_location: Budapest
+    options: {link_pattern: "/ey/job/"}
+
+  - id: pwc-cee
+    name: PwC
+    category: Consulting
+    adapter: browser
+    url: https://jobs-cee.pwc.com/hu/hu/search-results
+    default_location: Hungary
+    options: {link_pattern: "/job/"}
+
+  - id: pwc-campus
+    name: PwC (graduate programmes)
+    category: Consulting
+    adapter: workday
+    url: https://pwc.wd3.myworkdayjobs.com/en-US/Global_Campus_Careers
+    options: {host: pwc.wd3.myworkdayjobs.com, tenant: pwc, site: Global_Campus_Careers, search_text: Hungary}
+
+  - id: kpmg-gs
+    name: KPMG Global Services Hungary
+    category: Consulting
+    adapter: html
+    url: https://kpmgglobalservices.teamtailor.com/jobs
+    default_location: Budapest
+    options: {link_pattern: "/jobs/\\d+"}
+
+  - id: accenture
+    name: Accenture
+    category: Consulting
+    adapter: browser
+    url: https://www.accenture.com/hu-en/careers/jobsearch
+    default_location: Hungary
+    options: {link_pattern: "jobdetails"}
+
+  # ---------------- Finance ----------------
+  - id: morgan-stanley
+    name: Morgan Stanley
+    category: Finance
+    adapter: browser
+    url: https://www.morganstanley.com/careers/career-opportunities-search
+    options: {link_pattern: "job"}
+    notes: Replace url with a Budapest-filtered search URL from your browser. Campus programmes are on morganstanley.tal.net
+
+  - id: blackrock
+    name: BlackRock
+    category: Finance
+    adapter: html
+    url: https://careers.blackrock.com/location/budapest-jobs/45831/719819-3054638/3
+    default_location: Budapest
+    options: {link_pattern: "/job/"}
+
+  - id: citi
+    name: Citi
+    category: Finance
+    adapter: html
+    url: https://jobs.citi.com/location/budapest-jobs/287/719819-3054638/3
+    default_location: Budapest
+    options: {link_pattern: "/job/"}
+
+  - id: citi-early
+    name: Citi (early careers)
+    category: Finance
+    adapter: html
+    url: https://jobs.citi.com/BudapestEarlyCareer
+    default_location: Budapest
+    options: {link_pattern: "/job/"}
+
+  - id: otp
+    name: OTP Bank
+    category: Finance
+    adapter: html
+    url: https://www.otpbank.hu/karrier/allaslehetosegek
+    default_location: Hungary
+
+  - id: mbh
+    name: MBH Bank
+    category: Finance
+    adapter: html
+    url: https://karrier.mbhbank.hu/Datacenter/Registration/JobAdvertisements/allasok
+    default_location: Hungary
+    options: {link_pattern: "JobAdvertisement"}
+
+  - id: raiffeisen
+    name: Raiffeisen Bank
+    category: Finance
+    adapter: html
+    url: https://raiffeisen.karrierportal.hu/
+    default_location: Hungary
+
+  - id: erste
+    name: Erste Bank Hungary
+    category: Finance
+    adapter: hrxml
+    url: https://karrier.erstebank.hu/job/getListXml/44
+    default_location: Hungary
+
+  - id: mnb
+    name: Magyar Nemzeti Bank
+    category: Finance
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Official job page not found yet. Add URL and enable.
+
+  # ---------------- Data / AI / Tech ----------------
+  - id: cloudera
+    name: Cloudera
+    category: Data/AI/Tech
+    adapter: browser
+    url: ""
+    enabled: false
+    notes: Careers page not found yet.
+
+  - id: epam
+    name: EPAM
+    category: Data/AI/Tech
+    adapter: browser
+    url: https://www.epam.com/careers/locations/hungary
+    default_location: Hungary
+    options: {link_pattern: "/vacancy/"}
+
+  - id: prezi
+    name: Prezi
+    category: Data/AI/Tech
+    adapter: browser
+    url: https://prezi.com/jobs/
+    default_location: Budapest
+    options: {link_pattern: "job"}
+
+  - id: goto
+    name: GoTo (LogMeIn)
+    category: Data/AI/Tech
+    adapter: browser
+    url: ""
+    enabled: false
+    notes: Careers page not found yet.
+
+  - id: ericsson
+    name: Ericsson
+    category: Data/AI/Tech
+    adapter: browser
+    url: https://www.ericsson.com/en/careers/global-locations/hungary
+    default_location: Hungary
+    options: {link_pattern: "/job/|jobs\\.ericsson"}
+
+  - id: nokia
+    name: Nokia
+    category: Data/AI/Tech
+    adapter: browser
+    url: https://careers.nokia.com/
+    options: {link_pattern: "/jobs/"}
+    notes: Global list; replace url with a Hungary-filtered search URL.
+
+  - id: formlabs
+    name: Formlabs
+    category: Data/AI/Tech
+    adapter: greenhouse
+    url: https://careers.formlabs.com/budapest/
+    options: {board_token: formlabs}
+
+  # ---------------- Energy ----------------
+  - id: mvm
+    name: MVM
+    category: Energy
+    adapter: html
+    url: https://mvm.karrierportal.hu/
+    default_location: Hungary
+
+  - id: alteo
+    name: ALTEO
+    category: Energy
+    adapter: html
+    url: https://karrier.alteo.hu/go/Szellemi/9274855/
+    default_location: Hungary
+    options: {link_pattern: "/job/"}
+    notes: Office ("szellemi") roles only. All roles - karrier.alteo.hu/go/%C3%81ll%C3%A1saink/9274655/
+
+  - id: mol
+    name: MOL Group
+    category: Energy
+    adapter: browser
+    url: https://karrier.mol.hu/en
+    default_location: Hungary
+    notes: Growww graduate programme - molgroup.taleo.net/careersection/external+growww/jobsearch.ftl
+
+  - id: eon
+    name: E.ON Hungary
+    category: Energy
+    adapter: html
+    url: https://careers.eon.com/magyarorszag/go/Hungary-Careers/3728101/
+    default_location: Hungary
+    options: {link_pattern: "/job/"}
+
+  - id: mavir
+    name: MAVIR
+    category: Energy
+    adapter: html
+    url: https://karrier.mavir.hu/allasok/
+    default_location: Hungary
+
+  - id: mekh
+    name: MEKH (energy regulator)
+    category: Energy
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Job page not found yet.
+
+  # ---------------- Hungarian government ----------------
+  - id: ksh
+    name: KSH (Central Statistical Office)
+    category: Hungarian government
+    adapter: html
+    url: https://www.ksh.hu/docs/hun/allas/
+    default_location: Budapest
+    options: {link_pattern: "\\.pdf$"}
+    notes: Job notices are PDFs; titles may be file names. Check the first run.
+
+  - id: naih
+    name: NAIH (data protection authority)
+    category: Hungarian government
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Notices are PDFs under naih.hu/files/; listing page not found yet.
+
+  - id: gvh
+    name: GVH (competition authority)
+    category: Hungarian government
+    adapter: html
+    url: https://www.gvh.hu/karrier/allaspalyazatok
+    default_location: Budapest
+    options: {link_pattern: "palyazat|pfile"}
+
+  - id: kozigallas
+    name: Közigállás (public administration jobs, incl. ministries)
+    category: Hungarian government
+    adapter: browser
+    url: ""
+    enabled: false
+    notes: Official portal URL not confirmed yet (likely kozigallas.gov.hu). Covers ministries incl. KKM.
+
+  # ---------------- Policy & research ----------------
+  - id: gti
+    name: Government Transparency Institute
+    category: Policy & research
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Careers page not found yet.
+
+  - id: budapest-institute
+    name: Budapest Institute for Policy Analysis
+    category: Policy & research
+    adapter: html
+    url: https://budapestinstitute.eu/index.php/news/en
+    default_location: Budapest
+    options: {link_pattern: "news|hirek", same_domain: true}
+    notes: Jobs are posted as news items; the role filter separates them from other news.
+
+  - id: hetfa
+    name: HÉTFA Research Institute
+    category: Policy & research
+    adapter: html
+    url: https://hetfa.hu/category/karrier/
+    default_location: Budapest
+    options: {link_pattern: "hetfa\\.hu/(?!category)[^/]+/?$", same_domain: true}
+
+  - id: krtk
+    name: KRTK (Centre for Economic & Regional Studies)
+    category: Policy & research
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Job page not found yet.
+
+  # ---------------- EU & international ----------------
+  - id: epso
+    name: EU institutions & agencies (EPSO)
+    category: EU & international
+    adapter: html
+    url: https://eu-careers.europa.eu/en/job-opportunities/open-vacancies
+    default_location: EU
+    options: {link_pattern: "/job-opportunities/[^/]+/[^/]+"}
+    notes: Covers the European Commission, EEAS and EU agencies incl. CEPOL (Budapest).
+
+  - id: jrc
+    name: European Commission – JRC
+    category: EU & international
+    adapter: html
+    url: https://joint-research-centre.ec.europa.eu/jobs-jrc_en
+    default_location: EU
+
+  - id: ecb
+    name: ECB
+    category: EU & international
+    adapter: html
+    url: https://talent.ecb.europa.eu/careers/SearchJobs/Students%20and%20graduates
+    default_location: EU
+    options: {link_pattern: "/JobDetail/"}
+
+  - id: eib
+    name: EIB
+    category: EU & international
+    adapter: html
+    url: https://www.eib.org/en/about/jobs/index.htm
+    default_location: EU
+
+  - id: eurostat
+    name: Eurostat
+    category: EU & international
+    adapter: html
+    url: https://ec.europa.eu/eurostat/about-us/job-opportunities
+    default_location: EU
+
+  - id: oecd
+    name: OECD
+    category: EU & international
+    adapter: html
+    url: https://www.oecd.org/careers/
+    default_location: International
+
+  - id: worldbank
+    name: World Bank
+    category: EU & international
+    adapter: html
+    url: https://www.worldbank.org/en/about/careers
+    default_location: International
+
+  - id: eit
+    name: EIT (Budapest)
+    category: EU & international
+    adapter: html
+    url: https://eit.europa.eu/work-with-us/careers/vacancies
+    default_location: Budapest
+
+  # ---------------- International relations ----------------
+  - id: hiia
+    name: Hungarian Institute of International Affairs
+    category: International relations
+    adapter: html
+    url: https://hiia.hu/en/
+    default_location: Budapest
+    options: {link_pattern: "call|program|vacanc|job|fellow", same_domain: true}
+
+  - id: political-capital
+    name: Political Capital
+    category: International relations
+    adapter: html
+    url: https://politicalcapital.hu/hireink.php
+    default_location: Budapest
+    options: {link_pattern: "article_read"}
+    notes: Jobs are posted as news items; the role filter separates them.
+
+  - id: nato
+    name: NATO
+    category: International relations
+    adapter: browser
+    url: https://nato.referrals.selectminds.com/
+    default_location: International
+    options: {link_pattern: "/jobs/"}
+
+  - id: osce
+    name: OSCE
+    category: International relations
+    adapter: html
+    url: https://jobs.osce.org/
+    default_location: International
+
+  - id: fao
+    name: FAO (incl. Budapest regional office)
+    category: International relations
+    adapter: html
+    url: https://fao.impactpool.org/
+    default_location: International
+    options: {link_pattern: "/jobs/\\d+"}
+
+  - id: unhcr
+    name: UNHCR Global Service Centre (Budapest)
+    category: International relations
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Roles appear on impactpool.org / UN Talent; add a Budapest-filtered URL.
+
+  - id: uk-embassy
+    name: British Embassy Budapest
+    category: International relations
+    adapter: html
+    url: https://www.gov.uk/government/world/organisations/british-embassy-budapest/about/recruitment
+    default_location: Budapest
+
+  - id: european-parliament
+    name: European Parliament (Schuman traineeships)
+    category: International relations
+    adapter: html
+    url: ""
+    enabled: false
+    notes: Add the official traineeships page URL.
+
+  - id: eurasia-group
+    name: Eurasia Group
+    category: International relations
+    adapter: html
+    url: https://www.eurasiagroup.net/careers
+    default_location: International
+    options: {link_pattern: "/careers/.+|rippling"}

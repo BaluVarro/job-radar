@@ -1,0 +1,75 @@
+# Which postings count as relevant. Every posting is stored either way;
+# this only decides what the viewer shows by default (it has a "show all" switch).
+# Entries are case-insensitive regular expressions matched against the job title.
+
+include_roles:
+  # analyst / consulting
+  - analy
+  - consult
+  - associate
+  - strategy
+  - research
+  # data / AI
+  - "\\bdata\\b"
+  - "\\bai\\b"
+  - artificial intelligence
+  - machine learning
+  - "\\bml\\b"
+  - automation
+  - "\\bnlp\\b"
+  # policy / economics / governance / international relations
+  - policy
+  - economi
+  - governance
+  - compliance
+  - diplomat
+  - political
+  - international
+  - fellow
+  # entry level
+  - intern
+  - trainee
+  - graduate
+  - junior
+  - entry
+  - "growww"
+  - "future leaders"
+  # Hungarian
+  - elemző
+  - "\\badat"
+  - közgazdász
+  - kutató
+  - tanácsadó
+  - gyakornok
+  - pályakezdő
+  - gazdaságpolitik
+  - szakpolitik
+
+exclude_roles:
+  - senior
+  - "\\bsr\\.?\\b"
+  - "\\blead\\b"
+  - principal
+  - director
+  - head of
+  - manager
+  - partner
+  - vice president
+  - "\\bvp\\b"
+  - vezető
+  - igazgató
+  - driver
+  - technician
+  - sofőr
+  - villanyszerelő
+
+# A posting matches if its location (or URL/title) mentions one of these.
+locations:
+  - budapest
+  - hungary
+  - magyarország
+  - remote
+  - "\\beu\\b"
+  - europe
+  - emea
+  - international

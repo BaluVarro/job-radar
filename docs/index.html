@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --surface: #ffffff; --text: #1d1d1b; --muted: #6b6b66;
+    --border: #e3e2dd; --accent: #1f5fbf; --new: #1a7f4b; --new-bg: #e4f4ea;
+    --warn: #9a5b00; --warn-bg: #fbf0dc; --err: #b42318; --err-bg: #fbe9e7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161615; --surface: #1f1f1e; --text: #ecebe6; --muted: #a09f99;
+      --border: #33332f; --accent: #7aa7ff; --new: #6fd39b; --new-bg: #173325;
+      --warn: #f0b45a; --warn-bg: #3a2c12; --err: #ff8a7a; --err-bg: #3b1d19;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: 13px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  input[type=search], select { font: inherit; padding: 8px 10px; border: 1px solid var(--border);
+         border-radius: 8px; background: var(--surface); color: var(--text); }
+  input[type=search] { flex: 1 1 220px; min-width: 0; }
+  label.toggle { display: inline-flex; align-items: center; gap: 6px; padding: 8px 10px;
+         border: 1px solid var(--border); border-radius: 8px; background: var(--surface);
+         cursor: pointer; user-select: none; font-size: 14px; }
+  .count { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+  ul.jobs { list-style: none; margin: 0; padding: 0; border: 1px solid var(--border);
+         border-radius: 10px; background: var(--surface); overflow: hidden; }
+  ul.jobs li { padding: 12px 14px; border-top: 1px solid var(--border); }
+  ul.jobs li:first-child { border-top: 0; }
+  .title { font-weight: 600; color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+  .title:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 6px;
+         border-radius: 999px; margin-left: 6px; vertical-align: 2px; }
+  .badge.new { color: var(--new); background: var(--new-bg); }
+  .empty { padding: 24px; text-align: center; color: var(--muted); }
+  details { margin-top: 28px; }
+  summary { cursor: pointer; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .table-wrap { overflow-x: auto; }
+  .st { font-weight: 700; padding: 1px 6px; border-radius: 6px; font-size: 12px; }
+  .st.ok { color: var(--new); background: var(--new-bg); }
+  .st.warn { color: var(--warn); background: var(--warn-bg); }
+  .st.error { color: var(--err); background: var(--err-bg); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Job Radar</h1>
+  <p class="sub" id="sub">Loading…</p>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title or company" aria-label="Search">
+    <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+    <label class="toggle"><input type="checkbox" id="onlyNew"> New today</label>
+    <label class="toggle"><input type="checkbox" id="showAll"> Show non-matching</label>
+  </div>
+  <p class="count" id="count"></p>
+  <ul class="jobs" id="jobs"></ul>
+
+  <details id="health">
+    <summary>Source health</summary>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Company</th><th>Status</th><th>Jobs</th><th>New</th><th>Issue</th></tr></thead>
+      <tbody id="healthRows"></tbody>
+    </table></div>
+  </details>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let jobs = [];
+
+function store(key, val) {
+  try { if (val === undefined) return localStorage.getItem(key); localStorage.setItem(key, val); }
+  catch (e) { return null; }
+}
+
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  const cat = $("cat").value, onlyNew = $("onlyNew").checked, showAll = $("showAll").checked;
+  const rows = jobs.filter(j =>
+    (showAll || j.match) && (!onlyNew || j.is_new) && (!cat || j.category === cat) &&
+    (!q || (j.title + " " + j.company).toLowerCase().includes(q)));
+  $("count").textContent = `${rows.length} posting${rows.length === 1 ? "" : "s"}`;
+  const list = $("jobs");
+  list.innerHTML = "";
+  if (!rows.length) { list.innerHTML = '<li class="empty">No postings match these filters.</li>'; return; }
+  for (const j of rows) {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.className = "title"; a.href = j.url; a.target = "_blank"; a.rel = "noopener";
+    a.textContent = j.title;
+    li.appendChild(a);
+    if (j.is_new) { const b = document.createElement("span"); b.className = "badge new"; b.textContent = "NEW"; li.appendChild(b); }
+    const m = document.createElement("div");
+    m.className = "meta";
+    m.textContent = [j.company, j.location, "first seen " + j.first_seen].filter(Boolean).join(" · ");
+    li.appendChild(m);
+    list.appendChild(li);
+  }
+}
+
+async function load() {
+  try {
+    const [jr, hr] = await Promise.all([fetch("jobs.json", {cache: "no-store"}), fetch("health.json", {cache: "no-store"})]);
+    const data = await jr.json();
+    jobs = data.jobs || [];
+    const generated = new Date(data.generated);
+    $("sub").textContent = `${jobs.filter(j => j.match).length} matching of ${jobs.length} open postings · updated ${generated.toLocaleString()}`;
+    [...new Set(jobs.map(j => j.category).filter(Boolean))].sort().forEach(c => {
+      const o = document.createElement("option"); o.value = o.textContent = c; $("cat").appendChild(o);
+    });
+    if (hr.ok) {
+      const h = await hr.json();
+      const order = {error: 0, warn: 1, ok: 2};
+      h.sources.sort((a, b) => order[a.status] - order[b.status]).forEach(s => {
+        const tr = document.createElement("tr");
+        const issue = s.error || s.anomaly || "";
+        tr.innerHTML = `<td></td><td><span class="st ${s.status}">${s.status}</span></td><td>${s.n_valid}</td><td>${s.n_new}</td><td></td>`;
+        tr.children[0].textContent = s.company; tr.children[4].textContent = issue;
+        $("healthRows").appendChild(tr);
+      });
+    }
+  } catch (e) {
+    $("sub").textContent = "No data yet – run the scraper once (Actions tab → Daily job scrape → Run workflow).";
+  }
+  for (const id of ["onlyNew", "showAll"]) $(id).checked = store("jr_" + id) === "1";
+  render();
+}
+
+["q", "cat"].forEach(id => $(id).addEventListener("input", render));
+["onlyNew", "showAll"].forEach(id => $(id).addEventListener("change", () => { store("jr_" + id, $(id).checked ? "1" : "0"); render(); }));
+load();
+</script>
+</body>
+</html>
