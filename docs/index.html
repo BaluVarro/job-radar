@@ -76,6 +76,7 @@
     </select>
     <label class="toggle"><input type="checkbox" id="onlyNew"> New since last run</label>
     <label class="toggle"><input type="checkbox" id="showAll"> Show non-matching</label>
+    <label class="toggle"><input type="checkbox" id="readOnly"> Hide title-only</label>
   </div>
   <p class="count" id="count"></p>
   <ul class="jobs" id="jobs"></ul>
@@ -100,10 +101,11 @@ function store(key, val) {
 function render() {
   const q = $("q").value.trim().toLowerCase();
   const cat = $("cat").value, onlyNew = $("onlyNew").checked, showAll = $("showAll").checked;
-  const minScore = Number($("minScore").value);
+  const minScore = Number($("minScore").value), readOnly = $("readOnly").checked;
   const rows = jobs.filter(j =>
     (showAll || j.match) && (!onlyNew || j.is_new) && (!cat || j.category === cat) &&
     (j.score ?? 0) >= minScore &&
+    (!readOnly || !(j.score_reasons || []).some(r => r.includes("title only"))) &&
     (!q || (j.title + " " + j.company).toLowerCase().includes(q)))
     .sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
   $("count").textContent = `${rows.length} posting${rows.length === 1 ? "" : "s"}`;
@@ -172,14 +174,14 @@ async function load() {
     $("sub").textContent = "No data yet – run the scraper once (Actions tab → Job scrape (Mon, Wed, Fri) → Run workflow).";
   }
   if (window.JOBS_DATA) $("health").hidden = true;
-  for (const id of ["onlyNew", "showAll"]) $(id).checked = store("jr_" + id) === "1";
+  for (const id of ["onlyNew", "showAll", "readOnly"]) $(id).checked = store("jr_" + id) === "1";
   $("minScore").value = store("jr_minScore") || "0";
   render();
 }
 
 ["q", "cat"].forEach(id => $(id).addEventListener("input", render));
 $("minScore").addEventListener("change", () => { store("jr_minScore", $("minScore").value); render(); });
-["onlyNew", "showAll"].forEach(id => $(id).addEventListener("change", () => { store("jr_" + id, $(id).checked ? "1" : "0"); render(); }));
+["onlyNew", "showAll", "readOnly"].forEach(id => $(id).addEventListener("change", () => { store("jr_" + id, $(id).checked ? "1" : "0"); render(); }));
 load();
 </script>
 </body>

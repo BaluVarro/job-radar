@@ -62,6 +62,13 @@ senior_titles: "senior|\\bsr\\.?\\b|\\blead\\b|principal|head of|director|manage
 # --- Experience requirement: postings asking for more years than this lose points ---
 max_years_experience: 2
 
+# --- Experience implied without a number of years (-10 each, max -25) ---
+# Add phrases here when you spot a posting that "sounds" senior.
+experience_signals: "proven (track record|experience|ability)|track record (of|in)|extensive experience|significant experience|substantial experience|solid experience|strong experience|considerable experience|several years|multiple years|seasoned|experienced (professional|analyst|consultant|economist|researcher)|previous (work )?experience (as|in) a|demonstrated experience|hands-on experience (leading|managing)|experience (leading|managing) (a )?team|people management|line management|mid.level|többéves|több éves|jelentős tapasztalat|releváns szakmai tapasztalat"
+
+# --- Postings whose page couldn't be read are capped at this score ---
+title_only_max: 45
+
 # --- Languages you can work in (other languages marked as required lose points) ---
 languages_spoken: [hungarian, english, german]   # Spanish (A2) isn't working level yet
 bonus_languages:              # postings that ask for these get a bonus – they're your edge
@@ -77,7 +84,8 @@ locations:
 
 # --- LinkedIn search (python -m jobradar.linkedin, on your own computer only) ---
 # Each keyword is searched in each location: 6 keywords x 2 locations = 12 searches,
-# plus up to `describe_top` job pages. Hard limit: 40 requests per run.
+# plus up to `describe_top` job pages. Hard limit: 40 requests per run. Job pages already
+# read are remembered, so each run reads new ones until everything relevant is covered.
 linkedin:
   keywords:
     - data analyst
@@ -92,5 +100,5 @@ linkedin:
   experience: [internship, entry]   # internship | entry | associate
   posted_within_days: 7
   pages_per_query: 1                # 25 results per page
-  describe_top: 20                  # job pages read per run, most promising first
+  describe_top: 25                  # job pages read per run (matching, non-senior first)
   delay_seconds: 5                  # wait between requests (minimum 3)

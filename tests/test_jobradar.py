@@ -321,3 +321,38 @@ def test_run_scores_postings_and_sorts_by_score(project):
     assert isinstance(top["score_reasons"], list) and top["score_reasons"]
     assert "Top 15 open postings by score" in (project / "RUN_REPORT.md").read_text()
     assert "score" in (project / "data" / "jobs.csv").read_text().splitlines()[0]
+
+
+# --- experience that's implied rather than stated --------------------------------------
+
+def test_implied_experience_is_penalised():
+    desc = ("Data Analyst to join our Budapest team. You have a proven track record of delivering "
+            "analytics projects and extensive experience with stakeholder management. Python, SQL. "
+            "We offer a friendly team and hybrid work.")
+    s = scorer().score("Data Analyst", desc, "Budapest")
+    text = " ".join(s.reasons)
+    assert "implies experience" in text and "proven track record" in text
+    plain = scorer().score("Data Analyst", desc.replace("You have a proven track record of delivering "
+                           "analytics projects and extensive experience with stakeholder management. ", ""),
+                           "Budapest")
+    assert s.total <= plain.total - 20
+
+
+def test_written_numbers_of_years():
+    s = scorer().score("Policy Analyst", "At least five years of relevant experience required. " * 3,
+                       "Budapest")
+    assert any("5+ years experience" in r for r in s.reasons)
+    hu = scorer().score("Elemző", "Legalább három év szakmai tapasztalat szükséges. " * 5, "Budapest")
+    assert any("3 years experience" in r for r in hu.reasons)
+
+
+def test_linkedin_mid_senior_level_is_penalised():
+    desc = "Seniority level: Mid-Senior level\nEmployment type: Full-time\n" + GOOD
+    s = scorer().score("Data Governance Analyst", desc, "Budapest")
+    assert any("LinkedIn level: Mid-Senior level" in r for r in s.reasons)
+    assert s.total < scorer().score("Data Governance Analyst", GOOD, "Budapest").total - 20
+
+
+def test_title_only_score_is_capped():
+    s = scorer().score("Junior Data Governance Analyst", "", "Budapest")
+    assert s.total == 45 and any("title only" in r for r in s.reasons)

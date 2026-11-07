@@ -146,3 +146,20 @@ def test_refuses_to_run_in_ci(monkeypatch, capsys):
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     assert linkedin.main(["--no-open"]) == 0
     assert "own computer only" in capsys.readouterr().out
+
+
+def test_rescore_uses_saved_pages_without_requests(project):
+    run(project, FakeSession())
+    profile = project / "config" / "profile.yaml"
+    # Make "pandas" sound senior: the saved Acme page mentions it, so its score must drop.
+    profile.write_text(profile.read_text().replace('experience_signals: "', 'experience_signals: "pandas|', 1))
+    before = {j["title"]: j["score"] for j in _results(project)}
+    linkedin.rescore(root=project, open_browser=False)
+    after = {j["title"]: j["score"] for j in _results(project)}
+    assert after["Junior Data Governance Analyst"] < before["Junior Data Governance Analyst"]
+
+
+def _results(project):
+    page = (project / "linkedin_results.html").read_text()
+    return json.loads(page.split("window.JOBS_DATA = ", 1)[1].split(";</script>", 1)[0]
+                      .replace("<\\/", "</"))["jobs"]

@@ -55,6 +55,7 @@ python -m jobradar --preview-scores     # prints the top 25 with reasons; saves 
 ```bash
 python -m jobradar.linkedin --dry-run   # show the searches it would make
 python -m jobradar.linkedin             # search, score, open linkedin_results.html
+python -m jobradar.linkedin --rescore   # re-score saved results after editing profile.yaml
 ```
 
 Builds searches from the `linkedin:` section of `config/profile.yaml` (keywords from your CV ×

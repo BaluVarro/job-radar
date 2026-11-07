@@ -2,6 +2,8 @@
 
     python -m jobradar.linkedin            # search, score, open linkedin_results.html
     python -m jobradar.linkedin --dry-run  # only print the searches it would make
+    python -m jobradar.linkedin --rescore  # re-score saved results with your current profile,
+                                           # no requests to LinkedIn (for tuning profile.yaml)
 
 How it works
   1. Builds searches from the `linkedin:` section of config/profile.yaml
@@ -180,7 +182,7 @@ def run(root: Path = ROOT, session=None, dry_run: bool = False, open_browser: bo
     if dry_run:
         for s in searches:
             print(f"{s['label']:45}  {SEARCH_URL}?{urlencode(s['params'])}")
-        print(f"\n{len(searches)} searches (+ up to {cfg.get('describe_top', 20)} job pages), "
+        print(f"\n{len(searches)} searches (+ up to {cfg.get('describe_top', 25)} job pages), "
               f"cap {MAX_REQUESTS} requests")
         return {"searches": len(searches)}
 
@@ -219,9 +221,18 @@ def run(root: Path = ROOT, session=None, dry_run: bool = False, open_browser: bo
 
     # 2. Read the most promising postings (highest title-only score first).
     store = Store(root / "data" / "linkedin.db")
-    ranked = sorted(jobs.values(), key=lambda j: -scorer.score(j.title, "", j.location, j.url).total)
-    describe_top = int(cfg.get("describe_top", 20))
-    for job in [j for j in ranked if store.needs_description(j.uid)][:describe_top]:
+    # Only postings worth reading: they pass your filters and aren't senior / excluded fields
+    # by title. Best title-only score first. Pages read in earlier runs are skipped.
+    def title_score(j):
+        return scorer.score(j.title, "", j.location, j.url).total
+    worth_reading = [j for j in jobs.values()
+                     if filters.matches(j) and title_score(j) > 0 and store.needs_description(j.uid)]
+    worth_reading.sort(key=lambda j: -title_score(j))
+    describe_top = int(cfg.get("describe_top", 25))
+    log.info("%d postings worth reading, %d not read yet; reading up to %d this run",
+             len([j for j in jobs.values() if filters.matches(j) and title_score(j) > 0]),
+             len(worth_reading), describe_top)
+    for job in worth_reading[:describe_top]:
         if stopped or capped:
             break
         job_id = urlsplit(job.url).path.rstrip("/").split("/")[-1]
@@ -277,6 +288,38 @@ def run(root: Path = ROOT, session=None, dry_run: bool = False, open_browser: bo
     return summary
 
 
+def rescore(root: Path = ROOT, open_browser: bool = True) -> dict:
+    """Re-score the postings saved by the last run with the current profile.yaml.
+    Sends nothing to LinkedIn."""
+    profile = yaml.safe_load((root / "config" / "profile.yaml").read_text(encoding="utf-8"))
+    scorer = Scorer(profile)
+    store = Store(root / "data" / "linkedin.db")
+    active = store.active_jobs()
+    texts = store.descriptions([j["uid"] for j in active])
+    on_site = careers_page_keys(root)
+    for j in active:
+        result = scorer.score(j["title"], texts.get(j["uid"], ""), j["location"] or "", j["url"])
+        reasons = list(result.reasons)
+        if (_norm(j["company"]), _norm(j["title"])) in on_site:
+            reasons.append("+ also on the company's own careers page")
+        store.set_score(j["uid"], result.total, json.dumps(reasons, ensure_ascii=False))
+    store.db.commit()
+    results = store.active_jobs()
+    for j in results:
+        j["is_new"] = False
+        j["score_reasons"] = json.loads(j["score_reasons"] or "[]")
+    store.close()
+    summary = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+               "searches": 0, "requests": 0, "postings": len(results), "new": 0,
+               "stopped": None, "capped": False}
+    out = write_results_page(root, results, summary)
+    print_top(results)
+    print(f"\nRe-scored {len(results)} saved postings (no LinkedIn requests) → {out}")
+    if open_browser:
+        webbrowser.open(out.resolve().as_uri())
+    return summary
+
+
 def print_top(results: list[dict], top: int = 15) -> None:
     for j in sorted(results, key=lambda j: -(j["score"] or 0))[:top]:
         new = " NEW" if j["is_new"] else ""
@@ -301,6 +344,8 @@ def write_results_page(root: Path, results: list[dict], summary: dict) -> Path:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Profile-driven LinkedIn job search (local use).")
     parser.add_argument("--dry-run", action="store_true", help="only print the searches")
+    parser.add_argument("--rescore", action="store_true",
+                        help="re-score saved results with the current profile (no requests)")
     parser.add_argument("--no-open", action="store_true", help="don't open the results page")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
@@ -309,7 +354,10 @@ def main(argv: list[str] | None = None) -> int:
     if os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("CI") == "true":
         print("The LinkedIn search is for your own computer only – it doesn't run in CI.")
         return 0
-    run(dry_run=args.dry_run, open_browser=not args.no_open)
+    if args.rescore:
+        rescore(open_browser=not args.no_open)
+    else:
+        run(dry_run=args.dry_run, open_browser=not args.no_open)
     return 0
 
 

@@ -4,13 +4,15 @@ The score is a sum of transparent parts, so you can always see why a job ranked 
 
   title       0..30   best-matching target job title
   skills      0..35   your skills mentioned in the title/description (weights add up)
-  level     -60..+10  entry-level wording (+), senior title or too many years required (-)
+  level     -110..+10 entry-level wording (+); senior title, years required, LinkedIn
+                      seniority, or implied experience ("proven track record") (-)
   location    0..10   Budapest/Hungary or remote/EU
   languages -30..+6   other languages marked as required (-), your bonus languages (+)
   avoid     -40       a field you excluded (tax, audit, ...) in the title
 
 Descriptions are fetched once per posting (see fetch_description) and cached in the database.
-Postings whose page couldn't be read are scored from the title only, and say so.
+Postings whose page couldn't be read are scored from the title only, say so, and are capped
+(title_only_max in profile.yaml) so they can't outrank postings that were checked properly.
 """
 
 from __future__ import annotations
@@ -41,6 +43,20 @@ REQUIRED_WORDS = re.compile(
     r"kiváló|anyanyelv|tárgyalóképes|felsőfok|elvárás|szükséges", re.IGNORECASE)
 OPTIONAL_WORDS = re.compile(r"advantage|asset|plus|nice to have|előny", re.IGNORECASE)
 
+# "three years", "öt év" -> "3 years", "5 év" so the years pattern catches written numbers too.
+NUMBER_WORDS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8,
+    "nine": 9, "ten": 10, "egy": 1, "két": 2, "kettő": 2, "három": 3, "négy": 4, "öt": 5,
+    "hat": 6, "hét": 7, "nyolc": 8, "kilenc": 9, "tíz": 10,
+}
+NUMBER_WORD_RE = re.compile(
+    r"\b(" + "|".join(NUMBER_WORDS) + r")\b(?=\s*\+?\s*(?:\(\d+\)\s*)?(?:or more\s*)?(?:years?|yrs?|év))",
+    re.IGNORECASE)
+
+# LinkedIn's own "Seniority level" field (added to the description by the LinkedIn search).
+LINKEDIN_SENIORITY_RE = re.compile(r"Seniority level:\s*(Mid-Senior level|Director|Executive)",
+                                   re.IGNORECASE)
+
 YEARS_RE = re.compile(
     r"(?:at least|minimum|min\.?|legalább)?\s*(\d{1,2})\s*\+?\s*(?:-|–|to)?\s*\d{0,2}\s*\+?\s*"
     r"(?:years?|yrs?|év)(?:[^.\n]{0,40}?)(?:experience|tapasztalat|szakmai)", re.IGNORECASE)
@@ -66,6 +82,9 @@ class Scorer:
         self.avoid = re.compile(profile.get("avoid_titles") or r"(?!)", re.IGNORECASE)
         self.senior = re.compile(profile.get("senior_titles") or r"(?!)", re.IGNORECASE)
         self.max_years = int(profile.get("max_years_experience", 2))
+        self.experience_signals = re.compile(profile.get("experience_signals") or r"(?!)",
+                                             re.IGNORECASE)
+        self.title_only_max = int(profile.get("title_only_max", 45))
         spoken = {s.lower() for s in profile.get("languages_spoken") or []}
         self.other_languages = {name: re.compile(rf"\b(?:{pat})", re.IGNORECASE)
                                 for name, pat in OTHER_LANGUAGES.items()
@@ -101,7 +120,9 @@ class Scorer:
         elif self.entry.search(description):
             level += 6
             plus.append("entry-level (in description)")
-        years = [int(m.group(1)) for m in YEARS_RE.finditer(description)]
+        normalized = NUMBER_WORD_RE.sub(lambda m: str(NUMBER_WORDS[m.group(1).lower()]),
+                                        description)
+        years = [int(m.group(1)) for m in YEARS_RE.finditer(normalized)]
         years = [y for y in years if 0 < y < 30]
         if years:
             required = max(years)
@@ -111,6 +132,21 @@ class Scorer:
             elif required > self.max_years:
                 level -= 15
                 minus.append(f"{required} years experience")
+        # LinkedIn's own seniority field.
+        seniority = LINKEDIN_SENIORITY_RE.search(description)
+        if seniority:
+            level -= 25
+            minus.append(f"LinkedIn level: {seniority.group(1)}")
+        # Experience implied without a number ("proven track record", "extensive experience").
+        implied = []
+        for m in self.experience_signals.finditer(description):
+            phrase = " ".join(m.group(0).lower().split())
+            if phrase not in implied:
+                implied.append(phrase)
+        if implied:
+            level -= min(10 * len(implied), 25)
+            shown = ", ".join(f"'{p}'" for p in implied[:2])
+            minus.append(f"implies experience: {shown}" + (f" +{len(implied) - 2}" if len(implied) > 2 else ""))
         parts["level"] = level
 
         # Location: best match in location text, URL or title.
@@ -141,10 +177,13 @@ class Scorer:
         if parts["avoid"]:
             minus.append("field you excluded")
 
-        if not description:
-            minus.append("title only (page not read)")
-
         total = max(0, min(100, sum(parts.values())))
+        if not description:
+            # Unverified: without the description we can't see experience or language
+            # requirements, so title-only postings can't outrank ones that were read.
+            if total > self.title_only_max:
+                total = self.title_only_max
+            minus.append("title only (page not read)")
         return Score(total=total, reasons=[f"+ {r}" for r in plus] + [f"− {r}" for r in minus],
                      parts=parts)
 
