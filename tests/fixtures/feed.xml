@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JobList xmlns="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9">
+ <PositionOpening>
+  <PositionProfile><PositionTitle>Junior adatelemző</PositionTitle>
+   <PositionLocation><Address><CityName>Budapest</CityName><CountryCode>HU</CountryCode></Address></PositionLocation>
+  </PositionProfile>
+  <PostingInstruction><FreeFormPeriod><StartDate><FormattedDateTime>2026-11-02</FormattedDateTime></StartDate></FreeFormPeriod></PostingInstruction>
+  <UserArea><Link>https://karrier.erstebank.hu/allas/8101</Link></UserArea>
+ </PositionOpening>
+ <PositionOpening>
+  <PositionProfile><PositionTitle>Erste Mobilbankár - Tolna megye</PositionTitle></PositionProfile>
+  <UserArea><Link>https://karrier.erstebank.hu/allas/8102</Link></UserArea>
+ </PositionOpening>
+</JobList>

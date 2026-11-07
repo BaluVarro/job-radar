@@ -1,15 +1,22 @@
-name: Daily job scrape
+name: Job scrape (Mon, Wed, Fri)
 
 on:
   schedule:
-    - cron: "17 5 * * 1,3,5,6"     # every Monday, Wednesday, Friday, Saturday  05:17 UTC (06:17 Budapest in winter)
+    # minute hour day-of-month month day-of-week (1 = Monday, 3 = Wednesday, 5 = Friday)
+    # 05:17 UTC = 06:17 Budapest in winter, 07:17 in summer
+    - cron: "17 5 * * 1,3,5"
   workflow_dispatch:          # lets you run it by hand from the Actions tab
+    inputs:
+      reset:
+        description: "Optional: company ids to wipe and re-scrape, comma-separated (e.g. political-capital)"
+        required: false
+        default: ""
 
 permissions:
   contents: write            # needed to commit the updated data back to the repo
 
 concurrency:
-  group: daily-scrape
+  group: job-scrape
   cancel-in-progress: false
 
 jobs:
@@ -30,7 +37,14 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Scrape career pages
-        run: python -m jobradar
+        env:
+          RESET: ${{ github.event.inputs.reset }}
+        run: |
+          if [ -n "$RESET" ]; then
+            python -m jobradar --reset "$RESET"
+          else
+            python -m jobradar
+          fi
 
       - name: Commit results
         if: always()
@@ -40,10 +54,21 @@ jobs:
           git add data docs/jobs.json docs/health.json logs RUN_REPORT.md
           if git diff --staged --quiet; then
             echo "No changes"
-          else
-            git commit -m "Daily scrape $(date -u +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "Job scrape $(date -u +%F)"
+          # If you pushed code while the scrape was running, a plain push is rejected.
+          # Fetch your new commits first, put the results on top, then push (3 tries).
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Results saved."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed, retrying..."
+            sleep 10
+          done
+          echo "::error::Could not save the results to the repository."
+          exit 1
 
       - name: Show summary
         if: always()
