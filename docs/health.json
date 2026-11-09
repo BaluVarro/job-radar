@@ -1,16 +1,16 @@
 {
  "run": {
-  "run_id": "2026-11-09T085805Z",
-  "started": "2026-11-09T08:58:05+00:00",
-  "finished": "2026-11-09T09:01:00+00:00",
+  "run_id": "2026-11-09T135314Z",
+  "started": "2026-11-09T13:53:14+00:00",
+  "finished": "2026-11-09T13:56:04+00:00",
   "n_sources": 43,
   "n_ok": 40,
   "n_warn": 0,
   "n_failed": 3,
-  "n_new": 8,
-  "n_new_matching": 1,
-  "n_closed": 6,
-  "n_described": 60,
+  "n_new": 7,
+  "n_new_matching": 0,
+  "n_closed": 7,
+  "n_described": 52,
   "n_scored": 468
  },
  "sources": [
@@ -22,7 +22,7 @@
    "n_valid": 3,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 20.3,
+   "duration_s": 20.4,
    "error": null,
    "anomaly": null,
    "config_hash": "0f6906d94c18"
@@ -35,7 +35,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.2,
+   "duration_s": 3.1,
    "error": null,
    "anomaly": null,
    "config_hash": "be6d492392d4"
@@ -47,8 +47,8 @@
    "n_found": 10,
    "n_valid": 10,
    "n_invalid": 0,
-   "n_new": 0,
-   "duration_s": 2.3,
+   "n_new": 1,
+   "duration_s": 2.5,
    "error": null,
    "anomaly": null,
    "config_hash": "1e0545149e08"
@@ -60,8 +60,8 @@
    "n_found": 25,
    "n_valid": 25,
    "n_invalid": 0,
-   "n_new": 5,
-   "duration_s": 2.0,
+   "n_new": 2,
+   "duration_s": 1.6,
    "error": null,
    "anomaly": null,
    "config_hash": "75cbd942b106"
@@ -74,7 +74,7 @@
    "n_valid": 10,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 8.0,
+   "duration_s": 6.4,
    "error": null,
    "anomaly": null,
    "config_hash": "ed87ed5ff0f7"
@@ -87,7 +87,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.2,
+   "duration_s": 1.0,
    "error": null,
    "anomaly": null,
    "config_hash": "731d37f850f9"
@@ -96,11 +96,11 @@
    "company_id": "kpmg-gs",
    "company": "KPMG Global Services Hungary",
    "status": "ok",
-   "n_found": 8,
-   "n_valid": 8,
+   "n_found": 7,
+   "n_valid": 7,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.7,
+   "duration_s": 1.6,
    "error": null,
    "anomaly": null,
    "config_hash": "29d16365236e"
@@ -112,8 +112,8 @@
    "n_found": 12,
    "n_valid": 12,
    "n_invalid": 0,
-   "n_new": 1,
-   "duration_s": 7.3,
+   "n_new": 0,
+   "duration_s": 6.3,
    "error": null,
    "anomaly": null,
    "config_hash": "cb0e778ed951"
@@ -126,7 +126,7 @@
    "n_valid": 5,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 0.9,
+   "duration_s": 0.7,
    "error": null,
    "anomaly": null,
    "config_hash": "affae9b871c1"
@@ -139,7 +139,7 @@
    "n_valid": 15,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.9,
+   "duration_s": 1.6,
    "error": null,
    "anomaly": null,
    "config_hash": "f108f2d38e1f"
@@ -152,7 +152,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.9,
+   "duration_s": 3.5,
    "error": null,
    "anomaly": null,
    "config_hash": "0467917d325a"
@@ -165,7 +165,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.6,
+   "duration_s": 1.3,
    "error": null,
    "anomaly": null,
    "config_hash": "4ed48c46f66a"
@@ -187,11 +187,11 @@
    "company_id": "erste",
    "company": "Erste Bank Hungary",
    "status": "ok",
-   "n_found": 67,
-   "n_valid": 67,
+   "n_found": 68,
+   "n_valid": 68,
    "n_invalid": 0,
-   "n_new": 1,
-   "duration_s": 2.8,
+   "n_new": 2,
+   "duration_s": 2.5,
    "error": null,
    "anomaly": null,
    "config_hash": "3a73d61daa2e"
@@ -217,7 +217,7 @@
    "n_valid": 7,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 5.1,
+   "duration_s": 4.1,
    "error": null,
    "anomaly": null,
    "config_hash": "884cd5337b1d"
@@ -243,7 +243,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 8.5,
+   "duration_s": 8.6,
    "error": null,
    "anomaly": null,
    "config_hash": "e99528d79f33"
@@ -255,8 +255,8 @@
    "n_found": 238,
    "n_valid": 238,
    "n_invalid": 0,
-   "n_new": 1,
-   "duration_s": 0.1,
+   "n_new": 2,
+   "duration_s": 0.3,
    "error": null,
    "anomaly": null,
    "config_hash": "77690e5b2661"
@@ -269,7 +269,7 @@
    "n_valid": 1,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.6,
+   "duration_s": 3.3,
    "error": null,
    "anomaly": null,
    "config_hash": "e1e5c4aad7f6"
@@ -282,7 +282,7 @@
    "n_valid": 6,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.3,
+   "duration_s": 2.1,
    "error": null,
    "anomaly": null,
    "config_hash": "9d2d96fdd7ae"
@@ -295,7 +295,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 19.0,
+   "duration_s": 19.5,
    "error": null,
    "anomaly": null,
    "config_hash": "7fb20ced8d45"
@@ -321,7 +321,7 @@
    "n_valid": 2,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.6,
+   "duration_s": 3.1,
    "error": null,
    "anomaly": null,
    "config_hash": "c762006307aa"
@@ -334,7 +334,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.3,
+   "duration_s": 2.6,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.ksh.hu/docs/hun/allas/",
    "anomaly": null,
    "config_hash": "3bff65712a4c"
@@ -347,7 +347,7 @@
    "n_valid": 24,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.8,
+   "duration_s": 1.9,
    "error": null,
    "anomaly": null,
    "config_hash": "5406697d32fb"
@@ -360,7 +360,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.0,
+   "duration_s": 2.9,
    "error": null,
    "anomaly": null,
    "config_hash": "1d0d4ccb064a"
@@ -373,7 +373,7 @@
    "n_valid": 15,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 2.9,
+   "duration_s": 1.6,
    "error": null,
    "anomaly": null,
    "config_hash": "7fd2ca84134f"
@@ -399,7 +399,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.2,
+   "duration_s": 1.8,
    "error": null,
    "anomaly": null,
    "config_hash": "5074a7b8430b"
@@ -412,7 +412,7 @@
    "n_valid": 4,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.2,
+   "duration_s": 2.9,
    "error": null,
    "anomaly": null,
    "config_hash": "1b837d5017b2"
@@ -425,7 +425,7 @@
    "n_valid": 1,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.2,
+   "duration_s": 1.3,
    "error": null,
    "anomaly": null,
    "config_hash": "5ceeab6ab2a8"
@@ -438,7 +438,7 @@
    "n_valid": 3,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.1,
+   "duration_s": 1.8,
    "error": null,
    "anomaly": null,
    "config_hash": "9253c5db1f79"
@@ -451,7 +451,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 0.1,
+   "duration_s": 1.4,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oecd.org/careers/",
    "anomaly": null,
    "config_hash": "160fb15952bf"
@@ -477,7 +477,7 @@
    "n_valid": 4,
    "n_invalid": 1,
    "n_new": 0,
-   "duration_s": 3.5,
+   "duration_s": 3.1,
    "error": null,
    "anomaly": null,
    "config_hash": "356ea4ea0385"
@@ -490,7 +490,7 @@
    "n_valid": 1,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.3,
+   "duration_s": 3.4,
    "error": null,
    "anomaly": null,
    "config_hash": "f0f5ccd5c2e6"
@@ -503,7 +503,7 @@
    "n_valid": 2,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.5,
+   "duration_s": 1.1,
    "error": null,
    "anomaly": null,
    "config_hash": "ac7a2c5c654c"
@@ -516,7 +516,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 3.2,
+   "duration_s": 3.1,
    "error": null,
    "anomaly": null,
    "config_hash": "c850974209c3"
@@ -529,7 +529,7 @@
    "n_valid": 2,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.4,
+   "duration_s": 1.5,
    "error": null,
    "anomaly": null,
    "config_hash": "95780936c46c"
@@ -555,7 +555,7 @@
    "n_valid": 0,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.8,
+   "duration_s": 2.5,
    "error": null,
    "anomaly": null,
    "config_hash": "70d0ffa4bc18"
@@ -568,7 +568,7 @@
    "n_valid": 2,
    "n_invalid": 0,
    "n_new": 0,
-   "duration_s": 1.8,
+   "duration_s": 1.1,
    "error": null,
    "anomaly": null,
    "config_hash": "5ea109b37fb9"

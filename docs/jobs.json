@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09T09:01:00+00:00",
- "run_id": "2026-11-09T085805Z",
+ "generated": "2026-11-09T13:56:04+00:00",
+ "run_id": "2026-11-09T135314Z",
  "jobs": [
   {
    "uid": "3ad5d7a6e95e5d2a",
@@ -532,6 +532,31 @@
    "is_new": false
   },
   {
+   "uid": "d4b1bcc8c5862b72",
+   "company_id": "ecb",
+   "company": "ECB",
+   "category": "EU & international",
+   "title": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy",
+   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Monetary-Analysis-Division-in-the-Directorate-General-Monetary-Policy/15446",
+   "location": "EU",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 37,
+   "score_reasons": [
+    "+ title: policy",
+    "+ skills: Python, NLP, machine learning, statistics +9",
+    "+ remote / EU-wide",
+    "+ German valued",
+    "− senior title",
+    "− implies experience: 'experienced economist'"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "44e46d46918eef9f",
    "company_id": "formlabs",
    "company": "Formlabs",
@@ -762,28 +787,6 @@
    "is_new": false
   },
   {
-   "uid": "0b1511ae32e94415",
-   "company_id": "deloitte",
-   "company": "Deloitte",
-   "category": "Consulting",
-   "title": "Junior Application Analyst",
-   "url": "https://apply.deloittece.com/en_US/careers/JobDetail/Junior-Application-Analyst/21017",
-   "location": "",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 31,
-   "score_reasons": [
-    "+ title: analyst",
-    "+ skills: economics",
-    "+ entry-level"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "bec520bc495abbe7",
    "company_id": "gvh",
    "company": "GVH (competition authority)",
@@ -803,6 +806,52 @@
     "+ skills: data governance",
     "+ Budapest / Hungary",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "2aede99b097b1908",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Sajtó",
+   "url": "https://hetfa.hu/sajtomegjeleneseink/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 30,
+   "score_reasons": [
+    "+ skills: economics, EU affairs, research",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "49815b450e264be6",
+   "company_id": "kpmg-gs",
+   "company": "KPMG Global Services Hungary",
+   "category": "Consulting",
+   "title": "Talent Pool for VAT Professionals VAT Core Delivery (Clusters) · Budapest · Hybrid",
+   "url": "https://kpmgglobalservices.teamtailor.com/jobs/3699473-talent-pool-for-vat-professionals",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 29,
+   "score_reasons": [
+    "+ skills: automation, Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued"
    ],
    "is_new": false
   },
@@ -1029,6 +1078,50 @@
    "is_new": false
   },
   {
+   "uid": "00afa8c7ddc311b3",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Bejegyzések hírcsatorna",
+   "url": "https://hetfa.hu/feed/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 27,
+   "score_reasons": [
+    "+ skills: policy analysis, EU affairs, research, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "0aa5ac079af62ab5",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Referenciáink",
+   "url": "https://hetfa.hu/referenciaink/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 27,
+   "score_reasons": [
+    "+ skills: policy analysis, EU affairs, data visualisation, research",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "ffe462a52899b248",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
@@ -1050,7 +1143,7 @@
     "+ Budapest / Hungary",
     "− implies experience: 'releváns szakmai tapasztalat'"
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "b7f46caf31de9876",
@@ -1166,6 +1259,27 @@
    "is_new": false
   },
   {
+   "uid": "8c9e44daff1b70ab",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Rólunk",
+   "url": "https://hetfa.hu/rolunk/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 25,
+   "score_reasons": [
+    "+ skills: policy analysis, economics, EU affairs, international relations +1",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "e8f0a40ba582dfe9",
    "company_id": "gvh",
    "company": "GVH (competition authority)",
@@ -1271,6 +1385,50 @@
    "score_reasons": [
     "+ skills: Python, statistics, data visualisation, research +1",
     "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "1f0ddcf1718c9f62",
+   "company_id": "kpmg-gs",
+   "company": "KPMG Global Services Hungary",
+   "category": "Consulting",
+   "title": "Office Assistant Group Administrators · Budapest · Hybrid",
+   "url": "https://kpmgglobalservices.teamtailor.com/jobs/8477115-office-assistant",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 23,
+   "score_reasons": [
+    "+ skills: automation, Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b9dc0556d106deb6",
+   "company_id": "kpmg-gs",
+   "company": "KPMG Global Services Hungary",
+   "category": "Consulting",
+   "title": "VAT Coordinator VAT Process Coordination · Budapest · Hybrid",
+   "url": "https://kpmgglobalservices.teamtailor.com/jobs/8637674-vat-coordinator",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 23,
+   "score_reasons": [
+    "+ skills: automation, Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1522,30 +1680,6 @@
    "is_new": false
   },
   {
-   "uid": "66994cce2f4360ad",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Core alkalmazás üzemeltető és adatbázis kezelő munkatárs - Befektetési Zrt.",
-   "url": "https://karrier.erstebank.hu/allas/core-alkalmazas-uzemelteto-es-adatbazis-kezelo-munkatars-befektetesi-zrt-8972/44",
-   "location": "Hungary",
-   "posted": "2026-08-31",
-   "source": "hrxml",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 21,
-   "score_reasons": [
-    "+ title: data (other)",
-    "+ skills: banking / financial services, digital transformation, SQL (learning)",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary",
-    "− 3 years experience"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "869fe6db31f600c2",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
@@ -1588,6 +1722,28 @@
     "+ skills: international relations, banking / financial services",
     "+ entry-level (in description)",
     "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "3fe6ee413a545d01",
+   "company_id": "eurostat",
+   "company": "Eurostat",
+   "category": "EU & international",
+   "title": "Job opportunities",
+   "url": "https://ec.europa.eu/eurostat/about-us/job-opportunities",
+   "location": "EU",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 21,
+   "score_reasons": [
+    "+ skills: statistics, economics, EU affairs",
+    "+ entry-level (in description)",
+    "+ remote / EU-wide"
    ],
    "is_new": false
   },
@@ -1676,6 +1832,28 @@
    "score_reasons": [
     "+ skills: Python, Excel, digital transformation, SQL (learning)",
     "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "dd00eced133e0ca7",
+   "company_id": "gvh",
+   "company": "GVH (competition authority)",
+   "category": "Hungarian government",
+   "title": "Korábbi pályázati felhívások",
+   "url": "https://www.gvh.hu/gvh/versenykultura_fejlesztes/palyazati_felhivasok/korabbi_palyazati_felhivasok/jogtorteneti_kutatas_palyazati_felhivasa",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 20,
+   "score_reasons": [
+    "+ skills: Excel, research",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -1826,6 +2004,50 @@
     "+ entry-level"
    ],
    "is_new": false
+  },
+  {
+   "uid": "2171f04aaece2e37",
+   "company_id": "mvm",
+   "company": "MVM",
+   "category": "Energy",
+   "title": "Állásajánlatok",
+   "url": "https://mvm.karrierportal.hu/allasok",
+   "location": "Hungary",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: statistics",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b40bb6b16bab890a",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Telebankár - távmunkában is végezhető, teljes vagy részmunkaidős",
+   "url": "https://karrier.erstebank.hu/allas/telebankar-tavmunkaban-is-vegezheto-teljes-vagy-reszmunkaidos-9069/44",
+   "location": "Budapest",
+   "posted": "2026-11-09",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": true
   },
   {
    "uid": "0ca7a162a8a6cbbe",
@@ -2314,6 +2536,27 @@
    "is_new": false
   },
   {
+   "uid": "a05735050980368f",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Híreink",
+   "url": "https://hetfa.hu/aktualis/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: policy analysis, research, digital transformation",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "005ed528ea5a0f39",
    "company_id": "deloitte",
    "company": "Deloitte",
@@ -2396,6 +2639,29 @@
     "+ entry-level"
    ],
    "is_new": false
+  },
+  {
+   "uid": "5f3597f1bf853db5",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Kiskunhalas (határozott idő)",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-kiskunhalas-hatarozott-ido-9072/44",
+   "location": "Kiskunhalas",
+   "posted": "2026-11-09",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": true
   },
   {
    "uid": "e74d76ca29128fcf",
@@ -2557,6 +2823,216 @@
    "is_new": false
   },
   {
+   "uid": "e18f52a6b0bf6fdb",
+   "company_id": "gvh",
+   "company": "GVH (competition authority)",
+   "category": "Hungarian government",
+   "title": "Aktuális ösztöndíjas pályázataink",
+   "url": "https://www.gvh.hu/karrier/osztondijas-program/palyazatok",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "9e4beaeea94e89a0",
+   "company_id": "gvh",
+   "company": "GVH (competition authority)",
+   "category": "Hungarian government",
+   "title": "Pályázati felhívás „számviteli munkatárs” munkakör betöltésére",
+   "url": "https://www.gvh.hu/karrier/osztondijas-program/palyazatok/palyazati_felhivas_szamviteli_munkakor_betoltesere",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "c34ab52783a3a6fc",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Kiadványaink",
+   "url": "https://hetfa.hu/kiadvanyaink/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ skills: economics, EU affairs",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "85976680e29760af",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "Deutsch",
+   "url": "https://prezi.com/de/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "451f5821153e32c2",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "English",
+   "url": "https://prezi.com/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "2045e95231fd19ba",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "Español",
+   "url": "https://prezi.com/es/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "73fa55a6d2eb28af",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "Français",
+   "url": "https://prezi.com/fr/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "f6ae9b9e07e0f9be",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "Italiano",
+   "url": "https://prezi.com/it/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "15ad0f532debffdd",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "Magyar",
+   "url": "https://prezi.com/hu/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "be74574fb0a0802d",
+   "company_id": "prezi",
+   "company": "Prezi",
+   "category": "Data/AI/Tech",
+   "title": "Português",
+   "url": "https://prezi.com/pt/jobs/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "be82103ce2b83cb9",
    "company_id": "alteo",
    "company": "ALTEO",
@@ -2578,6 +3054,27 @@
    "is_new": false
   },
   {
+   "uid": "b680cab96d636302",
+   "company_id": "eurostat",
+   "company": "Eurostat",
+   "category": "EU & international",
+   "title": "Current vacancy in unit D1 ‘Excessive deficit procedure, methodology and GFS’ - Contract agent, function group IV",
+   "url": "https://eu-careers.europa.eu/jobs/statistical-officer_en",
+   "location": "EU",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 15,
+   "score_reasons": [
+    "+ skills: statistics, economics, EU affairs",
+    "+ remote / EU-wide"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "0ebd6eff13677723",
    "company_id": "formlabs",
    "company": "Formlabs",
@@ -2595,6 +3092,91 @@
    "score_reasons": [
     "+ skills: Python",
     "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "88a4b1439b99226d",
+   "company_id": "gvh",
+   "company": "GVH (competition authority)",
+   "category": "Hungarian government",
+   "title": "Álláspályázatok",
+   "url": "https://www.gvh.hu/karrier/allaspalyazatok",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 15,
+   "score_reasons": [
+    "+ skills: data governance",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "beda3d4e9fe6485a",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Műhely- tanulmányaink",
+   "url": "https://hetfa.hu/muhelytanulmanyaink/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 15,
+   "score_reasons": [
+    "+ skills: EU affairs, research",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "00df635d0d4e8f82",
+   "company_id": "osce",
+   "company": "OSCE",
+   "category": "International relations",
+   "title": "Vacancies",
+   "url": "https://vacancies.osce.org",
+   "location": "International",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 15,
+   "score_reasons": [
+    "+ skills: automation",
+    "+ entry-level (in description)",
+    "+ remote / EU-wide"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "3bc641499b1cb2cd",
+   "company_id": "raiffeisen",
+   "company": "Raiffeisen Bank",
+   "category": "Finance",
+   "title": "Állásajánlatok",
+   "url": "https://raiffeisen.karrierportal.hu/allasok",
+   "location": "Hungary",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 15,
+   "score_reasons": [
+    "+ skills: statistics, banking / financial services",
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -2746,6 +3328,48 @@
    "is_new": false
   },
   {
+   "uid": "32dfcfd09439e1ef",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Kiemelt tevékenységeink",
+   "url": "https://hetfa.hu/kiemelt-tevekenysegeink/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: policy analysis",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "00d817544fe7ed65",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Software Engineer, API & Automation",
+   "url": "https://careers.formlabs.com/job/8312364/apply/?gh_jid=8312364",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 13,
+   "score_reasons": [
+    "+ skills: automation, APIs / web data, digital transformation",
+    "+ entry-level (in description)"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "03d310296b84bec1",
    "company_id": "formlabs",
    "company": "Formlabs",
@@ -2854,46 +3478,109 @@
    "is_new": false
   },
   {
-   "uid": "a6faaa16328b10c1",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354911_en&title=SAP+GTS+Consultant",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": true
-  },
-  {
-   "uid": "5aca4600e2e7abbb",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Financial Controller (Planning & Reporting)",
-   "url": "https://careers.ey.com/ey/job/Budapest-Financial-Controller-%28Planning-&-Reporting%29-1132/1455377733/",
-   "location": "Budapest, HU, 1132",
+   "uid": "efe87049f3b0705a",
+   "company_id": "gvh",
+   "company": "GVH (competition authority)",
+   "category": "Hungarian government",
+   "title": "Kisfilm- és logópályázat nyertesei",
+   "url": "https://www.gvh.hu/gvh/versenykultura_fejlesztes/archivum/kisfilm_es_logopalyazat_nyertesei",
+   "location": "Budapest",
    "posted": "",
    "source": "html",
    "match": 0,
-   "first_seen": "2026-11-09",
+   "first_seen": "2026-11-07",
    "last_seen": "2026-11-09",
    "active": 1,
-   "score": 10,
+   "score": 12,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ skills: digital transformation",
+    "+ Budapest / Hungary"
    ],
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "uid": "9a7b41a6bc5ce60b",
+   "company_id": "hetfa",
+   "company": "HÉTFA Research Institute",
+   "category": "Policy & research",
+   "title": "Munkáink",
+   "url": "https://hetfa.hu/munkaink/",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 12,
+   "score_reasons": [
+    "+ skills: research",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "990231e4ff8bd366",
+   "company_id": "osce",
+   "company": "OSCE",
+   "category": "International relations",
+   "title": "Secondment Jobs",
+   "url": "https://vacancies.osce.org/moreinfo/sec",
+   "location": "International",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 12,
+   "score_reasons": [
+    "+ remote / EU-wide",
+    "+ German valued"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "2cdb547b066917b0",
+   "company_id": "eurasia-group",
+   "company": "Eurasia Group",
+   "category": "International relations",
+   "title": "Job Openings",
+   "url": "https://ats.rippling.com/eurasia-group/jobs",
+   "location": "International",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 11,
+   "score_reasons": [
+    "+ skills: economics, research",
+    "+ remote / EU-wide"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b6aa6d79288e17d5",
+   "company_id": "eurasia-group",
+   "company": "Eurasia Group",
+   "category": "International relations",
+   "title": "Search Openings",
+   "url": "https://ats.rippling.com/eurasia-group",
+   "location": "International",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 11,
+   "score_reasons": [
+    "+ skills: economics, research",
+    "+ remote / EU-wide"
+   ],
+   "is_new": false
   },
   {
    "uid": "f1006674e9002e9b",
@@ -3099,8 +3786,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3120,8 +3806,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3141,8 +3826,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3162,8 +3846,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3174,27 +3857,6 @@
    "category": "Hungarian government",
    "title": "Akadálymentesítési nyilatkozat",
    "url": "https://www.gvh.hu/pfile/file?path=/fooldali-bannerek-listak/akadalymentesitesi-nyilatkozat&inline=true",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "e18f52a6b0bf6fdb",
-   "company_id": "gvh",
-   "company": "GVH (competition authority)",
-   "category": "Hungarian government",
-   "title": "Aktuális ösztöndíjas pályázataink",
-   "url": "https://www.gvh.hu/karrier/osztondijas-program/palyazatok",
    "location": "Budapest",
    "posted": "",
    "source": "html",
@@ -3225,50 +3887,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "efe87049f3b0705a",
-   "company_id": "gvh",
-   "company": "GVH (competition authority)",
-   "category": "Hungarian government",
-   "title": "Kisfilm- és logópályázat nyertesei",
-   "url": "https://www.gvh.hu/gvh/versenykultura_fejlesztes/archivum/kisfilm_es_logopalyazat_nyertesei",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "dd00eced133e0ca7",
-   "company_id": "gvh",
-   "company": "GVH (competition authority)",
-   "category": "Hungarian government",
-   "title": "Korábbi pályázati felhívások",
-   "url": "https://www.gvh.hu/gvh/versenykultura_fejlesztes/palyazati_felhivasok/korabbi_palyazati_felhivasok/jogtorteneti_kutatas_palyazati_felhivasa",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3315,48 +3934,6 @@
    "is_new": false
   },
   {
-   "uid": "16bebdd3fdc0d5e1",
-   "company_id": "gvh",
-   "company": "GVH (competition authority)",
-   "category": "Hungarian government",
-   "title": "Pályázati felhívás a Gazdasági Versenyhivatal Versenytanácsában „versenytanács tag” álláshely betöltésére",
-   "url": "https://www.gvh.hu/karrier/osztondijas-program/palyazatok/palyazati_felhivas_vttag_munkakor_betoltesere",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "9e4beaeea94e89a0",
-   "company_id": "gvh",
-   "company": "GVH (competition authority)",
-   "category": "Hungarian government",
-   "title": "Pályázati felhívás „számviteli munkatárs” munkakör betöltésére",
-   "url": "https://www.gvh.hu/karrier/osztondijas-program/palyazatok/palyazati_felhivas_szamviteli_munkakor_betoltesere",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "973fe0267b087e28",
    "company_id": "gvh",
    "company": "GVH (competition authority)",
@@ -3372,8 +3949,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3393,50 +3969,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "88a4b1439b99226d",
-   "company_id": "gvh",
-   "company": "GVH (competition authority)",
-   "category": "Hungarian government",
-   "title": "Álláspályázatok",
-   "url": "https://www.gvh.hu/karrier/allaspalyazatok",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "00afa8c7ddc311b3",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Bejegyzések hírcsatorna",
-   "url": "https://hetfa.hu/feed/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3447,27 +3980,6 @@
    "category": "Policy & research",
    "title": "Bejelentkezés",
    "url": "https://hetfa.hu/wp-login.php",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "a05735050980368f",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Híreink",
-   "url": "https://hetfa.hu/aktualis/",
    "location": "Budapest",
    "posted": "",
    "source": "html",
@@ -3519,92 +4031,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "c34ab52783a3a6fc",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Kiadványaink",
-   "url": "https://hetfa.hu/kiadvanyaink/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "32dfcfd09439e1ef",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Kiemelt tevékenységeink",
-   "url": "https://hetfa.hu/kiemelt-tevekenysegeink/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "9a7b41a6bc5ce60b",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Munkáink",
-   "url": "https://hetfa.hu/munkaink/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "beda3d4e9fe6485a",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Műhely- tanulmányaink",
-   "url": "https://hetfa.hu/muhelytanulmanyaink/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3624,155 +4051,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "0aa5ac079af62ab5",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Referenciáink",
-   "url": "https://hetfa.hu/referenciaink/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8c9e44daff1b70ab",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Rólunk",
-   "url": "https://hetfa.hu/rolunk/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2aede99b097b1908",
-   "company_id": "hetfa",
-   "company": "HÉTFA Research Institute",
-   "category": "Policy & research",
-   "title": "Sajtó",
-   "url": "https://hetfa.hu/sajtomegjeleneseink/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "de36a59b12ea64d4",
-   "company_id": "kpmg-gs",
-   "company": "KPMG Global Services Hungary",
-   "category": "Consulting",
-   "title": "Client Onboarding Assistant Transition · Budapest · Hybrid",
-   "url": "https://kpmgglobalservices.teamtailor.com/jobs/8439430-client-onboarding-assistant",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "1f0ddcf1718c9f62",
-   "company_id": "kpmg-gs",
-   "company": "KPMG Global Services Hungary",
-   "category": "Consulting",
-   "title": "Office Assistant Group Administrators · Budapest · Hybrid",
-   "url": "https://kpmgglobalservices.teamtailor.com/jobs/8477115-office-assistant",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "49815b450e264be6",
-   "company_id": "kpmg-gs",
-   "company": "KPMG Global Services Hungary",
-   "category": "Consulting",
-   "title": "Talent Pool for VAT Professionals VAT Core Delivery (Clusters) · Budapest · Hybrid",
-   "url": "https://kpmgglobalservices.teamtailor.com/jobs/3699473-talent-pool-for-vat-professionals",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b9dc0556d106deb6",
-   "company_id": "kpmg-gs",
-   "company": "KPMG Global Services Hungary",
-   "category": "Consulting",
-   "title": "VAT Coordinator VAT Process Coordination · Budapest · Hybrid",
-   "url": "https://kpmgglobalservices.teamtailor.com/jobs/8637674-vat-coordinator",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3813,197 +4092,7 @@
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2171f04aaece2e37",
-   "company_id": "mvm",
-   "company": "MVM",
-   "category": "Energy",
-   "title": "Állásajánlatok",
-   "url": "https://mvm.karrierportal.hu/allasok",
-   "location": "Hungary",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "85976680e29760af",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "Deutsch",
-   "url": "https://prezi.com/de/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "451f5821153e32c2",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "English",
-   "url": "https://prezi.com/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2045e95231fd19ba",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "Español",
-   "url": "https://prezi.com/es/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "73fa55a6d2eb28af",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "Français",
-   "url": "https://prezi.com/fr/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "f6ae9b9e07e0f9be",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "Italiano",
-   "url": "https://prezi.com/it/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "15ad0f532debffdd",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "Magyar",
-   "url": "https://prezi.com/hu/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "be74574fb0a0802d",
-   "company_id": "prezi",
-   "company": "Prezi",
-   "category": "Data/AI/Tech",
-   "title": "Português",
-   "url": "https://prezi.com/pt/jobs/",
-   "location": "Budapest",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "3bc641499b1cb2cd",
-   "company_id": "raiffeisen",
-   "company": "Raiffeisen Bank",
-   "category": "Finance",
-   "title": "Állásajánlatok",
-   "url": "https://raiffeisen.karrierportal.hu/allasok",
-   "location": "Hungary",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -4029,6 +4118,27 @@
     "+ Budapest / Hungary",
     "− 8+ years experience",
     "− implies experience: 'proven track record', 'proven experience' +1"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "da104e87134fe2ae",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki koordinációs munkatárs - Kaposvár (határozott időre)",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-koordinacios-munkatars-kaposvar-hatarozott-idore-9057/44",
+   "location": "Kaposvár",
+   "posted": "2026-10-22",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 8,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)"
    ],
    "is_new": false
   },
@@ -4171,29 +4281,6 @@
    "is_new": false
   },
   {
-   "uid": "d4b1bcc8c5862b72",
-   "company_id": "ecb",
-   "company": "ECB",
-   "category": "EU & international",
-   "title": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy",
-   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Monetary-Analysis-Division-in-the-Directorate-General-Monetary-Policy/15446",
-   "location": "EU",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ title: policy",
-    "+ remote / EU-wide",
-    "− senior title",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "f10fbdc8aa7c80ce",
    "company_id": "eib",
    "company": "EIB",
@@ -4201,153 +4288,6 @@
    "title": "discover",
    "url": "https://erecruitment.eib.org/psc/hr/EIBJOBS/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&focus=Applicant&SiteId=1&pk_vid=26aef2b5e3f9b79417309754757d940a",
    "location": "EU",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2cdb547b066917b0",
-   "company_id": "eurasia-group",
-   "company": "Eurasia Group",
-   "category": "International relations",
-   "title": "Job Openings",
-   "url": "https://ats.rippling.com/eurasia-group/jobs",
-   "location": "International",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b6aa6d79288e17d5",
-   "company_id": "eurasia-group",
-   "company": "Eurasia Group",
-   "category": "International relations",
-   "title": "Search Openings",
-   "url": "https://ats.rippling.com/eurasia-group",
-   "location": "International",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b680cab96d636302",
-   "company_id": "eurostat",
-   "company": "Eurostat",
-   "category": "EU & international",
-   "title": "Current vacancy in unit D1 ‘Excessive deficit procedure, methodology and GFS’ - Contract agent, function group IV",
-   "url": "https://eu-careers.europa.eu/jobs/statistical-officer_en",
-   "location": "EU",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "3fe6ee413a545d01",
-   "company_id": "eurostat",
-   "company": "Eurostat",
-   "category": "EU & international",
-   "title": "Job opportunities",
-   "url": "https://ec.europa.eu/eurostat/about-us/job-opportunities",
-   "location": "EU",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "896efb050f738be3",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Field Service Technician - Remote, Milan",
-   "url": "https://careers.formlabs.com/job/8237218/apply/?gh_jid=8237218",
-   "location": "Milan, Italy",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "990231e4ff8bd366",
-   "company_id": "osce",
-   "company": "OSCE",
-   "category": "International relations",
-   "title": "Secondment Jobs",
-   "url": "https://vacancies.osce.org/moreinfo/sec",
-   "location": "International",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 6,
-   "score_reasons": [
-    "+ remote / EU-wide",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "00df635d0d4e8f82",
-   "company_id": "osce",
-   "company": "OSCE",
-   "category": "International relations",
-   "title": "Vacancies",
-   "url": "https://vacancies.osce.org",
-   "location": "International",
    "posted": "",
    "source": "html",
    "match": 0,
@@ -4381,27 +4321,6 @@
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
     "− 3 years experience"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "00d817544fe7ed65",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Software Engineer, API & Automation",
-   "url": "https://careers.formlabs.com/job/8312364/apply/?gh_jid=8312364",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 5,
-   "score_reasons": [
-    "+ skills: automation, APIs / web data",
-    "− title only (page not read)"
    ],
    "is_new": false
   },
@@ -4447,6 +4366,28 @@
     "+ skills: research, SQL (learning)",
     "+ Budapest / Hungary",
     "− implies experience: 'demonstrated experience'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "5aca4600e2e7abbb",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Financial Controller (Planning & Reporting)",
+   "url": "https://careers.ey.com/ey/job/Budapest-Financial-Controller-%28Planning-&-Reporting%29-1132/1455377733/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 2,
+   "score_reasons": [
+    "+ skills: automation, data visualisation, Excel",
+    "+ Budapest / Hungary",
+    "− 3 years experience"
    ],
    "is_new": false
   },
@@ -4498,27 +4439,6 @@
    "is_new": false
   },
   {
-   "uid": "da104e87134fe2ae",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki koordinációs munkatárs - Kaposvár (határozott időre)",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-koordinacios-munkatars-kaposvar-hatarozott-idore-9057/44",
-   "location": "Kaposvár",
-   "posted": "2026-10-22",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 2,
-   "score_reasons": [
-    "+ skills: banking / financial services",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "c4d841552840161f",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
@@ -4561,6 +4481,31 @@
    "is_new": false
   },
   {
+   "uid": "a6faaa16328b10c1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354911_en&title=SAP+GTS+Consultant",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 1,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− 3 years experience",
+    "− implies experience: 'proven experience'"
+   ],
+   "is_new": false
+  },
+  {
    "uid": "e7e7c45d8b2eb0af",
    "company_id": "accenture",
    "company": "Accenture",
@@ -4586,6 +4531,27 @@
    "is_new": false
   },
   {
+   "uid": "56991cbf2b241b0a",
+   "company_id": "deloitte",
+   "company": "Deloitte",
+   "category": "Consulting",
+   "title": "Attorney - Specialized in Commercial Dispute Resolution and Tax Controversy",
+   "url": "https://apply.deloittece.com/en_US/careers/JobDetail/Attorney-Specialized-in-Commercial-Dispute-Resolution-and-Tax-Controversy/20766",
+   "location": "",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "− field you excluded",
+    "− title only (page not read)"
+   ],
+   "is_new": true
+  },
+  {
    "uid": "2f2f05b5401efa29",
    "company_id": "ey",
    "company": "EY",
@@ -4604,6 +4570,28 @@
     "+ Budapest / Hungary",
     "− senior title",
     "− field you excluded",
+    "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "66d4f55c39d8e02a",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Manager - Forensics & Integrity Services",
+   "url": "https://careers.ey.com/ey/job/Budapest-Manager-Forensics-&-Integrity-Services-1132/1433013833/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
     "− title only (page not read)"
    ],
    "is_new": true
@@ -4629,7 +4617,7 @@
     "− field you excluded",
     "− title only (page not read)"
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "e85a10be6bcdaca2",
@@ -4651,7 +4639,7 @@
     "− senior title",
     "− title only (page not read)"
    ],
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "ef0b3ad0a9b8dd1c",
@@ -4674,6 +4662,51 @@
     "− field you excluded",
     "− title only (page not read)"
    ],
+   "is_new": false
+  },
+  {
+   "uid": "bc322e57d99624af",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Senior Tanácsadó - Forensics & Integrity Services",
+   "url": "https://careers.ey.com/ey/job/Budapest-Senior-Tan%C3%A1csad%C3%B3-Forensics-&-Integrity-Services-1132/1432996933/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− title only (page not read)"
+   ],
+   "is_new": true
+  },
+  {
+   "uid": "f3ffbb5d6c62a33c",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Senior Events Marketing Specialist",
+   "url": "https://careers.formlabs.com/job/8365293/apply/?gh_jid=8365293",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-09",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− title only (page not read)"
+   ],
    "is_new": true
   },
   {
@@ -4694,6 +4727,28 @@
    "score_reasons": [
     "− senior title",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "003d6b53850888b7",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Support Specialist - Italian speaking",
+   "url": "https://careers.formlabs.com/job/8365301/apply/?gh_jid=8365301",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-09",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ Budapest / Hungary",
+    "− requires Italian"
    ],
    "is_new": true
   },
@@ -5562,52 +5617,6 @@
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
     "− field you excluded"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "27ffa040c0e82eac",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Technology Solution Manager - Global Payroll Operate",
-   "url": "https://careers.ey.com/ey/job/Budapest-Technology-Solution-Manager-Global-Payroll-Operate-1132/1431196033/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− field you excluded",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "d6eec01790ec83f5",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Technology Solution Senior Manager - Global Payroll Operate",
-   "url": "https://careers.ey.com/ey/job/Budapest-Technology-Solution-Senior-Manager-Global-Payroll-Operate-1132/1431195633/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− field you excluded",
-    "− title only (page not read)"
    ],
    "is_new": false
   },
@@ -6764,6 +6773,30 @@
    "score": 0,
    "score_reasons": [
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "896efb050f738be3",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Field Service Technician - Remote, Milan",
+   "url": "https://careers.formlabs.com/job/8237218/apply/?gh_jid=8237218",
+   "location": "Milan, Italy",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ remote / EU-wide",
+    "+ German valued",
+    "− requires Italian",
+    "− requires French"
    ],
    "is_new": false
   },
@@ -8699,28 +8732,6 @@
    "is_new": false
   },
   {
-   "uid": "9435438ce69fc716",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Senior Events Marketing Specialist",
-   "url": "https://careers.formlabs.com/job/8260824/apply/?gh_jid=8260824",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "d4a1ff828c7532b9",
    "company_id": "formlabs",
    "company": "Formlabs",
@@ -9831,28 +9842,6 @@
    "is_new": false
   },
   {
-   "uid": "bc213f6e898d291c",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Support Specialist - Italian speaking",
-   "url": "https://careers.formlabs.com/job/8220159/apply/?gh_jid=8220159",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ skills: digital transformation",
-    "+ Budapest / Hungary",
-    "− requires Italian"
-   ],
-   "is_new": false
-  },
-  {
    "uid": "c66f0d30b9e35111",
    "company_id": "formlabs",
    "company": "Formlabs",
@@ -9958,6 +9947,29 @@
     "+ title: associate",
     "− field you excluded",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "16bebdd3fdc0d5e1",
+   "company_id": "gvh",
+   "company": "GVH (competition authority)",
+   "category": "Hungarian government",
+   "title": "Pályázati felhívás a Gazdasági Versenyhivatal Versenytanácsában „versenytanács tag” álláshely betöltésére",
+   "url": "https://www.gvh.hu/karrier/osztondijas-program/palyazatok/palyazati_felhivas_vttag_munkakor_betoltesere",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: LLMs / GenAI, economics",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 10+ years experience"
    ],
    "is_new": false
   },

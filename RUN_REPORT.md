@@ -1,9 +1,9 @@
-# Job radar – run 2026-11-09T085805Z
+# Job radar – run 2026-11-09T135314Z
 
 - Sources checked: **43** (ok 40, warnings 0, failed 3)
-- New postings: **8** (matching your filters: **1**)
-- Postings closed since last run: 6
-- Job pages read for scoring: 60
+- New postings: **7** (matching your filters: **0**)
+- Postings closed since last run: 7
+- Job pages read for scoring: 52
 
 ## Top 15 open postings by score
 
@@ -27,9 +27,7 @@
 
 ## New matching postings
 
-| Score | Company | Title | Why |
-|---|---|---|---|
-| 26 | Erste Bank Hungary | [Bankfióki tanácsadó - Hűvösvölgy](https://karrier.erstebank.hu/allas/bankfioki-tanacsado-huvosvolgy-9070/44) | + title: consultant · + skills: banking / financial services · + entry-level (in description) · + Budapest / Hungary · − implies experience: 'releváns szakmai tapasztalat' |
+_None this run._
 
 ## Sources needing attention
 
