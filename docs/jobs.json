@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-07T23:00:54+00:00",
- "run_id": "2026-11-07T225806Z",
+ "generated": "2026-11-09T09:01:00+00:00",
+ "run_id": "2026-11-09T085805Z",
  "jobs": [
   {
    "uid": "3ad5d7a6e95e5d2a",
@@ -14,7 +14,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 73,
    "score_reasons": [
@@ -38,7 +38,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 68,
    "score_reasons": [
@@ -62,7 +62,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 65,
    "score_reasons": [
@@ -84,7 +84,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 61,
    "score_reasons": [
@@ -108,7 +108,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 53,
    "score_reasons": [
@@ -131,7 +131,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 51,
    "score_reasons": [
@@ -154,7 +154,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 48,
    "score_reasons": [
@@ -177,7 +177,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 48,
    "score_reasons": [
@@ -200,36 +200,13 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 48,
    "score_reasons": [
     "+ title: business / strategy analyst",
     "+ skills: Python, automation, economics, data visualisation +4",
     "+ entry-level (in description)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "88250a6f6f1ab992",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00368454_en&title=Geospatial+Data+Engineer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 47,
-   "score_reasons": [
-    "+ skills: Python, data governance, data quality, automation +4",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary",
-    "+ German valued"
    ],
    "is_new": false
   },
@@ -245,36 +222,12 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 47,
    "score_reasons": [
     "+ title: analyst",
     "+ skills: automation, Excel, digital transformation",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary",
-    "+ German valued"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "7f8a4718d039a3fc",
-   "company_id": "blackrock",
-   "company": "BlackRock",
-   "category": "Finance",
-   "title": "Portfolio Services and Client Relationship Specialist, Associate",
-   "url": "https://careers.blackrock.com/job/budapest/portfolio-services-and-client-relationship-specialist-associate/45831/101572690608",
-   "location": "Location: Budapest, Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 46,
-   "score_reasons": [
-    "+ title: associate",
-    "+ skills: data governance, economics, Excel, banking / financial services +1",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
     "+ German valued"
@@ -293,7 +246,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 46,
    "score_reasons": [
@@ -316,7 +269,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 45,
    "score_reasons": [
@@ -339,34 +292,12 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 44,
    "score_reasons": [
     "+ title: analyst",
     "+ skills: data governance, Excel, banking / financial services, SQL (learning)",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "650c7d7a529ca716",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00358499_en&title=AI+Solution+Architect",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 42,
-   "score_reasons": [
-    "+ skills: Python, machine learning, LLMs / GenAI, automation +5",
     "+ entry-level (in description)",
     "+ Budapest / Hungary"
    ],
@@ -384,7 +315,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 42,
    "score_reasons": [
@@ -407,7 +338,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 41,
    "score_reasons": [
@@ -430,7 +361,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 41,
    "score_reasons": [
@@ -453,37 +384,13 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 39,
    "score_reasons": [
     "+ title: consultant",
     "+ skills: migration, APIs / web data, Excel, research +1",
     "+ Budapest / Hungary"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b7af3ec09c642540",
-   "company_id": "blackrock",
-   "company": "BlackRock",
-   "category": "Finance",
-   "title": "Sales / Business Development (German speaking), Associate",
-   "url": "https://careers.blackrock.com/job/budapest/sales-business-development-german-speaking-associate/45831/100992111040",
-   "location": "Location: Budapest, Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 38,
-   "score_reasons": [
-    "+ title: associate",
-    "+ skills: Excel, banking / financial services, digital transformation",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary",
-    "+ German valued"
    ],
    "is_new": false
   },
@@ -499,7 +406,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 38,
    "score_reasons": [
@@ -522,7 +429,7 @@
    "source": "browser",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 38,
    "score_reasons": [
@@ -544,7 +451,7 @@
    "source": "browser",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 38,
    "score_reasons": [
@@ -567,7 +474,7 @@
    "source": "browser",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 38,
    "score_reasons": [
@@ -590,13 +497,37 @@
    "source": "browser",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 38,
    "score_reasons": [
     "+ title: AI / ML",
     "+ Budapest / Hungary",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "88250a6f6f1ab992",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00368454_en&title=Geospatial+Data+Engineer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 37,
+   "score_reasons": [
+    "+ skills: Python, data governance, data quality, automation +4",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− implies experience: 'mid-level'"
    ],
    "is_new": false
   },
@@ -612,7 +543,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 37,
    "score_reasons": [
@@ -623,48 +554,27 @@
    "is_new": false
   },
   {
-   "uid": "c2a3d2ddf2f2cdcd",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
+   "uid": "7f8a4718d039a3fc",
+   "company_id": "blackrock",
+   "company": "BlackRock",
    "category": "Finance",
-   "title": "Bankfióki tanácsadó - Blaha Lujza tér",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-blaha-lujza-ter-8974/44",
-   "location": "Budapest",
-   "posted": "2026-11-03",
-   "source": "hrxml",
+   "title": "Portfolio Services and Client Relationship Specialist, Associate",
+   "url": "https://careers.blackrock.com/job/budapest/portfolio-services-and-client-relationship-specialist-associate/45831/101572690608",
+   "location": "Location: Budapest, Budapest",
+   "posted": "",
+   "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 36,
    "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
+    "+ title: associate",
+    "+ skills: data governance, economics, Excel, banking / financial services +1",
     "+ entry-level (in description)",
-    "+ Budapest / Hungary"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "869fe6db31f600c2",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Erste World tanácsadó - Budapest (HillSide irodaház)",
-   "url": "https://karrier.erstebank.hu/allas/erste-world-tanacsado-budapest-hillside-irodahaz-8940/44",
-   "location": "Budapest",
-   "posted": "2026-07-30",
-   "source": "hrxml",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 36,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary"
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− implies experience: 'experienced professional'"
    ],
    "is_new": false
   },
@@ -680,7 +590,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 36,
    "score_reasons": [
@@ -703,7 +613,7 @@
    "source": "hrxml",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 36,
    "score_reasons": [
@@ -726,7 +636,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 36,
    "score_reasons": [
@@ -749,7 +659,7 @@
    "source": "browser",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 34,
    "score_reasons": [
@@ -757,30 +667,6 @@
     "+ skills: research, digital transformation",
     "+ entry-level",
     "+ Budapest / Hungary"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "d0c19dbba78c3f16",
-   "company_id": "citi",
-   "company": "Citi",
-   "category": "Finance",
-   "title": "Forward Deployed AI Engineer for Cyber Security",
-   "url": "https://jobs.citi.com/job/budapest/forward-deployed-ai-engineer-for-cyber-security/287/102193206448",
-   "location": "Budapest, Budapest, Hungary",
-   "posted": "",
-   "source": "html",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 34,
-   "score_reasons": [
-    "+ title: AI / ML",
-    "+ skills: Python, LLMs / GenAI, automation, APIs / web data +3",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary",
-    "− 8+ years experience"
    ],
    "is_new": false
   },
@@ -796,7 +682,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 34,
    "score_reasons": [
@@ -818,59 +704,13 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 32,
    "score_reasons": [
     "+ skills: Python, automation, digital transformation",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "+ German valued"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "e824cb0ac5924797",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Keszthely (határozott időre)",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-keszthely-hatarozott-idore-9020/44",
-   "location": "Keszthely",
-   "posted": "2026-10-02",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 32,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)",
-    "+ German valued"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "40f2feceacf6e570",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Zalaegerszeg",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-zalaegerszeg-9061/44",
-   "location": "Zalaegerszeg",
-   "posted": "2026-10-29",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 32,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)",
     "+ German valued"
    ],
    "is_new": false
@@ -887,7 +727,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 32,
    "score_reasons": [
@@ -910,7 +750,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 32,
    "score_reasons": [
@@ -933,36 +773,13 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 31,
    "score_reasons": [
     "+ title: analyst",
     "+ skills: economics",
     "+ entry-level"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "15fca6f6f923f3fa",
-   "company_id": "political-capital",
-   "company": "Political Capital",
-   "category": "International relations",
-   "title": "A Political Capital projektkoordinátor munkatársat keres teljes állásba, egy dezinformációellenes nemzetközi projektbe Közlemény",
-   "url": "https://politicalcapital.hu/hireink.php?article_read=1&article_id=3695",
-   "location": "Budapest",
-   "posted": "",
-   "source": "html",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 31,
-   "score_reasons": [
-    "+ title: international affairs",
-    "+ skills: policy analysis, EU affairs, international relations, Excel +1",
-    "+ Budapest / Hungary",
-    "− 3 years experience"
    ],
    "is_new": false
   },
@@ -978,7 +795,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 30,
    "score_reasons": [
@@ -1001,7 +818,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 29,
    "score_reasons": [
@@ -1012,25 +829,27 @@
    "is_new": false
   },
   {
-   "uid": "0ca7a162a8a6cbbe",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00295728_en&title=Senior+Full-Stack+Engineer",
-   "location": "Hungary",
+   "uid": "b7af3ec09c642540",
+   "company_id": "blackrock",
+   "company": "BlackRock",
+   "category": "Finance",
+   "title": "Sales / Business Development (German speaking), Associate",
+   "url": "https://careers.blackrock.com/job/budapest/sales-business-development-german-speaking-associate/45831/100992111040",
+   "location": "Location: Budapest, Budapest",
    "posted": "",
-   "source": "browser",
-   "match": 0,
+   "source": "html",
+   "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 28,
    "score_reasons": [
-    "+ skills: Git, banking / financial services, digital transformation",
+    "+ title: associate",
+    "+ skills: Excel, banking / financial services, digital transformation",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "+ German valued"
+    "+ German valued",
+    "− implies experience: 'experienced professional'"
    ],
    "is_new": false
   },
@@ -1046,7 +865,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 28,
    "score_reasons": [
@@ -1069,7 +888,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 28,
    "score_reasons": [
@@ -1090,7 +909,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 28,
    "score_reasons": [
@@ -1112,7 +931,7 @@
    "source": "browser",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 28,
    "score_reasons": [
@@ -1134,7 +953,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 27,
    "score_reasons": [
@@ -1157,7 +976,7 @@
    "source": "greenhouse",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 27,
    "score_reasons": [
@@ -1168,27 +987,70 @@
    "is_new": false
   },
   {
-   "uid": "e7e7c45d8b2eb0af",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00301008_en&title=Senior+ServiceNow+Developer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
+   "uid": "cf41211bea7d90a4",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Software Engineer, Test Infrastructure & Reliability",
+   "url": "https://careers.formlabs.com/job/8078997/apply/?gh_jid=8078997",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 27,
+   "score_reasons": [
+    "+ skills: Python, automation, econometrics / causal inference, data visualisation +2",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "2d5a15e97a9e34e8",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Test Tooling Engineer",
+   "url": "https://careers.formlabs.com/job/8237289/apply/?gh_jid=8237289",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 27,
+   "score_reasons": [
+    "+ skills: Python, automation, econometrics / causal inference, data visualisation +2",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ffe462a52899b248",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Hűvösvölgy",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-huvosvolgy-9070/44",
+   "location": "Budapest",
+   "posted": "2026-11-09",
+   "source": "hrxml",
+   "match": 1,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 26,
    "score_reasons": [
-    "+ skills: Excel, digital transformation",
+    "+ title: consultant",
+    "+ skills: banking / financial services",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "+ German valued"
+    "− implies experience: 'releváns szakmai tapasztalat'"
    ],
-   "is_new": false
+   "is_new": true
   },
   {
    "uid": "b7f46caf31de9876",
@@ -1202,7 +1064,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 26,
    "score_reasons": [
@@ -1214,112 +1076,26 @@
    "is_new": false
   },
   {
-   "uid": "e74d76ca29128fcf",
+   "uid": "c2a3d2ddf2f2cdcd",
    "company_id": "erste",
    "company": "Erste Bank Hungary",
    "category": "Finance",
-   "title": "Bankfióki tanácsadó - Eger",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-eger-9001/44",
-   "location": "Eger",
-   "posted": "2026-09-21",
+   "title": "Bankfióki tanácsadó - Blaha Lujza tér",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-blaha-lujza-ter-8974/44",
+   "location": "Budapest",
+   "posted": "2026-11-03",
    "source": "hrxml",
-   "match": 0,
+   "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 26,
    "score_reasons": [
     "+ title: consultant",
     "+ skills: banking / financial services",
-    "+ entry-level (in description)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "fb56a874dd03d5b8",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Hajdúszoboszló",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-hajduszoboszlo-8981/44",
-   "location": "Hajdúszoboszló",
-   "posted": "2026-09-08",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 26,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "082faf0737843e7c",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Jászberény",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-jaszbereny-9047/44",
-   "location": "Jászberény",
-   "posted": "2026-10-16",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 26,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "4cc1cd0d62b3befa",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Kalocsa (határozott időre)",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-kalocsa-hatarozott-idore-9033/44",
-   "location": "Kalocsa",
-   "posted": "2026-10-08",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 26,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "bdcfb5e1f508ee5c",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Orosháza",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-oroshaza-8966/44",
-   "location": "Orosháza",
-   "posted": "2026-08-27",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 26,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)"
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− implies experience: 'releváns szakmai tapasztalat'"
    ],
    "is_new": false
   },
@@ -1335,29 +1111,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 26,
-   "score_reasons": [
-    "+ title: consultant",
-    "+ skills: banking / financial services",
-    "+ entry-level (in description)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "e59646bcd9f4de92",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Bankfióki tanácsadó - Székesfehérvár",
-   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-szekesfehervar-9062/44",
-   "location": "Székesfehérvár",
-   "posted": "2026-10-29",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 26,
    "score_reasons": [
@@ -1379,7 +1133,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 26,
    "score_reasons": [
@@ -1401,7 +1155,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 26,
    "score_reasons": [
@@ -1423,7 +1177,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 24,
    "score_reasons": [
@@ -1445,7 +1199,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 24,
    "score_reasons": [
@@ -1467,7 +1221,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 23,
    "score_reasons": [
@@ -1478,24 +1232,116 @@
    "is_new": false
   },
   {
-   "uid": "8300b463e817c8e1",
+   "uid": "0415b07bcd9d4efc",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "RPA fejlesztő (határozott idő, részmunkaidő)",
+   "url": "https://karrier.erstebank.hu/allas/rpa-fejleszto-hatarozott-ido-reszmunkaido-9059/44",
+   "location": "Budapest",
+   "posted": "2026-10-28",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 23,
+   "score_reasons": [
+    "+ skills: automation, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "c303ae6b07bd4c9d",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Manufacturing Engineering Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 23,
+   "score_reasons": [
+    "+ skills: Python, statistics, data visualisation, research +1",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "650c7d7a529ca716",
    "company_id": "accenture",
    "company": "Accenture",
    "category": "Consulting",
    "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00268676_en&title=MS+Dynamics+365+Developer",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00358499_en&title=AI+Solution+Architect",
    "location": "Hungary",
    "posted": "",
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 22,
    "score_reasons": [
-    "+ skills: migration, digital transformation, SQL (learning)",
+    "+ skills: Python, machine learning, LLMs / GenAI, automation +5",
     "+ entry-level (in description)",
-    "+ Budapest / Hungary"
+    "+ Budapest / Hungary",
+    "− implies experience: 'mid-level', 'proven experience'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e824cb0ac5924797",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Keszthely (határozott időre)",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-keszthely-hatarozott-idore-9020/44",
+   "location": "Keszthely",
+   "posted": "2026-10-02",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 22,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ German valued",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "40f2feceacf6e570",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Zalaegerszeg",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-zalaegerszeg-9061/44",
+   "location": "Zalaegerszeg",
+   "posted": "2026-10-29",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 22,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ German valued",
+    "− implies experience: 'releváns szakmai tapasztalat'"
    ],
    "is_new": false
   },
@@ -1511,7 +1357,51 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 22,
+   "score_reasons": [
+    "+ skills: APIs / web data, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "31af962b624a5ad0",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Solution Architect",
+   "url": "https://karrier.erstebank.hu/allas/solution-architect-8704/44",
+   "location": "Budapest",
+   "posted": "2026-02-16",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 22,
+   "score_reasons": [
+    "+ skills: APIs / web data, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "539369a14d34c0b0",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Szoftverfejlesztő - Finanszírozási Döntések és Otthonteremtés Tribe",
+   "url": "https://karrier.erstebank.hu/allas/szoftverfejleszto-finanszirozasi-dontesek-es-otthonteremtes-tribe-9063/44",
+   "location": "Hungary",
+   "posted": "2026-11-03",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 22,
    "score_reasons": [
@@ -1533,7 +1423,7 @@
    "source": "greenhouse",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 22,
    "score_reasons": [
@@ -1555,7 +1445,7 @@
    "source": "greenhouse",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 22,
    "score_reasons": [
@@ -1577,7 +1467,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 22,
    "score_reasons": [
@@ -1599,7 +1489,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 21,
    "score_reasons": [
@@ -1621,7 +1511,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 21,
    "score_reasons": [
@@ -1643,7 +1533,7 @@
    "source": "hrxml",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 21,
    "score_reasons": [
@@ -1652,6 +1542,312 @@
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
     "− 3 years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "869fe6db31f600c2",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Erste World tanácsadó - Budapest (HillSide irodaház)",
+   "url": "https://karrier.erstebank.hu/allas/erste-world-tanacsado-budapest-hillside-irodahaz-8940/44",
+   "location": "Budapest",
+   "posted": "2026-07-30",
+   "source": "hrxml",
+   "match": 1,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 21,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 3 years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "1602159ebb161c6a",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Nagyvállalati ügyfélmenedzser",
+   "url": "https://karrier.erstebank.hu/allas/nagyvallalati-ugyfelmenedzser-9014/44",
+   "location": "Budapest",
+   "posted": "2026-09-28",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 21,
+   "score_reasons": [
+    "+ skills: international relations, banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "15fca6f6f923f3fa",
+   "company_id": "political-capital",
+   "company": "Political Capital",
+   "category": "International relations",
+   "title": "A Political Capital projektkoordinátor munkatársat keres teljes állásba, egy dezinformációellenes nemzetközi projektbe Közlemény",
+   "url": "https://politicalcapital.hu/hireink.php?article_read=1&article_id=3695",
+   "location": "Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 1,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 21,
+   "score_reasons": [
+    "+ title: international affairs",
+    "+ skills: policy analysis, EU affairs, international relations, Excel +1",
+    "+ Budapest / Hungary",
+    "− 3 years experience",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "d2fe78e73cfd6868",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Product Owner - Onboarding és Ügyfélkapcsolat Squad",
+   "url": "https://karrier.erstebank.hu/allas/product-owner-onboarding-es-ugyfelkapcsolat-squad-8970/44",
+   "location": "Budapest",
+   "posted": "2026-08-28",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 20,
+   "score_reasons": [
+    "+ skills: banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b04c674ea73c88b6",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Hardware Test Engineering Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 20,
+   "score_reasons": [
+    "+ skills: Python, automation, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "450b4c9b8cd6a321",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Manufacturing Test Software Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8256004/apply/?gh_jid=8256004",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 20,
+   "score_reasons": [
+    "+ skills: Python, Excel, digital transformation, SQL (learning)",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "6c26ae0167139f1a",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Lakossági számla és betéti termékmenedzser",
+   "url": "https://karrier.erstebank.hu/allas/lakossagi-szamla-es-beteti-termekmenedzser-9067/44",
+   "location": "Hungary",
+   "posted": "2026-11-05",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: banking / financial services, SQL (learning)",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ecf07fbe2ff701f8",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: Python, research, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8a7be101b1435d71",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Hardware Systems Integration Intern (Summer 2027)",
+   "url": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: Python, research, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "2102263ed44a145d",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Hardware Systems Integration Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: Python, research, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "5048800646733a21",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Materials Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8199092/apply/?gh_jid=8199092",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: Python, research, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "caf7a7ada5f92218",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Print Optimization Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8172256/apply/?gh_jid=8172256",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: Python, Excel, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "515ba1d7901d5994",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "R&D Reliability/Test Engineer - Entry Level",
+   "url": "https://careers.formlabs.com/job/8241461/apply/?gh_jid=8241461",
+   "location": "Boston, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 19,
+   "score_reasons": [
+    "+ skills: Python, automation, SQL (learning)",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "0ca7a162a8a6cbbe",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00295728_en&title=Senior+Full-Stack+Engineer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: Git, banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− implies experience: 'mid-level'"
    ],
    "is_new": false
   },
@@ -1667,7 +1863,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1689,7 +1885,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1711,7 +1907,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1733,7 +1929,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1755,7 +1951,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1777,7 +1973,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1799,7 +1995,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1821,7 +2017,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1843,7 +2039,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1865,7 +2061,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1887,7 +2083,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1909,7 +2105,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1931,7 +2127,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1953,7 +2149,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1975,7 +2171,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -1997,7 +2193,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
@@ -2019,13 +2215,101 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 18,
    "score_reasons": [
     "+ skills: banking / financial services",
     "+ entry-level (in description)",
     "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b0c8441464381f51",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Pénzügyi visszaélés elleni szakértő",
+   "url": "https://karrier.erstebank.hu/allas/penzugyi-visszaeles-elleni-szakerto-9042/44",
+   "location": "Hungary",
+   "posted": "2026-10-14",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "7af286f7402aa390",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Pénzügyi-számviteli munkatárs - Erste Nyugdíjpénztár",
+   "url": "https://karrier.erstebank.hu/allas/penzugyi-szamviteli-munkatars-erste-nyugdijpenztar-9058/44",
+   "location": "Budapest",
+   "posted": "2026-10-22",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "5a958f03cfea6a42",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Értékesítés támogató koordinátor (határozott időre)",
+   "url": "https://karrier.erstebank.hu/allas/ertekesites-tamogato-koordinator-hatarozott-idore-9049/44",
+   "location": "Budapest",
+   "posted": "2026-10-17",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "59f71f562e1d7800",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Support Specialist - German speaking",
+   "url": "https://careers.formlabs.com/job/8220010/apply/?gh_jid=8220010",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 18,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ Budapest / Hungary",
+    "+ German valued"
    ],
    "is_new": false
   },
@@ -2041,11 +2325,233 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 17,
    "score_reasons": [
     "+ skills: economics, data visualisation, banking / financial services",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "a4943590077c4806",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Embedded Software Engineer - Entry Level",
+   "url": "https://careers.formlabs.com/job/7909577/apply/?gh_jid=7909577",
+   "location": "Boston, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 17,
+   "score_reasons": [
+    "+ skills: Python, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ab5ec0878ce9b2d5",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Print Process Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8199269/apply/?gh_jid=8199269",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 17,
+   "score_reasons": [
+    "+ skills: Python, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "eaa99baab55f1806",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "R&D Engineer - Entry Level",
+   "url": "https://careers.formlabs.com/job/8249038/apply/?gh_jid=8249038",
+   "location": "Boston, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 17,
+   "score_reasons": [
+    "+ skills: Python, research",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e74d76ca29128fcf",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Eger",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-eger-9001/44",
+   "location": "Eger",
+   "posted": "2026-09-21",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "fb56a874dd03d5b8",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Hajdúszoboszló",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-hajduszoboszlo-8981/44",
+   "location": "Hajdúszoboszló",
+   "posted": "2026-09-08",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "082faf0737843e7c",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Jászberény",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-jaszbereny-9047/44",
+   "location": "Jászberény",
+   "posted": "2026-10-16",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "4cc1cd0d62b3befa",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Kalocsa (határozott időre)",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-kalocsa-hatarozott-idore-9033/44",
+   "location": "Kalocsa",
+   "posted": "2026-10-08",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "bdcfb5e1f508ee5c",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Orosháza",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-oroshaza-8966/44",
+   "location": "Orosháza",
+   "posted": "2026-08-27",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e59646bcd9f4de92",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Bankfióki tanácsadó - Székesfehérvár",
+   "url": "https://karrier.erstebank.hu/allas/bankfioki-tanacsado-szekesfehervar-9062/44",
+   "location": "Székesfehérvár",
+   "posted": "2026-10-29",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ title: consultant",
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ae1bdc632e5322d2",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Manufacturing Engineer - May 2027 Graduates",
+   "url": "https://careers.formlabs.com/job/8250319/apply/?gh_jid=8250319",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 16,
+   "score_reasons": [
+    "+ skills: Excel, research, digital transformation",
     "+ entry-level"
    ],
    "is_new": false
@@ -2062,12 +2568,33 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 15,
    "score_reasons": [
     "+ skills: statistics, digital transformation",
     "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "0ebd6eff13677723",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Robotic Systems Integration Engineer - Entry Level (SLA & SLS)",
+   "url": "https://careers.formlabs.com/job/8241436/apply/?gh_jid=8241436",
+   "location": "Boston, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 15,
+   "score_reasons": [
+    "+ skills: Python",
+    "+ entry-level"
    ],
    "is_new": false
   },
@@ -2083,12 +2610,222 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 14,
    "score_reasons": [
     "+ skills: research, digital transformation",
     "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8e3c17d8b957c171",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Fulfillment Coordinator - May 2027 Graduates",
+   "url": "https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "7b9a16796b0d63cb",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Global Operations Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8263054/apply/?gh_jid=8263054",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "741b05abde5c0f9a",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Global Sourcing Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8161780/apply/?gh_jid=8161780",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ab793d853a41694f",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Legal Intern (Summer 2027)",
+   "url": "https://careers.formlabs.com/job/8319490/apply/?gh_jid=8319490",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: research, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "b18220b435020fdb",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Sourcing Program Management Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8262987/apply/?gh_jid=8262987",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "39a8be82ece5b224",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Website Content Operations Specialist",
+   "url": "https://careers.formlabs.com/job/8288770/apply/?gh_jid=8288770",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 14,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ Budapest / Hungary"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "03d310296b84bec1",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "3D Print Production Associate",
+   "url": "https://careers.formlabs.com/job/8119602/apply/?gh_jid=8119602",
+   "location": "Billerica, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 12,
+   "score_reasons": [
+    "+ title: associate",
+    "+ skills: digital transformation"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "af1109641dffc6ff",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "3D Print Production Associate - 2nd Shift",
+   "url": "https://careers.formlabs.com/job/8246892/apply/?gh_jid=8246892",
+   "location": "Billerica, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 12,
+   "score_reasons": [
+    "+ title: associate",
+    "+ skills: digital transformation"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "87c66c2fa9c35cd2",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Industrial Design Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 12,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ entry-level"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "a18307e2ea09bde3",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Print Production Intern (Winter/Spring 2027)",
+   "url": "https://careers.formlabs.com/job/8337242/apply/?gh_jid=8337242",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 12,
+   "score_reasons": [
+    "+ skills: Excel",
+    "+ entry-level"
    ],
    "is_new": false
   },
@@ -2104,7 +2841,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 12,
    "score_reasons": [
@@ -2117,27 +2854,46 @@
    "is_new": false
   },
   {
-   "uid": "625a8ed1ffcd89bb",
+   "uid": "a6faaa16328b10c1",
    "company_id": "accenture",
    "company": "Accenture",
    "category": "Consulting",
    "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00303497_en&title=Senior+Azure+Databricks+Engineer",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354911_en&title=SAP+GTS+Consultant",
    "location": "Hungary",
    "posted": "",
    "source": "browser",
    "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ skills: Python, data governance, data quality, migration +4",
-    "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "− 5+ years experience"
+    "− title only (page not read)"
    ],
-   "is_new": false
+   "is_new": true
+  },
+  {
+   "uid": "5aca4600e2e7abbb",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Financial Controller (Planning & Reporting)",
+   "url": "https://careers.ey.com/ey/job/Budapest-Financial-Controller-%28Planning-&-Reporting%29-1132/1455377733/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 10,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− title only (page not read)"
+   ],
+   "is_new": true
   },
   {
    "uid": "f1006674e9002e9b",
@@ -2151,7 +2907,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -2174,7 +2930,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -2195,7 +2951,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -2216,7 +2972,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -2236,663 +2992,14 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
+    "+ skills: Excel, banking / financial services",
+    "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "bb9bceff7c28248b",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Jogtanácsos - Vállalati és Tőkepiaci Jog",
-   "url": "https://karrier.erstebank.hu/allas/jogtanacsos-vallalati-es-tokepiaci-jog-9024/44",
-   "location": "Budapest",
-   "posted": "2026-10-22",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "f06824af120d17f4",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Kis- és középvállalati ügyfélmenedzser - Budapest",
-   "url": "https://karrier.erstebank.hu/allas/kis-es-kozepvallalati-ugyfelmenedzser-budapest-8969/44",
-   "location": "Budapest",
-   "posted": "2026-08-31",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "6c26ae0167139f1a",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Lakossági számla és betéti termékmenedzser",
-   "url": "https://karrier.erstebank.hu/allas/lakossagi-szamla-es-beteti-termekmenedzser-9067/44",
-   "location": "Hungary",
-   "posted": "2026-11-05",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "1602159ebb161c6a",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Nagyvállalati ügyfélmenedzser",
-   "url": "https://karrier.erstebank.hu/allas/nagyvallalati-ugyfelmenedzser-9014/44",
-   "location": "Budapest",
-   "posted": "2026-09-28",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "6bd6980227e5b8c0",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Product Owner (DevPO)",
-   "url": "https://karrier.erstebank.hu/allas/product-owner-devpo-9064/44",
-   "location": "Hungary",
-   "posted": "2026-11-03",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "d2fe78e73cfd6868",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Product Owner - Onboarding és Ügyfélkapcsolat Squad",
-   "url": "https://karrier.erstebank.hu/allas/product-owner-onboarding-es-ugyfelkapcsolat-squad-8970/44",
-   "location": "Budapest",
-   "posted": "2026-08-28",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "4205e46302e55484",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Product Owner - Perszonalizált Lakossági Ügyfélkezelés Squad",
-   "url": "https://karrier.erstebank.hu/allas/product-owner-perszonalizalt-lakossagi-ugyfelkezeles-squad-9021/44",
-   "location": "Hungary",
-   "posted": "2026-10-02",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b0c8441464381f51",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Pénzügyi visszaélés elleni szakértő",
-   "url": "https://karrier.erstebank.hu/allas/penzugyi-visszaeles-elleni-szakerto-9042/44",
-   "location": "Hungary",
-   "posted": "2026-10-14",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "7af286f7402aa390",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Pénzügyi-számviteli munkatárs - Erste Nyugdíjpénztár",
-   "url": "https://karrier.erstebank.hu/allas/penzugyi-szamviteli-munkatars-erste-nyugdijpenztar-9058/44",
-   "location": "Budapest",
-   "posted": "2026-10-22",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "0415b07bcd9d4efc",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "RPA fejlesztő (határozott idő, részmunkaidő)",
-   "url": "https://karrier.erstebank.hu/allas/rpa-fejleszto-hatarozott-ido-reszmunkaido-9059/44",
-   "location": "Budapest",
-   "posted": "2026-10-28",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "9a081e944eb5a03b",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Rendszerszervező - Fizetésforgalmi Rendszerek Squad",
-   "url": "https://karrier.erstebank.hu/allas/rendszerszervezo-fizetesforgalmi-rendszerek-squad-9065/44",
-   "location": "Hungary",
-   "posted": "2026-11-03",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8a15d8c470eb21f2",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Rendszerüzemeltető – Erste Nyugdíjpénztár",
-   "url": "https://karrier.erstebank.hu/allas/rendszeruzemelteto-erste-nyugdijpenztar-9038/44",
-   "location": "Budapest",
-   "posted": "2026-10-13",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "31af962b624a5ad0",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Solution Architect",
-   "url": "https://karrier.erstebank.hu/allas/solution-architect-8704/44",
-   "location": "Budapest",
-   "posted": "2026-02-16",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "539369a14d34c0b0",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Szoftverfejlesztő - Finanszírozási Döntések és Otthonteremtés Tribe",
-   "url": "https://karrier.erstebank.hu/allas/szoftverfejleszto-finanszirozasi-dontesek-es-otthonteremtes-tribe-9063/44",
-   "location": "Hungary",
-   "posted": "2026-11-03",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "d5a084f4e6aea811",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Vállalati értékesítés támogató",
-   "url": "https://karrier.erstebank.hu/allas/vallalati-ertekesites-tamogato-8986/44",
-   "location": "Budapest",
-   "posted": "2026-09-16",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "5a958f03cfea6a42",
-   "company_id": "erste",
-   "company": "Erste Bank Hungary",
-   "category": "Finance",
-   "title": "Értékesítés támogató koordinátor (határozott időre)",
-   "url": "https://karrier.erstebank.hu/allas/ertekesites-tamogato-koordinator-hatarozott-idore-9049/44",
-   "location": "Budapest",
-   "posted": "2026-10-17",
-   "source": "hrxml",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "03d310296b84bec1",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "3D Print Production Associate",
-   "url": "https://careers.formlabs.com/job/8119602/apply/?gh_jid=8119602",
-   "location": "Billerica, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ title: associate",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "af1109641dffc6ff",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "3D Print Production Associate - 2nd Shift",
-   "url": "https://careers.formlabs.com/job/8246892/apply/?gh_jid=8246892",
-   "location": "Billerica, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ title: associate",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "9de685de359bd6df",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Addetto/a al Servizio Clienti - Trasferimento a Budapest",
-   "url": "https://careers.formlabs.com/job/8220261/apply/?gh_jid=8220261",
-   "location": "Naples, Napoli, Italy",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "438c8a20317490c1",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Addetto/a al Servizio Clienti - Trasferimento a Budapest",
-   "url": "https://careers.formlabs.com/job/8220243/apply/?gh_jid=8220243",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8afa35a4da36788f",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Associate, Performance Marketing",
-   "url": "https://careers.formlabs.com/job/8248490/apply/?gh_jid=8248490",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ title: associate",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "a4943590077c4806",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Embedded Software Engineer - Entry Level",
-   "url": "https://careers.formlabs.com/job/7909577/apply/?gh_jid=7909577",
-   "location": "Boston, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ddc85ad9a019f61b",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Field Marketing Specialist (Events)",
-   "url": "https://careers.formlabs.com/job/8303442/apply/?gh_jid=8303442",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8e3c17d8b957c171",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Fulfillment Coordinator - May 2027 Graduates",
-   "url": "https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "7b9a16796b0d63cb",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Global Operations Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8263054/apply/?gh_jid=8263054",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "741b05abde5c0f9a",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Global Sourcing Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8161780/apply/?gh_jid=8161780",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ecf07fbe2ff701f8",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "8a7be101b1435d71",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Hardware Systems Integration Intern (Summer 2027)",
-   "url": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2102263ed44a145d",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Hardware Systems Integration Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b04c674ea73c88b6",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Hardware Test Engineering Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "87c66c2fa9c35cd2",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Industrial Design Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
+    "− implies experience: 'több éves'"
    ],
    "is_new": false
   },
@@ -2908,495 +3015,11 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ab793d853a41694f",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Legal Intern (Summer 2027)",
-   "url": "https://careers.formlabs.com/job/8319490/apply/?gh_jid=8319490",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ae1bdc632e5322d2",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Manufacturing Engineer - May 2027 Graduates",
-   "url": "https://careers.formlabs.com/job/8250319/apply/?gh_jid=8250319",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "c303ae6b07bd4c9d",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Manufacturing Engineering Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "450b4c9b8cd6a321",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Manufacturing Test Software Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8256004/apply/?gh_jid=8256004",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "5048800646733a21",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Materials Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8199092/apply/?gh_jid=8199092",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "caf7a7ada5f92218",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Print Optimization Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8172256/apply/?gh_jid=8172256",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "ab5ec0878ce9b2d5",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Print Process Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8199269/apply/?gh_jid=8199269",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "a18307e2ea09bde3",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Print Production Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8337242/apply/?gh_jid=8337242",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "eaa99baab55f1806",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "R&D Engineer - Entry Level",
-   "url": "https://careers.formlabs.com/job/8249038/apply/?gh_jid=8249038",
-   "location": "Boston, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "515ba1d7901d5994",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "R&D Reliability/Test Engineer - Entry Level",
-   "url": "https://careers.formlabs.com/job/8241461/apply/?gh_jid=8241461",
-   "location": "Boston, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "0ebd6eff13677723",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Robotic Systems Integration Engineer - Entry Level (SLA & SLS)",
-   "url": "https://careers.formlabs.com/job/8241436/apply/?gh_jid=8241436",
-   "location": "Boston, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "3ae7300da43df1ec",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Services Engineer",
-   "url": "https://careers.formlabs.com/job/8113715/apply/?gh_jid=8113715",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "cf073b355801691f",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Social Media and Community Operations Specialist",
-   "url": "https://careers.formlabs.com/job/8347438/apply/?gh_jid=8347438",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "cf41211bea7d90a4",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Software Engineer, Test Infrastructure & Reliability",
-   "url": "https://careers.formlabs.com/job/8078997/apply/?gh_jid=8078997",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b18220b435020fdb",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Sourcing Program Management Intern (Winter/Spring 2027)",
-   "url": "https://careers.formlabs.com/job/8262987/apply/?gh_jid=8262987",
-   "location": "Somerville, MA",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ entry-level",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "98e368c5ce9fc86f",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Support Specialist - French speaking",
-   "url": "https://careers.formlabs.com/job/8180697/apply/?gh_jid=8180697",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "59f71f562e1d7800",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Support Specialist - German speaking",
-   "url": "https://careers.formlabs.com/job/8220010/apply/?gh_jid=8220010",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "bc213f6e898d291c",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Support Specialist - Italian speaking",
-   "url": "https://careers.formlabs.com/job/8220159/apply/?gh_jid=8220159",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "c66f0d30b9e35111",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Support Specialist - Italian speaking (fresh STEM grads)",
-   "url": "https://careers.formlabs.com/job/8333741/apply/?gh_jid=8333741",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "7d982075f049e787",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Technical Support Specialist - Relocation to Budapest",
-   "url": "https://careers.formlabs.com/job/8220259/apply/?gh_jid=8220259",
-   "location": "Catania, Catania, Italy",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "2d5a15e97a9e34e8",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Test Tooling Engineer",
-   "url": "https://careers.formlabs.com/job/8237289/apply/?gh_jid=8237289",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "e51a4ae1db18ca23",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Trade Show Specialist (B2B)",
-   "url": "https://careers.formlabs.com/job/8294496/apply/?gh_jid=8294496",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "39a8be82ece5b224",
-   "company_id": "formlabs",
-   "company": "Formlabs",
-   "category": "Data/AI/Tech",
-   "title": "Website Content Operations Specialist",
-   "url": "https://careers.formlabs.com/job/8288770/apply/?gh_jid=8288770",
-   "location": "Budapest, Hungary",
-   "posted": "2026-11-06",
-   "source": "greenhouse",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 10,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ entry-level"
    ],
    "is_new": false
   },
@@ -3412,12 +3035,11 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3433,12 +3055,11 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3454,12 +3075,11 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
-    "+ Budapest / Hungary",
-    "− title only (page not read)"
+    "+ Budapest / Hungary"
    ],
    "is_new": false
   },
@@ -3475,7 +3095,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3496,7 +3116,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3517,7 +3137,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3538,7 +3158,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3559,7 +3179,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3580,7 +3200,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3601,7 +3221,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3622,7 +3242,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3643,7 +3263,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3664,7 +3284,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3685,7 +3305,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3706,7 +3326,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3727,7 +3347,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3748,7 +3368,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3769,7 +3389,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3790,7 +3410,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3811,7 +3431,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3832,7 +3452,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3853,7 +3473,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3874,7 +3494,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3895,7 +3515,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3916,7 +3536,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3937,7 +3557,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3958,7 +3578,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -3979,7 +3599,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4000,7 +3620,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4021,7 +3641,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4042,7 +3662,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4063,7 +3683,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4084,7 +3704,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4105,7 +3725,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4126,7 +3746,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4147,7 +3767,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4168,7 +3788,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4189,7 +3809,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4210,7 +3830,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4231,7 +3851,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4252,7 +3872,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4273,7 +3893,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4294,7 +3914,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4315,7 +3935,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4336,7 +3956,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4357,7 +3977,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
@@ -4378,12 +3998,37 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 10,
    "score_reasons": [
     "+ Budapest / Hungary",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "d0c19dbba78c3f16",
+   "company_id": "citi",
+   "company": "Citi",
+   "category": "Finance",
+   "title": "Forward Deployed AI Engineer for Cyber Security",
+   "url": "https://jobs.citi.com/job/budapest/forward-deployed-ai-engineer-for-cyber-security/287/102193206448",
+   "location": "Budapest, Budapest, Hungary",
+   "posted": "",
+   "source": "html",
+   "match": 1,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 9,
+   "score_reasons": [
+    "+ title: AI / ML",
+    "+ skills: Python, LLMs / GenAI, automation, APIs / web data +3",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 8+ years experience",
+    "− implies experience: 'proven track record', 'proven experience' +1"
    ],
    "is_new": false
   },
@@ -4399,11 +4044,80 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 8,
    "score_reasons": [
     "+ skills: APIs / web data, banking / financial services, digital transformation, SQL (learning)",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 3 years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "9a081e944eb5a03b",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Rendszerszervező - Fizetésforgalmi Rendszerek Squad",
+   "url": "https://karrier.erstebank.hu/allas/rendszerszervezo-fizetesforgalmi-rendszerek-squad-9065/44",
+   "location": "Hungary",
+   "posted": "2026-11-03",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 8,
+   "score_reasons": [
+    "+ skills: APIs / web data, banking / financial services, digital transformation, SQL (learning)",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 3 years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "d5a084f4e6aea811",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Vállalati értékesítés támogató",
+   "url": "https://karrier.erstebank.hu/allas/vallalati-ertekesites-tamogato-8986/44",
+   "location": "Budapest",
+   "posted": "2026-09-16",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 8,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− implies experience: 'releváns szakmai tapasztalat'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "cf073b355801691f",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Social Media and Community Operations Specialist",
+   "url": "https://careers.formlabs.com/job/8347438/apply/?gh_jid=8347438",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 8,
+   "score_reasons": [
+    "+ skills: automation, Excel, digital transformation",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
     "− 3 years experience"
@@ -4422,7 +4136,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 8,
    "score_reasons": [
@@ -4430,29 +4144,6 @@
     "+ Budapest / Hungary",
     "− senior title",
     "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "0b1d8680cab089d1",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00351121_en&title=Microsoft+Fabric+Data+Engineer",
-   "location": "Hungary",
-   "posted": "",
-   "source": "browser",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 7,
-   "score_reasons": [
-    "+ skills: Python, data governance, data quality, APIs / web data +3",
-    "+ entry-level (in description)",
-    "+ Budapest / Hungary",
-    "− 5+ years experience"
    ],
    "is_new": false
   },
@@ -4468,7 +4159,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4491,7 +4182,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4514,7 +4205,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4535,7 +4226,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4556,7 +4247,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4577,7 +4268,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4598,7 +4289,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4619,7 +4310,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4640,7 +4331,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
@@ -4661,12 +4352,35 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 6,
    "score_reasons": [
     "+ remote / EU-wide",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "6bd6980227e5b8c0",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Product Owner (DevPO)",
+   "url": "https://karrier.erstebank.hu/allas/product-owner-devpo-9064/44",
+   "location": "Hungary",
+   "posted": "2026-11-03",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 5,
+   "score_reasons": [
+    "+ skills: banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 3 years experience"
    ],
    "is_new": false
   },
@@ -4682,7 +4396,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 5,
    "score_reasons": [
@@ -4692,49 +4406,47 @@
    "is_new": false
   },
   {
-   "uid": "534a687057e46fe1",
-   "company_id": "accenture",
-   "company": "Accenture",
-   "category": "Consulting",
-   "title": "Read full job description",
-   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354145_en&title=Senior+Identity+%26+Access+Consultant+%E2%80%93+Microsoft+Entra+ID+%26+M365+Security",
+   "uid": "4205e46302e55484",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Product Owner - Perszonalizált Lakossági Ügyfélkezelés Squad",
+   "url": "https://karrier.erstebank.hu/allas/product-owner-perszonalizalt-lakossagi-ugyfelkezeles-squad-9021/44",
    "location": "Hungary",
-   "posted": "",
-   "source": "browser",
+   "posted": "2026-10-02",
+   "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
-   "score": 4,
+   "score": 3,
    "score_reasons": [
-    "+ skills: automation, migration, APIs / web data, Excel +1",
+    "+ skills: banking / financial services",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
-    "+ German valued",
-    "− 10+ years experience"
+    "− 4 years experience"
    ],
    "is_new": false
   },
   {
-   "uid": "44ce52519cfac056",
-   "company_id": "blackrock",
-   "company": "BlackRock",
-   "category": "Finance",
-   "title": "Vice President, Planning & Program Management (Fixed-term)",
-   "url": "https://careers.blackrock.com/job/budapest/vice-president-planning-and-program-management-fixed-term/45831/102469768928",
-   "location": "Location: Budapest, Budapest",
-   "posted": "",
-   "source": "html",
+   "uid": "3ae7300da43df1ec",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Services Engineer",
+   "url": "https://careers.formlabs.com/job/8113715/apply/?gh_jid=8113715",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 3,
    "score_reasons": [
-    "+ skills: data quality, automation, data visualisation, research +1",
-    "+ entry-level",
+    "+ skills: research, SQL (learning)",
     "+ Budapest / Hungary",
-    "− 5+ years experience"
+    "− implies experience: 'demonstrated experience'"
    ],
    "is_new": false
   },
@@ -4750,7 +4462,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 2,
    "score_reasons": [
@@ -4759,6 +4471,29 @@
     "+ Budapest / Hungary",
     "+ German valued",
     "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8300b463e817c8e1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00268676_en&title=MS+Dynamics+365+Developer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 2,
+   "score_reasons": [
+    "+ skills: migration, digital transformation, SQL (learning)",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− implies experience: 'mid-level', 'extensive experience'"
    ],
    "is_new": false
   },
@@ -4774,7 +4509,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 2,
    "score_reasons": [
@@ -4795,7 +4530,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 2,
    "score_reasons": [
@@ -4816,7 +4551,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 2,
    "score_reasons": [
@@ -4824,6 +4559,143 @@
     "− title only (page not read)"
    ],
    "is_new": false
+  },
+  {
+   "uid": "e7e7c45d8b2eb0af",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00301008_en&title=Senior+ServiceNow+Developer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 1,
+   "score_reasons": [
+    "+ skills: Excel, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− 4 years experience",
+    "− implies experience: 'mid-level'"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "2f2f05b5401efa29",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Direct Tax Operations Manager",
+   "url": "https://careers.ey.com/ey/job/Budapest-Direct-Tax-Operations-Manager-1132/1435664333/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− field you excluded",
+    "− title only (page not read)"
+   ],
+   "is_new": true
+  },
+  {
+   "uid": "c63d03e14bd33ce7",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Manager - Tax Reporting and Compliance",
+   "url": "https://careers.ey.com/ey/job/Budapest-Manager-Tax-Reporting-and-Compliance-1132/1435666133/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− field you excluded",
+    "− title only (page not read)"
+   ],
+   "is_new": true
+  },
+  {
+   "uid": "e85a10be6bcdaca2",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Senior Advisor - ESG Advisory Climate Change and Sustainability Services",
+   "url": "https://careers.ey.com/ey/job/Budapest-Senior-Advisor-ESG-Advisory-Climate-Change-and-Sustainability-Services-1132/1446116933/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− title only (page not read)"
+   ],
+   "is_new": true
+  },
+  {
+   "uid": "ef0b3ad0a9b8dd1c",
+   "company_id": "ey",
+   "company": "EY",
+   "category": "Consulting",
+   "title": "Senior Manager - Tax Reporting and Compliance",
+   "url": "https://careers.ey.com/ey/job/Budapest-Senior-Manager-Tax-Reporting-and-Compliance-1132/1435657733/",
+   "location": "Budapest, HU, 1132",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− senior title",
+    "− field you excluded",
+    "− title only (page not read)"
+   ],
+   "is_new": true
+  },
+  {
+   "uid": "7d466b98a929b626",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Sr.Recruiter",
+   "url": "https://careers.formlabs.com/job/8348929/apply/?gh_jid=8348929",
+   "location": "Shenzhen",
+   "posted": "2026-11-09",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "− senior title",
+    "− title only (page not read)"
+   ],
+   "is_new": true
   },
   {
    "uid": "166c02d19f955ff0",
@@ -4837,7 +4709,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4859,7 +4731,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4881,7 +4753,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4902,7 +4774,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4922,7 +4794,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4931,6 +4803,55 @@
     "+ Budapest / Hungary",
     "+ German valued",
     "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "534a687057e46fe1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00354145_en&title=Senior+Identity+%26+Access+Consultant+%E2%80%93+Microsoft+Entra+ID+%26+M365+Security",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: automation, migration, APIs / web data, Excel +1",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "+ German valued",
+    "− 10+ years experience",
+    "− implies experience: 'seasoned', 'proven experience' +1"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "0b1d8680cab089d1",
+   "company_id": "accenture",
+   "company": "Accenture",
+   "category": "Consulting",
+   "title": "Read full job description",
+   "url": "https://www.accenture.com/hu-en/careers/jobdetails?id=R00351121_en&title=Microsoft+Fabric+Data+Engineer",
+   "location": "Hungary",
+   "posted": "",
+   "source": "browser",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: Python, data governance, data quality, APIs / web data +3",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 5+ years experience",
+    "− implies experience: 'proven track record', 'solid experience'"
    ],
    "is_new": false
   },
@@ -4946,7 +4867,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4968,7 +4889,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4990,7 +4911,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -4998,7 +4919,32 @@
     "+ skills: Excel, banking / financial services, digital transformation",
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
+    "− implies experience: 'experienced professional'",
     "− field you excluded"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "44ce52519cfac056",
+   "company_id": "blackrock",
+   "company": "BlackRock",
+   "category": "Finance",
+   "title": "Vice President, Planning & Program Management (Fixed-term)",
+   "url": "https://careers.blackrock.com/job/budapest/vice-president-planning-and-program-management-fixed-term/45831/102469768928",
+   "location": "Location: Budapest, Budapest",
+   "posted": "",
+   "source": "html",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: data quality, automation, data visualisation, research +1",
+    "+ entry-level",
+    "+ Budapest / Hungary",
+    "− 5+ years experience",
+    "− implies experience: 'experienced professional'"
    ],
    "is_new": false
   },
@@ -5014,7 +4960,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5037,7 +4983,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5059,7 +5005,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5081,7 +5027,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5104,7 +5050,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5131,7 +5077,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5151,7 +5097,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5173,7 +5119,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5196,7 +5142,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5219,7 +5165,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5240,7 +5186,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5263,36 +5209,13 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "+ skills: economics, Excel",
     "+ Budapest / Hungary",
     "− field you excluded"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "792321e67286b172",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Bérszámfejtési vezető",
-   "url": "https://careers.ey.com/ey/job/Budapest-B%C3%A9rsz%C3%A1mfejt%C3%A9si-vezet%C5%91-1132/1427991133/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− field you excluded",
-    "− title only (page not read)"
    ],
    "is_new": false
   },
@@ -5308,7 +5231,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5331,36 +5254,13 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "+ Budapest / Hungary",
     "− field you excluded",
     "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "91b7523cd53f9402",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Junior bérszámfejtő - Budapest",
-   "url": "https://careers.ey.com/ey/job/Budapest-Junior-b%C3%A9rsz%C3%A1mfejt%C5%91-Budapest-1132/1426569733/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 1,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ skills: data governance, statistics, Excel",
-    "+ entry-level",
-    "+ Budapest / Hungary",
-    "− field you excluded"
    ],
    "is_new": false
   },
@@ -5376,13 +5276,14 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "+ skills: Excel",
     "+ entry-level",
     "+ Budapest / Hungary",
+    "− implies experience: 'releváns szakmai tapasztalat'",
     "− field you excluded"
    ],
    "is_new": false
@@ -5399,7 +5300,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5421,7 +5322,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5443,7 +5344,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5466,7 +5367,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5488,7 +5389,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5511,7 +5412,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5535,52 +5436,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− field you excluded",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "dce34a29a3deb5c7",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Senior HR Advisor (Total Rewards, Compensation & Benefits and Pay Transparency) - Budapest",
-   "url": "https://careers.ey.com/ey/job/Budapest-Senior-HR-Advisor-%28Total-Rewards%2C-Compensation-&-Benefits-and-Pay-Transparency%29-Budapest-1132/1433327233/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "b396dd9cf8c81307",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Senior Payroll Specialist - Budapest",
-   "url": "https://careers.ey.com/ey/job/Budapest-Senior-Payroll-Specialist-Budapest-1132/1426431133/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5603,7 +5459,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5626,7 +5482,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5649,30 +5505,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "active": 1,
-   "score": 0,
-   "score_reasons": [
-    "+ Budapest / Hungary",
-    "− senior title",
-    "− field you excluded",
-    "− title only (page not read)"
-   ],
-   "is_new": false
-  },
-  {
-   "uid": "9ad31aa7f81e4ada",
-   "company_id": "ey",
-   "company": "EY",
-   "category": "Consulting",
-   "title": "Szakmai vezető - Bérszámfejtési csoport",
-   "url": "https://careers.ey.com/ey/job/Budapest-Szakmai-vezet%C5%91-B%C3%A9rsz%C3%A1mfejt%C3%A9si-csoport-1132/1427996833/",
-   "location": "Budapest, HU, 1132",
-   "posted": "",
-   "source": "html",
-   "match": 0,
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5695,7 +5528,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5720,7 +5553,7 @@
    "source": "html",
    "match": 1,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5744,7 +5577,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5767,7 +5600,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5790,7 +5623,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5813,7 +5646,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5834,7 +5667,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5855,7 +5688,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5876,7 +5709,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5897,7 +5730,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5919,7 +5752,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5942,7 +5775,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5950,6 +5783,53 @@
     "+ entry-level (in description)",
     "+ Budapest / Hungary",
     "− 5+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "bb9bceff7c28248b",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Jogtanácsos - Vállalati és Tőkepiaci Jog",
+   "url": "https://karrier.erstebank.hu/allas/jogtanacsos-vallalati-es-tokepiaci-jog-9024/44",
+   "location": "Budapest",
+   "posted": "2026-10-22",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 6+ years experience"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "f06824af120d17f4",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Kis- és középvállalati ügyfélmenedzser - Budapest",
+   "url": "https://karrier.erstebank.hu/allas/kis-es-kozepvallalati-ugyfelmenedzser-budapest-8969/44",
+   "location": "Budapest",
+   "posted": "2026-08-31",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: banking / financial services",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 20+ years experience",
+    "− implies experience: 'releváns szakmai tapasztalat'"
    ],
    "is_new": false
   },
@@ -5965,7 +5845,7 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -5987,11 +5867,34 @@
    "source": "hrxml",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8a15d8c470eb21f2",
+   "company_id": "erste",
+   "company": "Erste Bank Hungary",
+   "category": "Finance",
+   "title": "Rendszerüzemeltető – Erste Nyugdíjpénztár",
+   "url": "https://karrier.erstebank.hu/allas/rendszeruzemelteto-erste-nyugdijpenztar-9038/44",
+   "location": "Budapest",
+   "posted": "2026-10-13",
+   "source": "hrxml",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: banking / financial services, digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− 20+ years experience"
    ],
    "is_new": false
   },
@@ -6007,7 +5910,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6030,7 +5933,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6050,7 +5953,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6070,7 +5973,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6090,7 +5993,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6110,7 +6013,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6130,7 +6033,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6150,7 +6053,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6170,7 +6073,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6190,7 +6093,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6210,12 +6113,54 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "− field you excluded",
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "9de685de359bd6df",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Addetto/a al Servizio Clienti - Trasferimento a Budapest",
+   "url": "https://careers.formlabs.com/job/8220261/apply/?gh_jid=8220261",
+   "location": "Naples, Napoli, Italy",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− requires Italian"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "438c8a20317490c1",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Addetto/a al Servizio Clienti - Trasferimento a Budapest",
+   "url": "https://careers.formlabs.com/job/8220243/apply/?gh_jid=8220243",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− requires Italian"
    ],
    "is_new": false
   },
@@ -6231,11 +6176,34 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "8afa35a4da36788f",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Associate, Performance Marketing",
+   "url": "https://careers.formlabs.com/job/8248490/apply/?gh_jid=8248490",
+   "location": "Somerville, MA",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ title: associate",
+    "+ skills: digital transformation",
+    "+ entry-level (in description)",
+    "− implies experience: 'track record of', 'hands-on experience managing'"
    ],
    "is_new": false
   },
@@ -6251,7 +6219,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6271,7 +6239,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6291,7 +6259,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6312,7 +6280,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6332,7 +6300,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6353,7 +6321,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6374,7 +6342,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6395,7 +6363,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6416,7 +6384,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6437,7 +6405,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6459,7 +6427,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6481,7 +6449,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6503,7 +6471,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6524,7 +6492,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6545,7 +6513,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6565,7 +6533,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6587,7 +6555,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6608,11 +6576,34 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "ddc85ad9a019f61b",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Field Marketing Specialist (Events)",
+   "url": "https://careers.formlabs.com/job/8303442/apply/?gh_jid=8303442",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: derivatives / ISDA, Excel, digital transformation",
+    "+ Budapest / Hungary",
+    "− 5+ years experience",
+    "− implies experience: 'proven experience'"
    ],
    "is_new": false
   },
@@ -6628,7 +6619,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6648,7 +6639,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6668,7 +6659,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6688,7 +6679,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6708,7 +6699,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6728,7 +6719,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6748,7 +6739,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6768,7 +6759,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6788,7 +6779,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6808,7 +6799,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6828,7 +6819,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6848,7 +6839,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6868,7 +6859,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6889,7 +6880,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6910,7 +6901,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6931,7 +6922,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6952,7 +6943,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6973,7 +6964,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -6993,7 +6984,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7014,7 +7005,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7034,7 +7025,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7057,7 +7048,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7078,7 +7069,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7099,7 +7090,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7120,7 +7111,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7141,7 +7132,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7162,7 +7153,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7183,7 +7174,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7204,7 +7195,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7225,7 +7216,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7246,7 +7237,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7267,7 +7258,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7287,7 +7278,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7307,7 +7298,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7328,7 +7319,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7349,7 +7340,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7371,7 +7362,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7393,7 +7384,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7413,7 +7404,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7433,7 +7424,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7454,7 +7445,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7475,7 +7466,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7496,7 +7487,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7516,7 +7507,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7536,7 +7527,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7556,7 +7547,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7576,7 +7567,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7596,7 +7587,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7617,7 +7608,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7638,7 +7629,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7658,7 +7649,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7678,7 +7669,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7698,7 +7689,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7718,7 +7709,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7738,7 +7729,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7758,7 +7749,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7779,7 +7770,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7801,7 +7792,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7822,7 +7813,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7844,7 +7835,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7866,7 +7857,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7888,7 +7879,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7909,7 +7900,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7930,7 +7921,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7952,7 +7943,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7974,7 +7965,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -7994,7 +7985,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8015,7 +8006,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8035,7 +8026,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8055,7 +8046,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8075,7 +8066,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8096,7 +8087,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8116,7 +8107,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8136,7 +8127,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8157,7 +8148,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8178,7 +8169,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8199,7 +8190,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8219,7 +8210,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8239,7 +8230,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8259,7 +8250,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8279,7 +8270,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8299,7 +8290,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8320,7 +8311,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8341,7 +8332,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8361,7 +8352,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8381,7 +8372,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8401,7 +8392,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8421,7 +8412,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8442,7 +8433,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8462,7 +8453,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8483,7 +8474,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8504,7 +8495,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8525,7 +8516,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8546,7 +8537,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8567,7 +8558,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8589,7 +8580,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8611,7 +8602,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8633,7 +8624,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8655,7 +8646,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8676,7 +8667,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8698,7 +8689,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8719,7 +8710,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8741,7 +8732,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8763,7 +8754,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8784,7 +8775,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8806,7 +8797,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8827,7 +8818,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8848,7 +8839,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8870,7 +8861,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8891,7 +8882,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8913,7 +8904,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8935,7 +8926,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8956,7 +8947,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8977,7 +8968,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -8999,7 +8990,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9021,7 +9012,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9042,7 +9033,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9063,7 +9054,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9084,7 +9075,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9105,7 +9096,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9126,7 +9117,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9147,7 +9138,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9168,7 +9159,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9189,7 +9180,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9210,7 +9201,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9232,7 +9223,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9254,7 +9245,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9275,7 +9266,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9296,7 +9287,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9316,7 +9307,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9336,7 +9327,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9356,7 +9347,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9377,7 +9368,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9397,7 +9388,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9417,7 +9408,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9437,7 +9428,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9457,7 +9448,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9477,7 +9468,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9497,7 +9488,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9518,7 +9509,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9538,7 +9529,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9559,7 +9550,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9580,7 +9571,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9601,7 +9592,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9622,7 +9613,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9643,7 +9634,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9664,7 +9655,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9685,7 +9676,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9706,7 +9697,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9727,7 +9718,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9748,7 +9739,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9769,7 +9760,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9789,7 +9780,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9809,11 +9800,122 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
     "− title only (page not read)"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "98e368c5ce9fc86f",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Support Specialist - French speaking",
+   "url": "https://careers.formlabs.com/job/8180697/apply/?gh_jid=8180697",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ Budapest / Hungary",
+    "− requires French"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "bc213f6e898d291c",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Support Specialist - Italian speaking",
+   "url": "https://careers.formlabs.com/job/8220159/apply/?gh_jid=8220159",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ Budapest / Hungary",
+    "− requires Italian"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "c66f0d30b9e35111",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Support Specialist - Italian speaking (fresh STEM grads)",
+   "url": "https://careers.formlabs.com/job/8333741/apply/?gh_jid=8333741",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: digital transformation",
+    "+ entry-level (in description)",
+    "+ Budapest / Hungary",
+    "− requires Italian"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "7d982075f049e787",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Technical Support Specialist - Relocation to Budapest",
+   "url": "https://careers.formlabs.com/job/8220259/apply/?gh_jid=8220259",
+   "location": "Catania, Catania, Italy",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ Budapest / Hungary",
+    "− requires Italian"
+   ],
+   "is_new": false
+  },
+  {
+   "uid": "e51a4ae1db18ca23",
+   "company_id": "formlabs",
+   "company": "Formlabs",
+   "category": "Data/AI/Tech",
+   "title": "Trade Show Specialist (B2B)",
+   "url": "https://careers.formlabs.com/job/8294496/apply/?gh_jid=8294496",
+   "location": "Budapest, Hungary",
+   "posted": "2026-11-06",
+   "source": "greenhouse",
+   "match": 0,
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
+   "active": 1,
+   "score": 0,
+   "score_reasons": [
+    "+ skills: derivatives / ISDA, Excel, digital transformation",
+    "+ Budapest / Hungary",
+    "− 5+ years experience",
+    "− implies experience: 'proven experience'"
    ],
    "is_new": false
   },
@@ -9829,7 +9931,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9849,7 +9951,7 @@
    "source": "greenhouse",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9871,7 +9973,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9893,7 +9995,7 @@
    "source": "html",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9916,7 +10018,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9940,7 +10042,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9962,7 +10064,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
@@ -9984,7 +10086,7 @@
    "source": "browser",
    "match": 0,
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "active": 1,
    "score": 0,
    "score_reasons": [
