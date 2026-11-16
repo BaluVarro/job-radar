@@ -1,7 +1,7 @@
-# Job radar – run 2026-11-13T130611Z
+# Job radar – run 2026-11-16T090759Z
 
-- Sources checked: **43** (ok 40, warnings 0, failed 3)
-- New postings: **21** (matching your filters: **4**)
+- Sources checked: **43** (ok 39, warnings 0, failed 4)
+- New postings: **15** (matching your filters: **4**)
 - Postings closed since last run: 21
 - Job pages read for scoring: 60
 
@@ -13,31 +13,32 @@
 | 68 | ECB | [Traineeship in the Information Governance Division](https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Information-Governance-Division/15315) | + title: data governance · + skills: Python, LLMs / GenAI, automation, Excel +1 · + entry-level · + remote / EU-wide · + German valued |
 | 61 | Deloitte | [AI & Data - BI Consultant / Budapest](https://apply.deloittece.com/en_US/careers/JobDetail/AI-Data-BI-Consultant-Budapest/20853) | + title: AI / ML · + skills: LLMs / GenAI, migration, data visualisation, Excel · + entry-level (in description) · + Budapest / Hungary · + German valued |
 | 53 | Citi | [Technology - Infrastructure, Summer Analyst, Hungary - Budapest, 2027](https://jobs.citi.com/job/budapest/technology-infrastructure-summer-analyst-hungary-budapest-2027/287/102849942720) | + title: analyst · + skills: Python, data governance, automation, Excel +2 · + entry-level (in description) · + Budapest / Hungary |
-| 48 | Citi | [Technology - Cybersecurity, Full-Time Analyst, Hungary - Budapest, 2027](https://jobs.citi.com/job/budapest/technology-cybersecurity-full-time-analyst-hungary-budapest-2027/287/102810643536) | + title: analyst · + skills: Python, automation, Excel, banking / financial services +1 · + entry-level (in description) · + Budapest / Hungary |
 | 48 | Citi | [Technology - Cybersecurity, Summer Analyst, Hungary - Budapest, 2027](https://jobs.citi.com/job/budapest/technology-cybersecurity-summer-analyst-hungary-budapest-2027/287/102849942800) | + title: analyst · + skills: Python, automation, Excel, banking / financial services +1 · + entry-level (in description) · + Budapest / Hungary |
 | 42 | KPMG Global Services Hungary | [Global Immigration Consultant Global Mobility Services · Budapest · Hybrid](https://kpmgglobalservices.teamtailor.com/jobs/8539619-global-immigration-consultant) | + title: consultant · + skills: automation, migration, digital transformation · + entry-level (in description) · + Budapest / Hungary |
+| 42 | PwC | [Medior Databricks AI/ML Specialista](https://jobs-cee.pwc.com/hu/hu/job/766687WD/Medior-Databricks-AI-ML-Specialista) | + title: AI / ML · + skills: machine learning · + Budapest / Hungary · − title only (page not read) |
 | 41 | Citi | [Cash and Collateral Management Intermediate Analyst](https://jobs.citi.com/job/budapest/cash-and-collateral-management-intermediate-analyst/287/99450976096) | + title: analyst · + skills: derivatives / ISDA, Excel, research · + entry-level (in description) · + Budapest / Hungary |
-| 41 | Citi | [Stakeholder Support Bank Signatory Management Analyst](https://jobs.citi.com/job/budapest/stakeholder-support-bank-signatory-management-analyst/287/102810644512) | + title: analyst · + skills: automation, Excel, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
+| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774992) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
+| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774896) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
+| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774832) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
 | 40 | Citi | [Performance Intermediate Analyst](https://jobs.citi.com/job/budapest/performance-intermediate-analyst/287/102161061344) | + title: analyst · + skills: Excel, research, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
 | 39 | BlackRock | [Analytics Associate – Digital Product, Data & AI (Fixed Term)](https://careers.blackrock.com/job/budapest/analytics-associate-digital-product-data-and-ai-fixed-term/45831/103203683328) | + title: AI / ML · + skills: Python, data quality, automation, pandas / NumPy +10 · + entry-level (in description) · + Budapest / Hungary · − 5+ years experience · − implies experience: 'experienced professional' |
 | 39 | Citi | [Valuation Control Intermediate Analyst](https://jobs.citi.com/job/budapest/valuation-control-intermediate-analyst/287/102161045168) | + title: analyst · + skills: economics, Excel · + entry-level (in description) · + Budapest / Hungary |
 | 39 | EY | [Global Immigration Consultant](https://careers.ey.com/ey/job/Budapest-Global-Immigration-Consultant-1132/1086956301/) | + title: consultant · + skills: migration, APIs / web data, Excel, research +1 · + Budapest / Hungary |
-| 38 | Citi | [Digital Client Solution Analyst (Czech/Slovak)](https://jobs.citi.com/job/budapest/digital-client-solution-analyst-czech-slovak/287/102849942288) | + title: analyst · + skills: Excel, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
-| 38 | PwC | [AI Model Validation Expert](https://jobs-cee.pwc.com/hu/hu/job/709199WD/AI-Model-Validation-Expert) | + title: AI / ML · + Budapest / Hungary · − title only (page not read) |
 
 ## New matching postings
 
 | Score | Company | Title | Why |
 |---|---|---|---|
-| 40 | Citi | [Performance Intermediate Analyst](https://jobs.citi.com/job/budapest/performance-intermediate-analyst/287/102161061344) | + title: analyst · + skills: Excel, research, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
-| 39 | BlackRock | [Analytics Associate – Digital Product, Data & AI (Fixed Term)](https://careers.blackrock.com/job/budapest/analytics-associate-digital-product-data-and-ai-fixed-term/45831/103203683328) | + title: AI / ML · + skills: Python, data quality, automation, pandas / NumPy +10 · + entry-level (in description) · + Budapest / Hungary · − 5+ years experience · − implies experience: 'experienced professional' |
-| 39 | Citi | [Valuation Control Intermediate Analyst](https://jobs.citi.com/job/budapest/valuation-control-intermediate-analyst/287/102161045168) | + title: analyst · + skills: economics, Excel · + entry-level (in description) · + Budapest / Hungary |
-| 11 | ECB | [European Internal Audit Trainee Programme](https://talent.ecb.europa.eu/careers/JobDetail/European-Internal-Audit-Trainee-Programme/15531) | + skills: Python, LLMs / GenAI, automation, statistics +6 · + entry-level · + remote / EU-wide · + German valued · − field you excluded |
+| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774992) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
+| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774896) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
+| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774832) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
+| 20 | EY | [Junior Recruiter - Budapest](https://careers.ey.com/ey/job/Budapest-Junior-Recruiter-Budapest-1132/1442003533/) | + entry-level · + Budapest / Hungary |
 
 ## Sources needing attention
 
 | Company | Status | Found | Issue |
 |---|---|---|---|
+| PwC (graduate programmes) | error | 0 | RetryError: HTTPSConnectionPool(host='pwc.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/pw |
 | E.ON Hungary | error | 0 | HTTPError: 403 Client Error: Forbidden for url: https://careers.eon.com/magyarorszag/go/Hungary-Careers/3728101/ |
 | KSH (Central Statistical Office) | error | 0 | HTTPError: 403 Client Error: Forbidden for url: https://www.ksh.hu/docs/hun/allas/ |
 | OECD | error | 0 | HTTPError: 403 Client Error: Forbidden for url: https://www.oecd.org/careers/ |
