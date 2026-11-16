@@ -1,9 +1,9 @@
-# Job radar – run 2026-11-16T090759Z
+# Job radar – run 2026-11-16T133753Z
 
 - Sources checked: **43** (ok 39, warnings 0, failed 4)
-- New postings: **15** (matching your filters: **4**)
-- Postings closed since last run: 21
-- Job pages read for scoring: 60
+- New postings: **0** (matching your filters: **0**)
+- Postings closed since last run: 11
+- Job pages read for scoring: 59
 
 ## Top 15 open postings by score
 
@@ -27,12 +27,7 @@
 
 ## New matching postings
 
-| Score | Company | Title | Why |
-|---|---|---|---|
-| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774992) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
-| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774896) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
-| 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774832) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
-| 20 | EY | [Junior Recruiter - Budapest](https://careers.ey.com/ey/job/Budapest-Junior-Recruiter-Budapest-1132/1442003533/) | + entry-level · + Budapest / Hungary |
+_None this run._
 
 ## Sources needing attention
 
