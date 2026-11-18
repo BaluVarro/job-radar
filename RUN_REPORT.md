@@ -1,9 +1,9 @@
-# Job radar – run 2026-11-16T133753Z
+# Job radar – run 2026-11-18T135710Z
 
 - Sources checked: **43** (ok 39, warnings 0, failed 4)
-- New postings: **0** (matching your filters: **0**)
-- Postings closed since last run: 11
-- Job pages read for scoring: 59
+- New postings: **19** (matching your filters: **4**)
+- Postings closed since last run: 23
+- Job pages read for scoring: 58
 
 ## Top 15 open postings by score
 
@@ -11,23 +11,28 @@
 |---|---|---|---|
 | 73 | ECB | [Student Research Assistant Traineeship Programme – Financial Research](https://talent.ecb.europa.eu/careers/JobDetail/Student-Research-Assistant-Traineeship-Programme-Financial-Research/15482) | + title: research analyst · + skills: Python, machine learning, statistics, econometrics / causal inference +5 · + entry-level · + remote / EU-wide · + German valued |
 | 68 | ECB | [Traineeship in the Information Governance Division](https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Information-Governance-Division/15315) | + title: data governance · + skills: Python, LLMs / GenAI, automation, Excel +1 · + entry-level · + remote / EU-wide · + German valued |
-| 61 | Deloitte | [AI & Data - BI Consultant / Budapest](https://apply.deloittece.com/en_US/careers/JobDetail/AI-Data-BI-Consultant-Budapest/20853) | + title: AI / ML · + skills: LLMs / GenAI, migration, data visualisation, Excel · + entry-level (in description) · + Budapest / Hungary · + German valued |
 | 53 | Citi | [Technology - Infrastructure, Summer Analyst, Hungary - Budapest, 2027](https://jobs.citi.com/job/budapest/technology-infrastructure-summer-analyst-hungary-budapest-2027/287/102849942720) | + title: analyst · + skills: Python, data governance, automation, Excel +2 · + entry-level (in description) · + Budapest / Hungary |
 | 48 | Citi | [Technology - Cybersecurity, Summer Analyst, Hungary - Budapest, 2027](https://jobs.citi.com/job/budapest/technology-cybersecurity-summer-analyst-hungary-budapest-2027/287/102849942800) | + title: analyst · + skills: Python, automation, Excel, banking / financial services +1 · + entry-level (in description) · + Budapest / Hungary |
 | 42 | KPMG Global Services Hungary | [Global Immigration Consultant Global Mobility Services · Budapest · Hybrid](https://kpmgglobalservices.teamtailor.com/jobs/8539619-global-immigration-consultant) | + title: consultant · + skills: automation, migration, digital transformation · + entry-level (in description) · + Budapest / Hungary |
-| 42 | PwC | [Medior Databricks AI/ML Specialista](https://jobs-cee.pwc.com/hu/hu/job/766687WD/Medior-Databricks-AI-ML-Specialista) | + title: AI / ML · + skills: machine learning · + Budapest / Hungary · − title only (page not read) |
 | 41 | Citi | [Cash and Collateral Management Intermediate Analyst](https://jobs.citi.com/job/budapest/cash-and-collateral-management-intermediate-analyst/287/99450976096) | + title: analyst · + skills: derivatives / ISDA, Excel, research · + entry-level (in description) · + Budapest / Hungary |
 | 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774992) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
 | 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774896) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
 | 40 | Citi | [Product Control Analyst](https://jobs.citi.com/job/budapest/product-control-analyst/287/103253774832) | + title: analyst · + skills: data quality, Excel · + entry-level (in description) · + Budapest / Hungary |
 | 40 | Citi | [Performance Intermediate Analyst](https://jobs.citi.com/job/budapest/performance-intermediate-analyst/287/102161061344) | + title: analyst · + skills: Excel, research, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
-| 39 | BlackRock | [Analytics Associate – Digital Product, Data & AI (Fixed Term)](https://careers.blackrock.com/job/budapest/analytics-associate-digital-product-data-and-ai-fixed-term/45831/103203683328) | + title: AI / ML · + skills: Python, data quality, automation, pandas / NumPy +10 · + entry-level (in description) · + Budapest / Hungary · − 5+ years experience · − implies experience: 'experienced professional' |
+| 39 | BlackRock | [Web Analytics Associate – Digital Product, Data & AI (Fixed Term)](https://careers.blackrock.com/job/budapest/web-analytics-associate-digital-product-data-and-ai-fixed-term/45831/103203683328) | + title: AI / ML · + skills: Python, data quality, automation, pandas / NumPy +10 · + entry-level (in description) · + Budapest / Hungary · − 5+ years experience · − implies experience: 'experienced professional' |
 | 39 | Citi | [Valuation Control Intermediate Analyst](https://jobs.citi.com/job/budapest/valuation-control-intermediate-analyst/287/102161045168) | + title: analyst · + skills: economics, Excel · + entry-level (in description) · + Budapest / Hungary |
 | 39 | EY | [Global Immigration Consultant](https://careers.ey.com/ey/job/Budapest-Global-Immigration-Consultant-1132/1086956301/) | + title: consultant · + skills: migration, APIs / web data, Excel, research +1 · + Budapest / Hungary |
+| 38 | Citi | [Digital Client Solution Analyst (Czech/Slovak)](https://jobs.citi.com/job/budapest/digital-client-solution-analyst-czech-slovak/287/102849942288) | + title: analyst · + skills: Excel, banking / financial services · + entry-level (in description) · + Budapest / Hungary |
+| 38 | PwC | [AI Model Validation Expert](https://jobs-cee.pwc.com/hu/hu/job/709199WD/AI-Model-Validation-Expert) | + title: AI / ML · + Budapest / Hungary · − title only (page not read) |
 
 ## New matching postings
 
-_None this run._
+| Score | Company | Title | Why |
+|---|---|---|---|
+| 39 | BlackRock | [Web Analytics Associate – Digital Product, Data & AI (Fixed Term)](https://careers.blackrock.com/job/budapest/web-analytics-associate-digital-product-data-and-ai-fixed-term/45831/103203683328) | + title: AI / ML · + skills: Python, data quality, automation, pandas / NumPy +10 · + entry-level (in description) · + Budapest / Hungary · − 5+ years experience · − implies experience: 'experienced professional' |
+| 22 | Erste Bank Hungary | [Adminisztrációs gyakornok - Lakossági terület](https://karrier.erstebank.hu/allas/adminisztracios-gyakornok-lakossagi-terulet-9077/44) | + skills: banking / financial services · + entry-level · + Budapest / Hungary |
+| 22 | Erste Bank Hungary | [Adminisztrációs gyakornok - Mikrovállalati terület](https://karrier.erstebank.hu/allas/adminisztracios-gyakornok-mikrovallalati-terulet-9078/44) | + skills: banking / financial services · + entry-level · + Budapest / Hungary |
+| 22 | Erste Bank Hungary | [Trade Finance gyakornok](https://karrier.erstebank.hu/allas/trade-finance-gyakornok-9076/44) | + skills: banking / financial services · + entry-level · + Budapest / Hungary |
 
 ## Sources needing attention
 
